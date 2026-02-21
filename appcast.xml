@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Remio Host Updates</title>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.1</title>
+            <sparkle:version>2602212209</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.0.1</h2>
+                <ul>
+                    <li>✨ In-app auto-updates — Sparkle 2 integration for seamless updates</li>
+                    <li>🔧 Sleep prevention — Display stays awake during active streaming sessions</li>
+                    <li>🖥️ Cursor tracking fixes — Fixed cursor update after client disconnect</li>
+                    <li>🔄 Screen capture lifecycle — Fixed persistent recording icon when not streaming</li>
+                    <li>⌨️ Keyboard improvements — Reduced notification spam during session takeover</li>
+                    <li>📋 Clipboard sync — Fixed cross-app clipboard detection on iPad</li>
+                    <li>📊 Log export optimization — Reduced memory usage for large log files</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 21 Feb 2026 15:31:28 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.0.1/Remio-Host-1.0.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="a2imaZrLKZYeNzRmzPYsws1SMgiErKiBvZpqNoiIDZskKRKRmzihFDio58In3Lp+yiDBdaPbVivItd2WygFSBA=="
+                length="37856077"
+            />
+        </item>
+    </channel>
+</rss>
