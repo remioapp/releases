@@ -4,6 +4,34 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.0.2</title>
+            <sparkle:version>2602280812</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.0.2</h2>
+                <ul>
+                    <li>Fix: auto-retry on signaling failure during initial connect</li>
+                    <li>Fix: prevent duplicate keyboard hide events</li>
+                    <li>Fix: navigation crash, cold-start retry, suspend debounce</li>
+                    <li>Fix: TIS/TSM main thread crash on macOS 26</li>
+                    <li>Perf: stall detection and frame recording optimization</li>
+                    <li>Feat: robust client configuration system</li>
+                    <li>Feat: host capture optimization, keyboard layout mapper</li>
+                    <li>Feat: click count support in data channel</li>
+                    <li>Feat: Mac model detection for device icons</li>
+                    <li>Compat: macOS 15+ deployment target support</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 28 Feb 2026 04:23:00 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.0.2/Remio-Host-1.0.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="wZyR2Uiy8tzPydPctm8c9VnYRATcTuRCcaKyIArC6beiUHVD1vO2qa3+pGHs9Gbr0X41dQpOmGcCcxp4/nVQCg=="
+                length="38002814"
+            />
+        </item>
+        <item>
             <title>Version 1.0.1</title>
             <sparkle:version>2602212209</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
