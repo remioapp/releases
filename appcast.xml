@@ -4,56 +4,45 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.0.2</title>
-            <sparkle:version>2602280812</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <title>Version 1.0.3</title>
+            <sparkle:version>2602281200</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.0.2</h2>
+                <h2>What's New in 1.0.3</h2>
                 <ul>
-                    <li>Fix: auto-retry on signaling failure during initial connect</li>
-                    <li>Fix: prevent duplicate keyboard hide events</li>
-                    <li>Fix: navigation crash, cold-start retry, suspend debounce</li>
-                    <li>Fix: TIS/TSM main thread crash on macOS 26</li>
-                    <li>Perf: stall detection and frame recording optimization</li>
-                    <li>Feat: robust client configuration system</li>
-                    <li>Feat: host capture optimization, keyboard layout mapper</li>
-                    <li>Feat: click count support in data channel</li>
-                    <li>Feat: Mac model detection for device icons</li>
-                    <li>Compat: macOS 15+ deployment target support</li>
+                    <li>Updated default streaming configuration for optimal iOS and macOS performance</li>
+                    <li>Improved client video recovery after reconnect</li>
+                    <li>Enhanced host stats and diagnostics</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 28 Feb 2026 04:23:00 +0000</pubDate>
+            <pubDate>Sat, 28 Feb 2026 12:06:55 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.2/Remio-Host-1.0.2-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.0.3/Remio-Host-1.0.3-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="wZyR2Uiy8tzPydPctm8c9VnYRATcTuRCcaKyIArC6beiUHVD1vO2qa3+pGHs9Gbr0X41dQpOmGcCcxp4/nVQCg=="
-                length="38002814"
+                sparkle:edSignature="TZuBNbVLTq7Sc0sg+LJXauWsoyj8X5fdFiLt9BMI5ob3OCF5d0vqirspk+EAMUs7JrjKttkFWzSlRHDaFiCYDQ=="
+                length="38002762"
             />
         </item>
         <item>
-            <title>Version 1.0.1</title>
-            <sparkle:version>2602212209</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>Version 1.0.2</title>
+            <sparkle:version>2602280418</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.0.1</h2>
+                <h2>What's New in 1.0.2</h2>
                 <ul>
-                    <li>✨ In-app auto-updates — Sparkle 2 integration for seamless updates</li>
-                    <li>🔧 Sleep prevention — Display stays awake during active streaming sessions</li>
-                    <li>🖥️ Cursor tracking fixes — Fixed cursor update after client disconnect</li>
-                    <li>🔄 Screen capture lifecycle — Fixed persistent recording icon when not streaming</li>
-                    <li>⌨️ Keyboard improvements — Reduced notification spam during session takeover</li>
-                    <li>📋 Clipboard sync — Fixed cross-app clipboard detection on iPad</li>
-                    <li>📊 Log export optimization — Reduced memory usage for large log files</li>
+                    <li>Improved streaming stability and reconnection logic</li>
+                    <li>Enhanced host device name detection and presence system</li>
+                    <li>Settings consolidation and bug fixes</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 21 Feb 2026 15:31:28 +0000</pubDate>
+            <pubDate>Fri, 28 Feb 2026 04:23:03 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.1/Remio-Host-1.0.1-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.0.2/Remio-Host-1.0.2-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="a2imaZrLKZYeNzRmzPYsws1SMgiErKiBvZpqNoiIDZskKRKRmzihFDio58In3Lp+yiDBdaPbVivItd2WygFSBA=="
-                length="37856077"
+                sparkle:edSignature="gxXEqLNTW9M2XvSJg0cPoVVGIqHQi84QKQnYCIg4Dh5KP/YTlLyUJJiQcuMwI3BHv0IlnXPFaTYjzf5f/iL3Cg=="
+                length="37992556"
             />
         </item>
     </channel>
