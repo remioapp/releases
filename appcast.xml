@@ -4,23 +4,24 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.0.3</title>
-            <sparkle:version>2603071029</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <title>Version 1.0.4</title>
+            <sparkle:version>2603071306</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.0.3</h2>
+                <h2>What's New in 1.0.4</h2>
                 <ul>
-                    <li>PKG installer for seamless installation</li>
-                    <li>Performance and stability improvements</li>
+                    <li>Streamlined onboarding: OOBE now goes straight from Permissions to Ready, skipping Sign In step</li>
+                    <li>Sign in is still available from Settings/sidebar after onboarding</li>
+                    <li>Bug fixes and performance improvements</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 07 Mar 2026 03:39:31 +0000</pubDate>
+            <pubDate>Fri, 07 Mar 2026 07:15:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.3/Remio-Host-1.0.3-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.0.4/Remio-Host-1.0.4-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="UTDgyiIeINCsWi0zf2ri1FtzBpvuYMchLzVCBN9KDb+pjMHvYqwr1dLaWzroVMFT/nxWGzHkqkZpsdokVw/PDw=="
-                length="38029059"
+                sparkle:edSignature="9XTlHDa5dUVlv9L4Jh1YJ8Lb6FIU5cxTuPPBVPSTu8VEUTGY69S9gj5tzW9DxGb421gygxHjwj//RDTpuIbmBw=="
+                length="38036862"
             />
         </item>
     </channel>
