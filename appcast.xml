@@ -5,23 +5,23 @@
         <language>en</language>
         <item>
             <title>Version 1.0.4</title>
-            <sparkle:version>2603071306</sparkle:version>
+            <sparkle:version>2603091202</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>What's New in 1.0.4</h2>
                 <ul>
-                    <li>Streamlined onboarding: OOBE now goes straight from Permissions to Ready, skipping Sign In step</li>
-                    <li>Sign in is still available from Settings/sidebar after onboarding</li>
-                    <li>Bug fixes and performance improvements</li>
+                    <li>Sign in with Apple via OAuth web flow (no entitlement required)</li>
+                    <li>Improved notarization compatibility</li>
+                    <li>Bug fixes and stability improvements</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 07 Mar 2026 07:15:00 +0000</pubDate>
+            <pubDate>Sun, 09 Mar 2026 12:06:00 +0700</pubDate>
             <enclosure
                 url="https://github.com/remioapp/releases/releases/download/v1.0.4/Remio-Host-1.0.4-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="9XTlHDa5dUVlv9L4Jh1YJ8Lb6FIU5cxTuPPBVPSTu8VEUTGY69S9gj5tzW9DxGb421gygxHjwj//RDTpuIbmBw=="
-                length="38036862"
+                sparkle:edSignature="mU49blQXmr/r/omUMO957h+ze/Qno5GsiPBxcu0xb/AQzyjKGTo6Q1o2eABHKcrhJSH541zW3xY4uAdtnb7EAg=="
+                length="38059356"
             />
         </item>
     </channel>
