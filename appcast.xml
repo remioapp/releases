@@ -4,6 +4,25 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.0.5</title>
+            <sparkle:version>2603091257</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.0.5</h2>
+                <ul>
+                    <li>Fixed cursor position mismatch after resolution change via Dynamic Resolution Panel</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 09 Mar 2026 13:05:54 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.0.5/Remio-Host-1.0.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="ZVTUTvbNlZnazqspxQM+BpVxaVF/AAazvjvIAAbC1qh4HvxfWB+IuAD6vo99WPGDqi9FJJCn7XXh2cHZkXAXBw=="
+                length="38058937"
+            />
+        </item>
+        <item>
             <title>Version 1.0.4</title>
             <sparkle:version>2603091202</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
