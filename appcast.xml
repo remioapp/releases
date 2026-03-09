@@ -5,42 +5,23 @@
         <language>en</language>
         <item>
             <title>Version 1.0.5</title>
-            <sparkle:version>2603091257</sparkle:version>
+            <sparkle:version>2603091734</sparkle:version>
             <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>What's New in 1.0.5</h2>
                 <ul>
-                    <li>Fixed cursor position mismatch after resolution change via Dynamic Resolution Panel</li>
+                    <li>Fixed cursor position mismatch with host system cursor</li>
+                    <li>Fixed cursor offset after dynamic resolution change</li>
+                    <li>Improved coordinate mapping reliability for multi-monitor setups</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 09 Mar 2026 13:05:54 +0700</pubDate>
+            <pubDate>Mon, 09 Mar 2026 17:45:10 +0700</pubDate>
             <enclosure
                 url="https://github.com/remioapp/releases/releases/download/v1.0.5/Remio-Host-1.0.5-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="ZVTUTvbNlZnazqspxQM+BpVxaVF/AAazvjvIAAbC1qh4HvxfWB+IuAD6vo99WPGDqi9FJJCn7XXh2cHZkXAXBw=="
-                length="38058937"
-            />
-        </item>
-        <item>
-            <title>Version 1.0.4</title>
-            <sparkle:version>2603091202</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>What's New in 1.0.4</h2>
-                <ul>
-                    <li>Sign in with Apple via OAuth web flow (no entitlement required)</li>
-                    <li>Improved notarization compatibility</li>
-                    <li>Bug fixes and stability improvements</li>
-                </ul>
-            ]]></description>
-            <pubDate>Sun, 09 Mar 2026 12:06:00 +0700</pubDate>
-            <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.4/Remio-Host-1.0.4-mac.zip"
-                type="application/octet-stream"
-                sparkle:edSignature="mU49blQXmr/r/omUMO957h+ze/Qno5GsiPBxcu0xb/AQzyjKGTo6Q1o2eABHKcrhJSH541zW3xY4uAdtnb7EAg=="
-                length="38059356"
+                sparkle:edSignature="iLh8RtuFTVJ61XdcIdMtWWaXQGSQrfAWwNbMOFoIFX25B1T6l+ZuDGnQHyy6TXeIOMhqSoacOwTJzPMxYz+WBA=="
+                length="38060006"
             />
         </item>
     </channel>
