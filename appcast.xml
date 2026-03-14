@@ -4,24 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.0.5</title>
-            <sparkle:version>2603091734</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <title>Version 1.0.6</title>
+            <sparkle:version>2603141641</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.0.5</h2>
+                <h2>What's New in 1.0.6</h2>
                 <ul>
-                    <li>Fixed cursor position mismatch with host system cursor</li>
-                    <li>Fixed cursor offset after dynamic resolution change</li>
-                    <li>Improved coordinate mapping reliability for multi-monitor setups</li>
+                    <li><strong>Rock-solid reconnections</strong> — Your streaming session now stays alive even on unstable networks. Remio automatically recovers after network interruptions.</li>
+                    <li><strong>Clearer device status</strong> — "Last seen" is now "Last connected" for a more intuitive experience.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 09 Mar 2026 17:45:10 +0700</pubDate>
+            <pubDate>Sat, 14 Mar 2026 16:47:27 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.5/Remio-Host-1.0.5-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.0.6/Remio-Host-1.0.6-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="iLh8RtuFTVJ61XdcIdMtWWaXQGSQrfAWwNbMOFoIFX25B1T6l+ZuDGnQHyy6TXeIOMhqSoacOwTJzPMxYz+WBA=="
-                length="38060006"
+                sparkle:edSignature="3qjy9Hn1mvwkQat77VCl6vyG7GbWkViqxQIEN3dp4xBLuVICs1/kboBgWNN+APFj0RoV1eqpsToozD2yryj1Dg=="
+                length="38062029"
             />
         </item>
     </channel>
