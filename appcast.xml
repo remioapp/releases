@@ -4,23 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.0.6</title>
-            <sparkle:version>2603141641</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <title>Version 1.1.0</title>
+            <sparkle:version>2603201751</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.0.6</h2>
+                <h2>What's New in 1.1.0</h2>
                 <ul>
-                    <li><strong>Rock-solid reconnections</strong> — Your streaming session now stays alive even on unstable networks. Remio automatically recovers after network interruptions.</li>
-                    <li><strong>Clearer device status</strong> — "Last seen" is now "Last connected" for a more intuitive experience.</li>
+                    <li><b>File Transfer</b> — Send files from your phone directly to your Mac</li>
+                    <li><b>Improved Presence System</b> — More accurate online/streaming status</li>
+                    <li>Optimized streaming engine for better responsiveness</li>
+                    <li>Improved connection stability and reconnection logic</li>
+                    <li>Fixed OOBE permission flow for seamless first-time setup</li>
+                    <li>Bug fixes and performance improvements</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 14 Mar 2026 16:47:27 +0700</pubDate>
+            <pubDate>Fri, 20 Mar 2026 10:59:57 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.6/Remio-Host-1.0.6-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.1.0/Remio-Host-1.1.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="3qjy9Hn1mvwkQat77VCl6vyG7GbWkViqxQIEN3dp4xBLuVICs1/kboBgWNN+APFj0RoV1eqpsToozD2yryj1Dg=="
-                length="38062029"
+                sparkle:edSignature="nHMu1X85E5k3NG/wogTGaeri9X7GWGC68R81Vzj1J86HvpZvsMmyaWXbIjzM3++PgHkMsLnkXY8HHLFdn/hbBQ=="
+                length="38132098"
             />
         </item>
     </channel>
