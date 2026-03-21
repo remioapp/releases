@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.1.1</title>
+            <sparkle:version>2603211532</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.1.1</h2>
+                <ul>
+                    <li><b>Close to menu bar</b> — Closing the window no longer quits the app. Remio Host stays running in the background with a menu bar icon.</li>
+                    <li><b>Menu bar status indicator</b> — A colored dot shows your streaming status at a glance: 🟢 streaming, 🟠 connecting, 🔴 error, ⚫ idle.</li>
+                    <li><b>Quick actions from menu bar</b> — Start/stop streaming, show the main window, or quit from the menu bar dropdown.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 21 Mar 2026 08:40:47 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.1.1/Remio-Host-1.1.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="GEmk5cymVo13snJeU0KroDTzr2VaY5vEQzKauI4JVBAFIQXgLuHcpGi/5MTqSgu7bg6IYPZjMO1IUxkAt0ApAA=="
+                length="38145879"
+            />
+        </item>
+        <item>
             <title>Version 1.1.0</title>
             <sparkle:version>2603201751</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
