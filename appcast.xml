@@ -4,48 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.1.1</title>
-            <sparkle:version>2603211532</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <title>Version 1.1.2</title>
+            <sparkle:version>2603220936</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.1.1</h2>
+                <h2>What's New in 1.1.2</h2>
                 <ul>
-                    <li><b>Close to menu bar</b> — Closing the window no longer quits the app. Remio Host stays running in the background with a menu bar icon.</li>
-                    <li><b>Menu bar status indicator</b> — A colored dot shows your streaming status at a glance: 🟢 streaming, 🟠 connecting, 🔴 error, ⚫ idle.</li>
-                    <li><b>Quick actions from menu bar</b> — Start/stop streaming, show the main window, or quit from the menu bar dropdown.</li>
+                    <li><strong>Fixed app not launching on macOS 15 (Sequoia)</strong> — Resolved a provisioning profile issue that prevented the app from running on macOS 15.</li>
                 </ul>
             ]]></description>
-            <pubDate>Fri, 21 Mar 2026 08:40:47 +0000</pubDate>
+            <pubDate>Sun, 22 Mar 2026 09:43:42 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.1.1/Remio-Host-1.1.1-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.1.2/Remio-Host-1.1.2-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="GEmk5cymVo13snJeU0KroDTzr2VaY5vEQzKauI4JVBAFIQXgLuHcpGi/5MTqSgu7bg6IYPZjMO1IUxkAt0ApAA=="
-                length="38145879"
-            />
-        </item>
-        <item>
-            <title>Version 1.1.0</title>
-            <sparkle:version>2603201751</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>What's New in 1.1.0</h2>
-                <ul>
-                    <li><b>File Transfer</b> — Send files from your phone directly to your Mac</li>
-                    <li><b>Improved Presence System</b> — More accurate online/streaming status</li>
-                    <li>Optimized streaming engine for better responsiveness</li>
-                    <li>Improved connection stability and reconnection logic</li>
-                    <li>Fixed OOBE permission flow for seamless first-time setup</li>
-                    <li>Bug fixes and performance improvements</li>
-                </ul>
-            ]]></description>
-            <pubDate>Fri, 20 Mar 2026 10:59:57 +0000</pubDate>
-            <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.1.0/Remio-Host-1.1.0-mac.zip"
-                type="application/octet-stream"
-                sparkle:edSignature="nHMu1X85E5k3NG/wogTGaeri9X7GWGC68R81Vzj1J86HvpZvsMmyaWXbIjzM3++PgHkMsLnkXY8HHLFdn/hbBQ=="
-                length="38132098"
+                sparkle:edSignature="pHPA+ZA+URQJa8I5wCOw72BPCKHPYqRQxoDKsHDKtfksOTkLTSY2xbzrFQ6YJBRRfbQ3XDzTFPj4z3X4vZVdCQ=="
+                length="38146102"
             />
         </item>
     </channel>
