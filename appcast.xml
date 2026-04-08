@@ -4,25 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.2.0</title>
-            <sparkle:version>2603311858</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>Version 1.3.0</title>
+            <sparkle:version>2604082129</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.2.0</h2>
+                <h2>What's New in 1.3.0</h2>
                 <ul>
-                    <li><strong>Auto-show keyboard on mobile clients</strong> — The Host now detects when a text field is focused on your Mac and automatically tells connected mobile clients to show their on-screen keyboard.</li>
-                    <li><strong>Audio capture infrastructure</strong> — Foundation for upcoming audio streaming feature.</li>
-                    <li><strong>Faster disconnect detection</strong> — Reduced timeout for quicker failover.</li>
-                    <li><strong>Better TLS/SSL error messages</strong> — Connection errors now show user-friendly messages.</li>
+                    <li><strong>Sharper, smoother streaming</strong> — Optimized the streaming engine for noticeably clearer image quality and faster response times.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 31 Mar 2026 12:11:00 +0000</pubDate>
+            <pubDate>Wed, 08 Apr 2026 21:50:37 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.2.0/Remio-Host-1.2.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.3.0/Remio-Host-1.3.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="fNV9j37lfPttpj11H+kTk7JS+7sm67f/q4KQhuOeYm4inXsLeaW49FVBbPb0nDKYDXVeYi9Bhz2ZluahuqsMBg=="
-                length="38179552"
+                sparkle:edSignature="LezJ6cv54/tlCH6Z5Om0TJTHfkVcAJq3qhczxatdLIqASHnnxcrya6qNZ6oJsBrzAsGklLc4y4rZUio6s4ToDA=="
+                length="38225319"
             />
         </item>
     </channel>
