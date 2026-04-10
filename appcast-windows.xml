@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Remio Host for Windows</title>
+        <link>https://remio.net/download.html</link>
+        <description>Official WinSparkle appcast for Remio Host (Windows)</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.0</title>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 10 Apr 2026 15:30:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Windows &mdash; first release</h2>
+                <p>Native Windows build of Remio Host. Turns your Windows PC into a streaming target that any Remio client can connect to.</p>
+                <h3>What's new</h3>
+                <ul>
+                    <li>GPU-accelerated H.264/H.265 screen capture (WGC + DXGI)</li>
+                    <li>Loopback audio capture (WASAPI) mixed into the stream</li>
+                    <li>Multi-monitor support with live display switching</li>
+                    <li>Full keyboard, mouse, scroll, drag, and gamepad passthrough</li>
+                    <li>Bidirectional clipboard sync and drag-and-drop file transfer</li>
+                    <li>Runs as a Windows Service &mdash; survives log-off</li>
+                    <li>Auto-update via WinSparkle (this feed!)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.0.0-win/Remio-Host-1.0.0-win-x64-Setup.exe"
+                sparkle:version="1.0.0"
+                sparkle:shortVersionString="1.0.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="YfXgrkurvOsgx6h88mxWJvUQuApyYdsiok4kpK1rI1Yz99UaPtDYjP/IZea7yck2gFoMxxX4UOXfd/39Aqk2Aw=="
+                length="54533869"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
