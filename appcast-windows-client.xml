@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Remio Client for Windows</title>
+        <link>https://remio.net/download.html</link>
+        <description>Official WinSparkle appcast for Remio Client (Windows)</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 10 Apr 2026 16:22:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client for Windows 1.0.0</h2>
+                <p>First public release of the native Windows client.</p>
+                <ul>
+                    <li>Native WinUI 3 experience with Mica backdrop and dark/light theme</li>
+                    <li>Hardware-accelerated H.264/H.265 decoding (D3D11VA + FFmpeg)</li>
+                    <li>Full input parity with iOS/Android: keyboard, mouse, scroll, gamepad, clipboard sync</li>
+                    <li>Adaptive WebRTC streaming with automatic relay/direct path negotiation</li>
+                    <li>Per-user installation &mdash; no admin/UAC required</li>
+                    <li>Built-in auto-update via WinSparkle (EdDSA-signed)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.0.0-win-client/Remio-Client-1.0.0-win-x64-Setup.exe"
+                sparkle:version="1.0.0"
+                sparkle:shortVersionString="1.0.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="d/6KqYzu5fE89imQNmhdYBX6QW3BEXhRoI2K0nqqUn6wCzSqR4yQe3K0CzPbywEFbR1+srnT3vI3aBthX8TzCA=="
+                length="55073946"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
