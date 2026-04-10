@@ -22,32 +22,34 @@
 Remio is a **native remote desktop** application that lets you access and control your computer from anywhere. Unlike Electron-based alternatives, every Remio app is built from scratch using each platform's native toolkit — delivering **butter-smooth 4K streaming at 60FPS** with minimal latency.
 
 - 🖥️ **macOS Host** — Stream your Mac to any device (SwiftUI + ScreenCaptureKit)
+- 🪟 **Windows Host** — Stream your Windows PC to any device (C++/WinRT)
 - 📱 **iOS & iPadOS Client** — Full multi-touch with Apple Trackpad physics (SwiftUI)
-- 🤖 **Android Client** — Native Jetpack Compose experience *(Coming Soon)*
-- 🪟 **Windows Client** — Native Windows app *(Coming Soon)*
+- 🤖 **Android Client** — Native Jetpack Compose experience
+- 🪟 **Windows Client** — Native Windows app (C++/WinRT)
 
 ## 📥 Download
 
-### macOS Host (Required on the computer you want to access)
+### Host (Required on the computer you want to access)
 
 | Platform | Download | Requirements |
 |----------|----------|-------------|
-| **macOS** (Apple Silicon & Intel) | [**Download Latest**](https://github.com/remioapp/releases/releases/latest) | macOS 14 Sonoma or later |
+| **macOS** (Apple Silicon & Intel) | [**Download Latest**](https://github.com/remioapp/releases/releases/tag/v1.3.0) | macOS 15 Sequoia or later |
+| **Windows** (x64) | [**Download Latest**](https://github.com/remioapp/releases/releases/tag/v1.0.0-win) | Windows 10 or later |
 
 ### Clients (Install on the device you want to control FROM)
 
 | Platform | Download | Status |
 |----------|----------|--------|
-| **iOS & iPadOS** | App Store | ✅ Available |
-| **Android** | Google Play | 🔜 Coming Soon |
-| **Windows** | — | 🔜 Coming Soon |
+| **iOS & iPadOS** | [App Store](https://apps.apple.com/app/remio-remote-desktop/id6741442619) | ✅ Available |
+| **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.remio.client) | ✅ Available |
+| **Windows** (x64) | [**Download Latest**](https://github.com/remioapp/releases/releases/tag/v1.0.0-win-client) | ✅ Available |
 | **Linux** | — | 📋 On Roadmap |
 
 ## 🚀 Quick Start
 
 ```
-1. Download & install Remio Host on your Mac
-2. Open Remio on your phone or tablet
+1. Download & install Remio Host on your Mac or Windows PC
+2. Open Remio on your phone, tablet, or another computer
 3. Scan the QR code — you're connected!
 ```
 
@@ -55,7 +57,7 @@ That's it. Full desktop streaming in under a minute. No account required.
 
 ## ⚡ Key Features
 
-- **100% Native** — SwiftUI on Apple, Jetpack Compose on Android. Zero Electron.
+- **100% Native** — SwiftUI on Apple, Jetpack Compose on Android, C++/WinRT on Windows. Zero Electron.
 - **4K @ 60FPS** — Hardware-accelerated next-gen video compression
 - **Ultra-Low Latency** — Sub-16ms on local network
 - **End-to-End Encrypted** — Peer-to-peer WebRTC with DTLS-SRTP
@@ -76,9 +78,12 @@ That's it. Full desktop streaming in under a minute. No account required.
 
 | Component | Minimum |
 |-----------|---------|
-| **macOS Host** | macOS 14 Sonoma, Apple Silicon (M1) or Intel |
-| **iOS Client** | iOS 17.0+ |
-| **iPadOS Client** | iPadOS 17.0+ |
+| **macOS Host** | macOS 15 Sequoia, Apple Silicon (M1) or Intel |
+| **Windows Host** | Windows 10 (x64) |
+| **iOS Client** | iOS 18.0+ |
+| **iPadOS Client** | iPadOS 18.0+ |
+| **Android Client** | Android 12 (API 31)+ |
+| **Windows Client** | Windows 10 (x64) |
 
 ## 📝 Changelog
 
