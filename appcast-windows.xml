@@ -29,7 +29,7 @@
                 <p>Plus countless little fixes nobody asked for, but everybody wanted. Update now and feel the difference.</p>
             ]]></description>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.1.0-win/Remio-Host-1.1.0-win-x64-Setup.exe"
+                url="https://github.com/remioapp/releases/releases/download/v1.1.0-win/Remio-Host-Windows-x64-Setup.exe"
                 sparkle:version="1.1.0"
                 sparkle:shortVersionString="1.1.0"
                 sparkle:os="windows"
@@ -51,7 +51,7 @@
                 <p>Native Windows build of Remio Host with GPU-accelerated capture, multi-monitor support, gamepad passthrough, and auto-update via WinSparkle.</p>
             ]]></description>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.0.0-win/Remio-Host-1.0.0-win-x64-Setup.exe"
+                url="https://github.com/remioapp/releases/releases/download/v1.0.0-win/Remio-Host-Windows-x64-Setup.exe"
                 sparkle:version="1.0.0"
                 sparkle:shortVersionString="1.0.0"
                 sparkle:os="windows"
