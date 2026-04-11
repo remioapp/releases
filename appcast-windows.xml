@@ -9,6 +9,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.0</title>
+            <sparkle:version>1.1.0</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 11 Apr 2026 07:55:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Your PC, anywhere. Now smoother than ever.</h2>
+                <p>Remio Host 1.1.0 is our biggest Windows update yet &mdash; faster connections, calmer streams, and a streaming engine you can finally <em>feel</em>.</p>
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>A stream that just flows</strong> &mdash; smoother frame pacing, fewer hiccups when the network blips, and a renderer that gracefully recovers from latency spikes.</li>
+                    <li><strong>One-click pairing</strong> &mdash; tightened signaling handshake, smarter reconnect, and a UI that stays in sync even when Wi-Fi drops.</li>
+                    <li><strong>Type, click, command</strong> &mdash; new TextField focus monitor makes your iPad keyboard and trackpad feel native.</li>
+                    <li><strong>Drag-and-drop file transfer</strong> &mdash; finally first-class on the Windows host.</li>
+                    <li><strong>Built like a service</strong> &mdash; runs as a true Windows Service, survives reboots, log-outs, and user switching.</li>
+                    <li><strong>Calmer diagnostics</strong> &mdash; rebuilt streaming logger, easier to read, easier to debug.</li>
+                </ul>
+                <p>Plus countless little fixes nobody asked for, but everybody wanted. Update now and feel the difference.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.1.0-win/Remio-Host-1.1.0-win-x64-Setup.exe"
+                sparkle:version="1.1.0"
+                sparkle:shortVersionString="1.1.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="ASBzCGhPS+Fz3WEvX3214AEFYOHjY12y6NpJVBa9evJ89rRQwppxUO2ZAdrv4+5Iq1G6jO4bncntiRa8HSBnDQ=="
+                length="54541199"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.0</title>
             <sparkle:version>1.0.0</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
@@ -16,17 +48,7 @@
             <pubDate>Fri, 10 Apr 2026 15:30:00 +0000</pubDate>
             <description><![CDATA[
                 <h2>Remio Host for Windows &mdash; first release</h2>
-                <p>Native Windows build of Remio Host. Turns your Windows PC into a streaming target that any Remio client can connect to.</p>
-                <h3>What's new</h3>
-                <ul>
-                    <li>GPU-accelerated H.264/H.265 screen capture (WGC + DXGI)</li>
-                    <li>Loopback audio capture (WASAPI) mixed into the stream</li>
-                    <li>Multi-monitor support with live display switching</li>
-                    <li>Full keyboard, mouse, scroll, drag, and gamepad passthrough</li>
-                    <li>Bidirectional clipboard sync and drag-and-drop file transfer</li>
-                    <li>Runs as a Windows Service &mdash; survives log-off</li>
-                    <li>Auto-update via WinSparkle (this feed!)</li>
-                </ul>
+                <p>Native Windows build of Remio Host with GPU-accelerated capture, multi-monitor support, gamepad passthrough, and auto-update via WinSparkle.</p>
             ]]></description>
             <enclosure
                 url="https://github.com/remioapp/releases/releases/download/v1.0.0-win/Remio-Host-1.0.0-win-x64-Setup.exe"
