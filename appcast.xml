@@ -4,22 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.3.0</title>
-            <sparkle:version>2604082129</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <title>Version 1.4.0</title>
+            <sparkle:version>2604142115</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.3.0</h2>
+                <h2>What's New in 1.4.0</h2>
                 <ul>
-                    <li><strong>Sharper, smoother streaming</strong> — Optimized the streaming engine for noticeably clearer image quality and faster response times.</li>
+                    <li><b>More reliable connections on shared networks</b> — Multiple Hosts can now run on the same local network without conflicts.</li>
+                    <li><b>Better resilience during network hiccups</b> — Prevents false disconnections during brief latency spikes or Mac wake from sleep.</li>
+                    <li><b>Multi-display dimension reporting</b> — Screen dimensions now correctly reported when multi-display capture is active.</li>
+                    <li>Fixed a crash when iOS client connected with malformed device name data.</li>
+                    <li>Fixed a FlatBuffers parsing crash in debug builds.</li>
                 </ul>
             ]]></description>
-            <pubDate>Wed, 08 Apr 2026 21:50:37 +0700</pubDate>
+            <pubDate>Mon, 14 Apr 2026 21:25:00 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.3.0/Remio-Host-1.3.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.4.0/Remio-Host-1.4.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="LezJ6cv54/tlCH6Z5Om0TJTHfkVcAJq3qhczxatdLIqASHnnxcrya6qNZ6oJsBrzAsGklLc4y4rZUio6s4ToDA=="
-                length="38225319"
+                sparkle:edSignature="fYuvrmmaFUl+TBOy6ApfsxcH2i1kEb7FNmmEaPa5SH3dsymzjfDOXjl5+SP7tczq/6knNIbhFeAB+U0S45caCA=="
+                length="38225882"
             />
         </item>
     </channel>
