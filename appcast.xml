@@ -4,31 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.5.0</title>
-            <sparkle:version>2604201401</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <title>Version 1.6.0</title>
+            <sparkle:version>2604251806</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.5.0</h2>
-                <h3>Improvements</h3>
+                <h2>What's New in 1.6.0</h2>
+                <h3>✨ New Features</h3>
                 <ul>
-                    <li><strong>Smoother session handoffs</strong> — When a device reconnects after a brief drop, the Host now cleans up the old session right away so streaming resumes immediately, instead of leaving you stuck on a stale connection.</li>
-                    <li><strong>Friendlier messages when things go wrong</strong> — Connection errors sent to your devices now speak plain language instead of showing technical codes.</li>
-                    <li><strong>Audio streaming foundation</strong> — Improved the audio engine wiring so future audio features will be more reliable and easier to roll out.</li>
+                    <li><strong>Direct touch from your phone or tablet</strong> — When you control your Mac from an iPhone or iPad, your touches now feel like a real touchscreen — tap, scroll, pinch-to-zoom, and drag work naturally without being awkwardly translated into mouse moves and clicks.</li>
                 </ul>
-                <h3>Bug Fixes</h3>
+                <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li>Fixed a rare crash that could occur when reading device name data from a connecting client.</li>
-                    <li>Fixed multi-display mode sometimes reporting incorrect screen dimensions to connected devices.</li>
-                    <li>Improved overall streaming stability under unreliable network conditions.</li>
+                    <li><strong>Fixed a launch crash</strong> — Resolved a rare startup crash on macOS where the app would quit immediately on first launch. The app now reliably starts on every Mac.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 20 Apr 2026 07:10:38 +0000</pubDate>
+            <pubDate>Sat, 25 Apr 2026 11:14:45 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.5.0/Remio-Host-1.5.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.6.0/Remio-Host-1.6.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="Yf7uG/SO3o2tGaUzLc0Uvyb5hfNXbQBFj6nMIhZVUscxIc5VajWkH6mD/F/jqqJ3QzfEc9MXVgb8mt8IgUNEAQ=="
-                length="38235731"
+                sparkle:edSignature="BqJyWMh2khErVwLPCnYnrD+yYMG33J5iynAJhGDuhDcl/it+uuOLvjwc+Cb/0XFE8mS0fCTCA6q3eyuThUgjAA=="
+                length="38207952"
             />
         </item>
     </channel>
