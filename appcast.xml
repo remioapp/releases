@@ -4,27 +4,33 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.6.0</title>
-            <sparkle:version>2604251806</sparkle:version>
-            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <title>Version 1.7.0</title>
+            <sparkle:version>2605032145</sparkle:version>
+            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.6.0</h2>
+                <h2>What's New in 1.7.0</h2>
                 <h3>✨ New Features</h3>
                 <ul>
-                    <li><strong>Direct touch from your phone or tablet</strong> — When you control your Mac from an iPhone or iPad, your touches now feel like a real touchscreen — tap, scroll, pinch-to-zoom, and drag work naturally without being awkwardly translated into mouse moves and clicks.</li>
+                    <li><strong>Privacy Mode</strong> — local screens dim while streaming, just like Apple's Screen Sharing. All displays restore automatically when streaming ends.</li>
+                    <li><strong>Dynamic Resolution</strong> — adaptive streaming for every client. When a connected device rotates, resizes, or switches multitasking layouts, the Mac stream reshapes in place to match — instantly.</li>
+                    <li><strong>Custom Resolution, any size and orientation</strong> — exact dimensions honored, every time.</li>
+                </ul>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Better long-term Mac responsiveness</strong> — fixed slow accumulation of stale color profiles that would build up over many sessions.</li>
                 </ul>
                 <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Fixed a launch crash</strong> — Resolved a rare startup crash on macOS where the app would quit immediately on first launch. The app now reliably starts on every Mac.</li>
+                    <li>External monitors reliably restore after disconnect (no more "must restart Mac" recovery).</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 25 Apr 2026 11:14:45 +0000</pubDate>
+            <pubDate>Sun, 03 May 2026 14:54:22 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.6.0/Remio-Host-1.6.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.7.0/Remio-Host-1.7.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="BqJyWMh2khErVwLPCnYnrD+yYMG33J5iynAJhGDuhDcl/it+uuOLvjwc+Cb/0XFE8mS0fCTCA6q3eyuThUgjAA=="
-                length="38207952"
+                sparkle:edSignature="KHRvOOC/9HgxKH7T842zXoNkvOilJl8yi0Jbpxs0pVaA8/jJefm/RrwkMN2/LxNC8n7vADX16tVILTQLiH1/Dw=="
+                length="38126157"
             />
         </item>
     </channel>
