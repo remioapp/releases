@@ -4,33 +4,31 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.7.0</title>
-            <sparkle:version>2605032145</sparkle:version>
-            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+            <title>Version 1.7.2</title>
+            <sparkle:version>2605091959</sparkle:version>
+            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.7.0</h2>
-                <h3>✨ New Features</h3>
+                <h2>What's New in 1.7.2</h2>
+                <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Privacy Mode</strong> — local screens dim while streaming, just like Apple's Screen Sharing. All displays restore automatically when streaming ends.</li>
-                    <li><strong>Dynamic Resolution</strong> — adaptive streaming for every client. When a connected device rotates, resizes, or switches multitasking layouts, the Mac stream reshapes in place to match — instantly.</li>
-                    <li><strong>Custom Resolution, any size and orientation</strong> — exact dimensions honored, every time.</li>
+                    <li><strong>Ready the moment you sign in</strong> — Remio Host now wakes up online on its own as soon as you finish signing in. No more clicking the Dock icon to make your Mac visible to your phone or tablet.</li>
+                    <li><strong>Snaps back online the instant Wi-Fi returns</strong> — Whether your Mac is still connecting to Wi-Fi right after a restart or you briefly lose the network mid-session, Remio Host now jumps back online almost immediately instead of leaving you waiting up to half a minute.</li>
+                    <li><strong>Your Mac stays usable after a force-quit</strong> — Force-quitting Remio Host no longer leaves your built-in or external displays dark. Cleanup now finishes before exit, and any displays a previous crash left off come back automatically the next time Remio launches.</li>
                 </ul>
                 <h3>⚙️ Improvements</h3>
                 <ul>
-                    <li><strong>Better long-term Mac responsiveness</strong> — fixed slow accumulation of stale color profiles that would build up over many sessions.</li>
-                </ul>
-                <h3>🐛 Bug Fixes</h3>
-                <ul>
-                    <li>External monitors reliably restore after disconnect (no more "must restart Mac" recovery).</li>
+                    <li><strong>Ready for incoming connections seconds sooner</strong> — Remio Host finishes booting up much faster after you launch it. Setup work that used to hold things up runs quietly in the background instead.</li>
+                    <li><strong>Snappier handshake when a device connects</strong> — When a phone, tablet, or another Mac dials in, the first stream now appears noticeably sooner. Redundant setup steps are skipped, shaving real time off the wait between Connect and a live picture.</li>
+                    <li><strong>Status dot consistent across the app</strong> — The dot next to Remio's menu bar icon now uses the same colors as the Home screen, so you can read your Host's state at a glance from either place.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 03 May 2026 14:54:22 +0000</pubDate>
+            <pubDate>Sat, 09 May 2026 20:08:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.7.0/Remio-Host-1.7.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.7.2/Remio-Host-1.7.2-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="KHRvOOC/9HgxKH7T842zXoNkvOilJl8yi0Jbpxs0pVaA8/jJefm/RrwkMN2/LxNC8n7vADX16tVILTQLiH1/Dw=="
-                length="38126157"
+                sparkle:edSignature="KJpMrCa+XCOYPJQ2lk6AFXzGinKghkjW5KlZgkm5jKkISn414LchLgwoxlzcT9XVbpMvCfqaxOvbzEocy9gkBw=="
+                length="38166164"
             />
         </item>
     </channel>
