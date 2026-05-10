@@ -4,31 +4,24 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.7.2</title>
-            <sparkle:version>2605091959</sparkle:version>
-            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
+            <title>Version 1.7.3</title>
+            <sparkle:version>2605100952</sparkle:version>
+            <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.7.2</h2>
+                <h2>What's New in 1.7.3</h2>
                 <h3>🐛 Bug Fixes</h3>
                 <ul>
-                    <li><strong>Ready the moment you sign in</strong> — Remio Host now wakes up online on its own as soon as you finish signing in. No more clicking the Dock icon to make your Mac visible to your phone or tablet.</li>
-                    <li><strong>Snaps back online the instant Wi-Fi returns</strong> — Whether your Mac is still connecting to Wi-Fi right after a restart or you briefly lose the network mid-session, Remio Host now jumps back online almost immediately instead of leaving you waiting up to half a minute.</li>
-                    <li><strong>Your Mac stays usable after a force-quit</strong> — Force-quitting Remio Host no longer leaves your built-in or external displays dark. Cleanup now finishes before exit, and any displays a previous crash left off come back automatically the next time Remio launches.</li>
-                </ul>
-                <h3>⚙️ Improvements</h3>
-                <ul>
-                    <li><strong>Ready for incoming connections seconds sooner</strong> — Remio Host finishes booting up much faster after you launch it. Setup work that used to hold things up runs quietly in the background instead.</li>
-                    <li><strong>Snappier handshake when a device connects</strong> — When a phone, tablet, or another Mac dials in, the first stream now appears noticeably sooner. Redundant setup steps are skipped, shaving real time off the wait between Connect and a live picture.</li>
-                    <li><strong>Status dot consistent across the app</strong> — The dot next to Remio's menu bar icon now uses the same colors as the Home screen, so you can read your Host's state at a glance from either place.</li>
+                    <li><strong>Reliable on a Mac mini you're already screen-sharing into</strong> — Connecting to a Mac mini with Remio while another remote session was already open (such as macOS Screen Sharing from another Mac) could previously show a frozen or wrongly-sized picture. Remio Host now reliably captures your real desktop in that scenario, with dynamic resizing working as expected.</li>
+                    <li><strong>Stable across rapid reconnects</strong> — Fixed a rare edge case where disconnecting and immediately reconnecting could destabilize the Mac's display system. Sessions now stay reliable across many quick connect-and-disconnect cycles.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 09 May 2026 20:08:00 +0000</pubDate>
+            <pubDate>Sun, 10 May 2026 03:02:40 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.7.2/Remio-Host-1.7.2-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.7.3/Remio-Host-1.7.3-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="KJpMrCa+XCOYPJQ2lk6AFXzGinKghkjW5KlZgkm5jKkISn414LchLgwoxlzcT9XVbpMvCfqaxOvbzEocy9gkBw=="
-                length="38166164"
+                sparkle:edSignature="GgUYfSxHqfMbpbhQMHSsSwRUQPb7QXJdHhluX95vlc+KLxvitKTgAA4OCwnlR1k8yKj7tK1/7fedJybs5n7lAw=="
+                length="38171482"
             />
         </item>
     </channel>
