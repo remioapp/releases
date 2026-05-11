@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.7.4</title>
+            <sparkle:version>2605112111</sparkle:version>
+            <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.7.4</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Now runs on macOS 15 Sequoia and later</strong> — Remio Host previously required the very latest macOS 26 Tahoe to install. It now works on any Mac running macOS 15 Sequoia or newer, so a much wider range of Macs can act as your Remio Host without needing to upgrade the operating system first.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 11 May 2026 21:18:00 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.7.4/Remio-Host-1.7.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="Wo10r4xDftMhG3qQJy9HrxmsDFc9FTQnVN+zxqzRHuNKz3osrSCmCX6Ac7zPB34R6dvyXm885i5BvmSYDGExCg=="
+                length="38201443"
+            />
+        </item>
+        <item>
             <title>Version 1.7.3</title>
             <sparkle:version>2605100952</sparkle:version>
             <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
