@@ -4,66 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 1.7.5</title>
-            <sparkle:version>2605112246</sparkle:version>
-            <sparkle:shortVersionString>1.7.5</sparkle:shortVersionString>
+            <title>Version 1.7.8</title>
+            <sparkle:version>2605181349</sparkle:version>
+            <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 1.7.5</h2>
-                <h3>⚙️ Improvements</h3>
+                <h2>Bug Fixes</h2>
                 <ul>
-                    <li><strong>Crisp picture from the very first frame on big displays</strong> — Connecting from a Studio Display 5K, Pro Display XDR, MacBook Pro 16", or a 4K external monitor used to start blurry and slowly sharpen over the first few seconds while quality climbed. Remio Host now picks the right bitrate up front based on the size of the screen you're viewing on, so the picture is sharp the instant the stream appears.</li>
-                    <li><strong>Smooth motion when the network briefly slows</strong> — When Wi-Fi hits a momentary slow patch, scrolling, cursor movement, and animations stay smooth instead of stuttering down to a few frames per second. The picture may soften for a moment, but motion never feels jerky.</li>
-                    <li><strong>Sharper streaming on larger Macs</strong> — MacBook Pro 16" in any scaled mode and 4K external monitors in default Retina mode now stream at full Retina sharpness instead of being downsized to fit a smaller envelope.</li>
+                    <li><b>Fixed a session loop that could leave the app stuck reconnecting</b> — When the relay temporarily lost track of your streaming session (after a relay restart or a brief network hiccup), Remio Host could repeatedly try to reattach to the same now-gone session, requiring a manual quit and relaunch. Remio Host now detects this and quietly clears the stale session, so the next start begins cleanly without any user action.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 11 May 2026 15:55:12 +0000</pubDate>
+            <pubDate>Mon, 18 May 2026 07:01:51 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.7.5/Remio-Host-1.7.5-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v1.7.8/Remio-Host-1.7.8-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="A4ef9d2+w+M06G4GrwlmZ8FCxeOOSTUm5x9aVWZxJmMy35sip+RAFASy7cfjyrw1GL8nrqP3GcK/pcLutqIWCg=="
-                length="38201984"
-            />
-        </item>
-        <item>
-            <title>Version 1.7.4</title>
-            <sparkle:version>2605112111</sparkle:version>
-            <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>What's New in 1.7.4</h2>
-                <h3>⚙️ Improvements</h3>
-                <ul>
-                    <li><strong>Now runs on macOS 15 Sequoia and later</strong> — Remio Host previously required the very latest macOS 26 Tahoe to install. It now works on any Mac running macOS 15 Sequoia or newer, so a much wider range of Macs can act as your Remio Host without needing to upgrade the operating system first.</li>
-                </ul>
-            ]]></description>
-            <pubDate>Mon, 11 May 2026 21:18:00 +0000</pubDate>
-            <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.7.4/Remio-Host-1.7.4-mac.zip"
-                type="application/octet-stream"
-                sparkle:edSignature="Wo10r4xDftMhG3qQJy9HrxmsDFc9FTQnVN+zxqzRHuNKz3osrSCmCX6Ac7zPB34R6dvyXm885i5BvmSYDGExCg=="
-                length="38201443"
-            />
-        </item>
-        <item>
-            <title>Version 1.7.3</title>
-            <sparkle:version>2605100952</sparkle:version>
-            <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h2>What's New in 1.7.3</h2>
-                <h3>🐛 Bug Fixes</h3>
-                <ul>
-                    <li><strong>Reliable on a Mac mini you're already screen-sharing into</strong> — Connecting to a Mac mini with Remio while another remote session was already open (such as macOS Screen Sharing from another Mac) could previously show a frozen or wrongly-sized picture. Remio Host now reliably captures your real desktop in that scenario, with dynamic resizing working as expected.</li>
-                    <li><strong>Stable across rapid reconnects</strong> — Fixed a rare edge case where disconnecting and immediately reconnecting could destabilize the Mac's display system. Sessions now stay reliable across many quick connect-and-disconnect cycles.</li>
-                </ul>
-            ]]></description>
-            <pubDate>Sun, 10 May 2026 03:02:40 +0000</pubDate>
-            <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v1.7.3/Remio-Host-1.7.3-mac.zip"
-                type="application/octet-stream"
-                sparkle:edSignature="GgUYfSxHqfMbpbhQMHSsSwRUQPb7QXJdHhluX95vlc+KLxvitKTgAA4OCwnlR1k8yKj7tK1/7fedJybs5n7lAw=="
-                length="38171482"
+                sparkle:edSignature="P4oK5D8KQdXwpiWNFH68ybevlkolnmTh0Me+RAbAyXQ48JTBt0jZclP97uI7LlXvawTQTg9sbSxflBl6feAzCA=="
+                length="38878061"
             />
         </item>
     </channel>
