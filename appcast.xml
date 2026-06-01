@@ -4,6 +4,30 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.8.0</title>
+            <sparkle:version>2606012044</sparkle:version>
+            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.8.0</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Your Mac shares a live preview to your devices</strong> — Your phone and tablet now show a real snapshot of this Mac's screen on their device list, so you always know which Mac you're about to connect to. It works whether or not your Mac is signed in to the same account as your phone — even a quick guest pairing shows the preview.</li>
+                </ul>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Refreshed menu bar icon</strong> — The Remio icon in your menu bar has a cleaner, monochrome look that blends in naturally with macOS, with a small green dot that lights up the moment your Mac is ready to accept a connection.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 01 Jun 2026 13:57:13 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.8.0/Remio-Host-1.8.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="bUYIV99KjHuPlAHzuMfMU7wvIjxNK7xgiqPUzjwuM0F5X9PR6hG7bIdyomnQKYJLJe5Z5q93eQFLokCRroVfAw=="
+                length="39419711"
+            />
+        </item>
+        <item>
             <title>Version 1.7.8</title>
             <sparkle:version>2605181349</sparkle:version>
             <sparkle:shortVersionString>1.7.8</sparkle:shortVersionString>
