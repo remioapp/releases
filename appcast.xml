@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.8.2</title>
+            <sparkle:version>2606070928</sparkle:version>
+            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.8.2</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Motion stays smooth, automatically</strong> — Your Mac now always keeps motion fluid when the network is under pressure, briefly softening sharpness instead of ever stuttering or dropping frames. It works this way everywhere now, with no quality setting to manage.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 07 Jun 2026 02:39:21 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.8.2/Remio-Host-1.8.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="KMW7SyxM+Ekmms42XsO0rI6RLhKwg/5pPJk0egTyU50JNs6VYrOFKGzO+1+p5wwNbQobAeneazGuEaoua4NQCw=="
+                length="39828215"
+            />
+        </item>
+        <item>
             <title>Version 1.8.0</title>
             <sparkle:version>2606012044</sparkle:version>
             <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
