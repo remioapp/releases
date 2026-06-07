@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/remioapp/releases/releases/latest"><img src="https://img.shields.io/github/v/release/remioapp/releases?style=flat-square&label=Latest%20Release&color=6C5CE7" alt="Latest Release"></a>
+  <a href="https://github.com/remioapp/releases/releases/latest"><img src="https://img.shields.io/github/release-date/remioapp/releases?style=flat-square&label=Updated&color=FF7675" alt="Last Updated"></a>
   <a href="https://github.com/remioapp/releases/releases"><img src="https://img.shields.io/github/downloads/remioapp/releases/total?style=flat-square&label=Downloads&color=00E599" alt="Downloads"></a>
   <a href="https://remio.net"><img src="https://img.shields.io/badge/Website-remio.net-00B4D8?style=flat-square" alt="Website"></a>
 </p>
@@ -24,26 +25,32 @@ Remio is a **native remote desktop** application that lets you access and contro
 - 🖥️ **macOS Host** — Stream your Mac to any device (SwiftUI + ScreenCaptureKit)
 - 🪟 **Windows Host** — Stream your Windows PC to any device (C++/WinRT)
 - 📱 **iOS & iPadOS Client** — Full multi-touch with Apple Trackpad physics (SwiftUI)
+- 💻 **macOS Client** — Native Mac app on the Mac App Store (SwiftUI)
 - 🤖 **Android Client** — Native Jetpack Compose experience
 - 🪟 **Windows Client** — Native Windows app (C++/WinRT)
 
 ## 📥 Download
 
-### Host (Required on the computer you want to access)
+> 💡 **Every link below always points to the newest build** — there are no version numbers to chase or update.
+
+### Host — install on the computer you want to control
 
 | Platform | Download | Requirements |
-|----------|----------|-------------|
-| **macOS** (Apple Silicon & Intel) | [**Download Latest**](https://github.com/remioapp/releases/releases/tag/v1.3.0) | macOS 15 Sequoia or later |
-| **Windows** (x64) | [**Download Latest**](https://github.com/remioapp/releases/releases/tag/v1.0.0-win) | Windows 10 or later |
+|----------|----------|--------------|
+| **macOS** (Apple Silicon & Intel) | [**⬇️ Latest Release**](https://github.com/remioapp/releases/releases/latest) | macOS 15 Sequoia or later |
+| **Windows** (x64) | [**⬇️ Windows builds**](https://github.com/remioapp/releases/releases) | Windows 10 or later |
 
-### Clients (Install on the device you want to control FROM)
+### Client — install on the device you control FROM
 
 | Platform | Download | Status |
 |----------|----------|--------|
-| **iOS & iPadOS** | [App Store](https://apps.apple.com/app/remio-remote-desktop/id6741442619) | ✅ Available |
+| **iOS & iPadOS** | [App Store](https://apps.apple.com/app/remio-remote-desktop/id6759306575) | ✅ Available |
+| **macOS** | [Mac App Store](https://apps.apple.com/app/remio-remote-desktop/id6759306575) | ✅ Available |
 | **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.remio.client) | ✅ Available |
-| **Windows** (x64) | [**Download Latest**](https://github.com/remioapp/releases/releases/tag/v1.0.0-win-client) | ✅ Available |
+| **Windows** (x64) | [Windows builds](https://github.com/remioapp/releases/releases) | ✅ Available |
 | **Linux** | — | 📋 On Roadmap |
+
+<sub>🪟 On the <a href="https://github.com/remioapp/releases/releases">releases list</a>, Windows builds are tagged <code>-win</code> (Host) and <code>-win-client</code> (Client).</sub>
 
 ## 🚀 Quick Start
 
@@ -82,6 +89,7 @@ That's it. Full desktop streaming in under a minute. No account required.
 | **Windows Host** | Windows 10 (x64) |
 | **iOS Client** | iOS 18.0+ |
 | **iPadOS Client** | iPadOS 18.0+ |
+| **macOS Client** | macOS 15 Sequoia or later |
 | **Android Client** | Android 12 (API 31)+ |
 | **Windows Client** | Windows 10 (x64) |
 
