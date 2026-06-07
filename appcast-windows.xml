@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.8.3</title>
+            <sparkle:version>1.8.3</sparkle:version>
+            <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 07 Jun 2026 14:32:01 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.8.3</h2>
+                <p>Fixed a black screen when connecting from iPhone, iPad, or Mac. Your remote screen now appears reliably on every Apple device the moment you connect.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.8.3-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.8.3"
+                sparkle:shortVersionString="1.8.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="1dzrxsn8Vfhmrp8OdTwVRPnxcRnXRut8Id6ZUDLbUVU7lqUyUuqla21icgn8U9j/pA3Fj/PhntXPoER4HtgNDg=="
+                length="55729087"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.8.2</title>
             <sparkle:version>1.8.2</sparkle:version>
             <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
