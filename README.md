@@ -38,7 +38,7 @@ Remio is a **native remote desktop** application that lets you access and contro
 | Platform | Download | Requirements |
 |----------|----------|--------------|
 | **macOS** (Apple Silicon & Intel) | [**⬇️ Latest Release**](https://github.com/remioapp/releases/releases/latest) | macOS 15 Sequoia or later |
-| **Windows** (x64) | [**⬇️ Windows builds**](https://github.com/remioapp/releases/releases) | Windows 10 or later |
+| **Windows** (x64) | [**⬇️ Download for Windows**](https://github.com/remioapp/releases/releases/latest/download/Remio-Host-Windows-x64-Setup.exe) | Windows 10 or later |
 
 ### Client — install on the device you control FROM
 
@@ -50,7 +50,7 @@ Remio is a **native remote desktop** application that lets you access and contro
 | **Windows** (x64) | [Windows builds](https://github.com/remioapp/releases/releases) | ✅ Available |
 | **Linux** | — | 📋 On Roadmap |
 
-<sub>🪟 On the <a href="https://github.com/remioapp/releases/releases">releases list</a>, Windows builds are tagged <code>-win</code> (Host) and <code>-win-client</code> (Client).</sub>
+<sub>🪟 The Windows Host link is a <strong>permanent URL</strong> that always serves the latest installer (stable filename for Windows SmartScreen trust). The Windows Client build is on the <a href="https://github.com/remioapp/releases/releases">releases list</a> (tagged <code>-win-client</code>).</sub>
 
 ## 🚀 Quick Start
 
