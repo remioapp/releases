@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.8.8</title>
+            <sparkle:version>1.8.8</sparkle:version>
+            <sparkle:shortVersionString>1.8.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 09 Jun 2026 14:06:56 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.8.8</h2>
+                <p>Performance and compatibility improvements</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.8.8-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.8.8"
+                sparkle:shortVersionString="1.8.8"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="IZWfmvNdh3Dfz138fh4yRvHGcmHFhWRSWedPB7KiCDKBso/fFRys0bnhUf/YhASIoIZQEgv6xtE6BjSPS6yXDw=="
+                length="55750286"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.8.7</title>
             <sparkle:version>1.8.7</sparkle:version>
             <sparkle:shortVersionString>1.8.7</sparkle:shortVersionString>
