@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.0</title>
+            <sparkle:version>1.9.0</sparkle:version>
+            <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 10 Jun 2026 14:59:32 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 1.9.0</h2>
+                <p>Dynamic Resolution - resize the window and the remote desktop follows, pixel-perfect with no black bars. Requires Remio Host 1.9.0 on the PC you connect to.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.0-win/Remio-Client-1.9.0-win-x64-Setup.exe"
+                sparkle:version="1.9.0"
+                sparkle:shortVersionString="1.9.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="I4u+Wl7tERf2dVtHSkbMRbJaw1rHpuiFWlgnRZROSEBNAr5FroLnAxBY9ZqG4KjQM5KfmYTYe3/mbupriPYoBQ=="
+                length="55956108"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.8.7</title>
             <sparkle:version>1.8.7</sparkle:version>
             <sparkle:shortVersionString>1.8.7</sparkle:shortVersionString>
