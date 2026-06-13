@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.9.1</title>
+            <sparkle:version>2606131144</sparkle:version>
+            <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.9.1</h2>
+                <ul>
+                    <li><b>Stays reliably available to connect to</b> &mdash; Your Mac keeps itself ready for incoming connections more dependably &mdash; including right after it wakes from sleep, after a brief network change such as plugging in a dock or toggling a VPN, and if the connection service restarts.</li>
+                    <li><b>Faster, steadier reconnecting</b> &mdash; When a connection briefly drops, your Mac re-establishes it faster, and no longer interrupts a session that's actually still healthy.</li>
+                    <li>Fixed rare cases where your Mac could show as offline for a short time right after reconnecting, or stop accepting new connections until the app was restarted.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 13 Jun 2026 11:55:47 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.1/Remio-Host-1.9.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="3YO4Fd2NYKXNALjhvz38uf/VS48NkaTmxJIctuX+Dxinjeshwq803kmx+pALIab5lloZfE6I0dOoD6ZuKooUBQ=="
+                length="39851640"
+            />
+        </item>
+        <item>
             <title>Version 1.8.2</title>
             <sparkle:version>2606070928</sparkle:version>
             <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
