@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.9.2</title>
+            <sparkle:version>2606151300</sparkle:version>
+            <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.9.2</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Your Mac no longer gets stuck on a black screen after a device disconnects</strong> — When a connected phone, tablet, or computer closed the app or dropped off mid-session, your Mac's display could go dark and stay that way until you restarted it. Your screen now returns to normal within a few seconds of the session ending.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 15 Jun 2026 15:05:25 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.2/Remio-Host-1.9.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="WRWW8EIcP9L/rDxTqyIFfq8Wk5YL3rtJXxPF8RQwYJMMg/fkTOIl2EFGgJxPqtdJIDaHCSzwPJRQWmUT3TTPDw=="
+                length="39853048"
+            />
+        </item>
+        <item>
             <title>Version 1.9.1</title>
             <sparkle:version>2606131144</sparkle:version>
             <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
