@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.2</title>
+            <sparkle:version>1.9.2</sparkle:version>
+            <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 15 Jun 2026 14:24:55 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.2</h2>
+                <p>Fixed a bug where your PC's screen could stay black or stuck at the wrong resolution after a streaming session dropped unexpectedly. When a connected phone, tablet, or computer lost its network or closed mid-session, your monitor could stay switched off instead of coming back — it now returns to normal within a couple of seconds of the session ending.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.2"
+                sparkle:shortVersionString="1.9.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="H2XZZpoR3GYjFJBAyaOcGMt14RJR/ss+Clm8tgwzEauT3NNLDFUmenIFL6e4rBlClA3S7IF8JYRWtWJpjP2vBg=="
+                length="25242497"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.1</title>
             <sparkle:version>1.9.1</sparkle:version>
             <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
