@@ -4,6 +4,25 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.9.3</title>
+            <sparkle:version>2606182215</sparkle:version>
+            <sparkle:shortVersionString>1.9.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.9.3</h2>
+                <ul>
+                    <li><b>Your external display comes back exactly as you left it</b> — On a MacBook used with the lid closed and an external monitor, ending a session now returns your external display to the same resolution and brightness you had before connecting, and your built-in display correctly stays off until you open the lid.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 18 Jun 2026 22:25:24 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.3/Remio-Host-1.9.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="FqILmbQf4mY5QlDXgUIVl1z/vmvPz7961cmXN0TeqgecZIUPf4oM+KHtKM0hbSicXdO9Zq6k4ukNJlyZKgNNCQ=="
+                length="39880745"
+            />
+        </item>
+        <item>
             <title>Version 1.9.2</title>
             <sparkle:version>2606151300</sparkle:version>
             <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
