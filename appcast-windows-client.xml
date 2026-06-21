@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.4</title>
+            <sparkle:version>1.9.4</sparkle:version>
+            <sparkle:shortVersionString>1.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 21 Jun 2026 12:20:45 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 1.9.4</h2>
+                <p>Performance improvements — Smoother, more responsive streaming and a faster overall experience.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.4-win/Remio-Client-1.9.4-win-x64-Setup.exe"
+                sparkle:version="1.9.4"
+                sparkle:shortVersionString="1.9.4"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="UmzxFMWtAq0sX23BiPT/0HSh7CGoRRYXviLN6FzRfld/y3oE7s0Kl6Xz692rqQs1HF3/mMV9vUq008bkDlogAw=="
+                length="56510399"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.3</title>
             <sparkle:version>1.9.3</sparkle:version>
             <sparkle:shortVersionString>1.9.3</sparkle:shortVersionString>
