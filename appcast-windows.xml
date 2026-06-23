@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.5</title>
+            <sparkle:version>1.9.5</sparkle:version>
+            <sparkle:shortVersionString>1.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 23 Jun 2026 05:40:25 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.5</h2>
+                <p>Fixes a black screen on some Intel-based PCs so your screen streams reliably, and makes the pairing screen — QR code, Device ID and PIN — appear instantly when you open the app.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.5-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.5"
+                sparkle:shortVersionString="1.9.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="hm3GMc6QHS5G41K2nfl5blZY0G7qxcWsc5VhtePSbDsLFYNw9RIbyMj/LeWaDmuM4vU4EHeFLyvNdOA4P7SBCw=="
+                length="25235192"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.4</title>
             <sparkle:version>1.9.4</sparkle:version>
             <sparkle:shortVersionString>1.9.4</sparkle:shortVersionString>
