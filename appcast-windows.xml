@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.6</title>
+            <sparkle:version>1.9.6</sparkle:version>
+            <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 23 Jun 2026 15:08:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.6</h2>
+                <p>Smoother streaming on Intel-based PCs, a fix for a rare pairing-code display glitch, and performance improvements.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.6-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.6"
+                sparkle:shortVersionString="1.9.6"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="ocVvgQUqr1Vjy5n3x76EIzmbt6LTk05q2jNj+TifGWDx3utCGcAB2T7dOM1iPprnqAzqlFNwD2ALoiKVQRB2BA=="
+                length="25294154"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.5</title>
             <sparkle:version>1.9.5</sparkle:version>
             <sparkle:shortVersionString>1.9.5</sparkle:shortVersionString>
