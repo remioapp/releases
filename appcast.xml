@@ -4,6 +4,25 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 1.9.7</title>
+            <sparkle:version>2606242225</sparkle:version>
+            <sparkle:shortVersionString>1.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 1.9.7</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Performance improvements</strong> — A smoother, more reliable hosting experience.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 24 Jun 2026 22:55:33 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.7/Remio-Host-1.9.7-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="sRMjdpCf3c/krHq/U9Kpygc3vMcfVmhQCnOke3xPgWHNrcHI6+AtGMCOfw1uq4cOmwfiLZ3BFqL99aALknY+AQ=="
+                length="40887480"
+            />
+        <item>
             <title>Version 1.9.6</title>
             <sparkle:version>2606232209</sparkle:version>
             <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
