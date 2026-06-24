@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.7</title>
+            <sparkle:version>1.9.7</sparkle:version>
+            <sparkle:shortVersionString>1.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 24 Jun 2026 13:41:23 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.7</h2>
+                <p>Fixed a black screen on certain Intel graphics setups, including virtual machines — Remio now falls back to reliable software video instead of a black screen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.7-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.7"
+                sparkle:shortVersionString="1.9.7"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="10zF4coz20Kyz3vcEAUCnXh+w0pmRcRNAfwNpwaPIz71Nq3vgKlTBnNyqbnSluIq72E6TToPUFYe/QINEwvtBA=="
+                length="25296579"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.6</title>
             <sparkle:version>1.9.6</sparkle:version>
             <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
