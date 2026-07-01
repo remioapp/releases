@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.12</title>
+            <sparkle:version>1.9.12</sparkle:version>
+            <sparkle:shortVersionString>1.9.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 01 Jul 2026 15:21:35 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.12</h2>
+                <p>First-time setup now reminds you to restart Windows so adaptive (dynamic) resolution turns on — before, a fresh install could stream at a fixed size until you happened to reboot.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.12-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.12"
+                sparkle:shortVersionString="1.9.12"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="XwI799CurlFB6wMigG6PDuOeMxT2Sw6Z28wdv+Z/JHAhDFlNHpTiCajuLteECCEltlkUW6lbtmVSpcP0PirPDA=="
+                length="25298018"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.11</title>
             <sparkle:version>1.9.11</sparkle:version>
             <sparkle:shortVersionString>1.9.11</sparkle:shortVersionString>
