@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.9</title>
+            <sparkle:version>1.9.9</sparkle:version>
+            <sparkle:shortVersionString>1.9.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 01 Jul 2026 07:11:11 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.9</h2>
+                <p>Fixes a black screen when hosting from a virtual machine or remote-desktop session. On some PCs without a dedicated graphics card, streaming could start with a completely black screen and never recover — now it starts reliably every time.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.9-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.9"
+                sparkle:shortVersionString="1.9.9"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="pkEgUsRulSJDgt2ViudKua4gQVHpj2UBWnBnXW17uJ5HdDxU/wQpbgM9esBR0uE8S8rTRtwBRSSdnkTY0zdYBA=="
+                length="25302312"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.8</title>
             <sparkle:version>1.9.8</sparkle:version>
             <sparkle:shortVersionString>1.9.8</sparkle:shortVersionString>
