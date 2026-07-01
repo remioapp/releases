@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.9.10</title>
+            <sparkle:version>1.9.10</sparkle:version>
+            <sparkle:shortVersionString>1.9.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 01 Jul 2026 11:55:10 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 1.9.10</h2>
+                <p>Fixes a black screen when streaming from certain Windows PCs — virtual machines and computers with Intel or no dedicated graphics could start streaming with a blank screen; Remio now reliably falls back and shows your screen every time.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.9.10-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="1.9.10"
+                sparkle:shortVersionString="1.9.10"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Fj6H2Ay5+q/WwNN3nnUw75+lIwQ0CL8p1avp3pLbAadHs0lHUneSQxPu4Mu7wDZ247ODb3R8fs728bRLLWGmAg=="
+                length="25297302"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.9</title>
             <sparkle:version>1.9.9</sparkle:version>
             <sparkle:shortVersionString>1.9.9</sparkle:shortVersionString>
