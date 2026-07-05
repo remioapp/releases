@@ -4,6 +4,28 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.0</title>
+            <sparkle:version>2607052208</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.0</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>A beautifully redesigned Remio Host</strong> — Remio Host has a brand-new look built around one clean, calm window. Everything you need to connect a phone, tablet, or another computer is right there the moment you open it — the QR code, your Device ID, and PIN — with settings and your account just a click away. It's simpler and easier to use than ever.</li>
+                    <li><strong>Keep your Mac reachable with the lid closed</strong> — On a MacBook, Remio can now keep your Mac awake even when you close the lid, so you can connect to it from another device while you're away. It automatically pauses if your Mac gets warm or the battery runs low, and you can choose to keep it awake only while it's plugged in.</li>
+                    <li><strong>A guided first-time setup</strong> — A friendly new welcome flow gets you ready in about a minute: sign in, grant the two permissions Remio needs to share and control your screen, and choose whether Remio starts automatically at login and stays ready for you.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 05 Jul 2026 22:23:29 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.0/Remio-Host-2.0.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="t+RnyTjf6KEY1A4xqfKYObSZNBzwNBF3kMXCaW96/LiuKKyt0n8dLohsbI0nMkrYf21LYfKGX1dCAphKjIg1Bg=="
+                length="40453746"
+            />
+        </item>
+        <item>
             <title>Version 1.9.7</title>
             <sparkle:version>2606242225</sparkle:version>
             <sparkle:shortVersionString>1.9.7</sparkle:shortVersionString>
@@ -22,6 +44,7 @@
                 sparkle:edSignature="sRMjdpCf3c/krHq/U9Kpygc3vMcfVmhQCnOke3xPgWHNrcHI6+AtGMCOfw1uq4cOmwfiLZ3BFqL99aALknY+AQ=="
                 length="40887480"
             />
+        </item>
         <item>
             <title>Version 1.9.6</title>
             <sparkle:version>2606232209</sparkle:version>
