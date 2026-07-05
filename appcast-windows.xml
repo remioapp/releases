@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0.0</title>
+            <sparkle:version>2.0.0</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 05 Jul 2026 15:20:40 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.0.0</h2>
+                <p>Remio Host gets a brand-new look — a single, fluid interface that matches the Mac app, with smooth animated transitions throughout. This release also adds Sign in with Apple, starts automatically with Windows so your PC is always ready to connect, and switches to a new screen-capture engine for steadier, more reliable streaming with more accurate colors.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.0.0"
+                sparkle:shortVersionString="2.0.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="OzXZKcdH7cRt7auQN8++CK9h/ku+Jdr+AsH+agAIbbvSnITBQ+lJ+dUeaV9QTL6V5mUrVFdf72B3QZ7YECJKDg=="
+                length="25216566"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.12</title>
             <sparkle:version>1.9.12</sparkle:version>
             <sparkle:shortVersionString>1.9.12</sparkle:shortVersionString>
