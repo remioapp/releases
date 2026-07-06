@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.1</title>
+            <sparkle:version>2607061013</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.1</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Connect to your MacBook right from the lock screen</strong> — When you close your MacBook's lid and connect from another device, you now see the lock screen and can type your password to unlock your Mac remotely. Before, the app would show a black screen and drop the connection, making a lid-closed Mac impossible to reach.</li>
+                    <li><strong>Open the lid and your screen is instantly back</strong> — If your Mac's screen ever stayed black after a remote session, simply opening the lid now brings it right back. No more wondering whether the display broke or needing to force-restart.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 06 Jul 2026 10:22:11 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.1/Remio-Host-2.0.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="pGHgdWZg9rtriMV3AzcFUASM/E6s4eKmGj1fNRWytljwROTyZ80mi+5+z3Dbjw8eE+nfd8jskGdYYHjWWjEhAQ=="
+                length="40465751"
+            />
+        </item>
+        <item>
             <title>Version 2.0.0</title>
             <sparkle:version>2607052208</sparkle:version>
             <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
