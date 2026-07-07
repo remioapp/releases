@@ -4,6 +4,29 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.3</title>
+            <sparkle:version>2607070828</sparkle:version>
+            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.3</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Hear your Mac's audio</strong> — Remio now streams your Mac's sound to the phone, tablet, or computer you're connecting from, so videos, music, and calls come through on the device in your hands.</li>
+                </ul>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Ready the moment your Mac restarts</strong> — Remio now turns on "Open at login" automatically during setup, and after a reboot it gets itself ready and starts streaming on its own — no need to open the app or click its icon first to become reachable.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 07 Jul 2026 08:37:29 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.3/Remio-Host-2.0.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="haKTC0Ro1Rjc+nsVPf3/kM/hkszNCwoRwxub93Lp5o59LQ2hvRoBq0G46aXBsNaiBLQaLVu/MwVbfKa8I9yDDg=="
+                length="40662065"
+            />
+        <item>
             <title>Version 2.0.2</title>
             <sparkle:version>2607061444</sparkle:version>
             <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
