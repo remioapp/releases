@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0.1</title>
+            <sparkle:version>2.0.1</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 08 Jul 2026 02:48:46 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.0.1</h2>
+                <p>Fixed a startup failure on Windows 11 N editions - Remio Host previously showed an MFPlat.DLL was not found error and would not launch. The app now starts and streams normally on Windows editions that ship without Media Foundation.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.0.1"
+                sparkle:shortVersionString="2.0.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="yEb2UToJujyiNZrBojilrL+SI5lNFnFRACbSJ7uwbfPDcp5JQHZ6inOyQM9nX7omyzfg7KI23DL8EJXzcYukBA=="
+                length="25221348"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.0.0</title>
             <sparkle:version>2.0.0</sparkle:version>
             <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
