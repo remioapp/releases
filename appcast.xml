@@ -4,6 +4,30 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.5</title>
+            <sparkle:version>2607092041</sparkle:version>
+            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.5</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Clearer setup for keeping your Mac awake with the lid closed</strong> — On macOS Tahoe, granting Remio permission to keep your Mac reachable with the lid shut is now clearer, and Remio recognizes the moment you approve it — no need to restart the app or toggle the setting again.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Honest connection status</strong> — Remio Host now shows an accurate status on its main screen. If your Mac can't actually send its screen for some reason, you'll see that right away instead of a misleading "Streaming" message — so you always know the real state of your connection.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 09 Jul 2026 20:53:17 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.5/Remio-Host-2.0.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="FionQsP0UhCy49F1KV7vvxa//y83JOlc4yEmhMcjPwfeLzfnU+RSlhZYFC4y6GbDAxUgm0Dz+atRORKXrVNOCw=="
+                length="40665540"
+            />
+        </item>
+        <item>
             <title>Version 2.0.4</title>
             <sparkle:version>2607091234</sparkle:version>
             <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
