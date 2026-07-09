@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0.3</title>
+            <sparkle:version>2.0.3</sparkle:version>
+            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 09 Jul 2026 07:18:23 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.0.3</h2>
+                <p>This release fixes a crash that could happen right after a client connected: on some PCs the host would quit unexpectedly and the screen would briefly go black when the streaming resolution adjusted. Connecting is now rock-solid.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.3-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.0.3"
+                sparkle:shortVersionString="2.0.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="0LnFq/FPH4IVEwncHoOb2n5J/w5BYDLDGUOlj/82CnLlvjPLqivgimta5F9ndeIDNVsoI8eQn+42COGFuIGCCA=="
+                length="25224149"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.0.2</title>
             <sparkle:version>2.0.2</sparkle:version>
             <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
