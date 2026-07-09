@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0.6</title>
+            <sparkle:version>2.0.6</sparkle:version>
+            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 09 Jul 2026 15:34:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.0.6</h2>
+                <p>Remio Host now updates itself automatically in the background — no clicks or prompts needed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.6-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.0.6"
+                sparkle:shortVersionString="2.0.6"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="wRKJjrFXvFrfEn2kDzP26lcMpVYsLVQisjTslAhsEmlTtdazkYYIvq/0xwPOSdlAuepL2oKzqdXCxs8mt0rkBA=="
+                length="25236087"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.0.3</title>
             <sparkle:version>2.0.3</sparkle:version>
             <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
