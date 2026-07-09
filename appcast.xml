@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.6</title>
+            <sparkle:version>2607100604</sparkle:version>
+            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.6</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>No more black screen after your Mac wakes up</strong> — Fixed a problem where your Mac's screen could stay black after it woke from sleep or after Remio Host restarted — for example, overnight while streaming with the lid closed. Your display now reliably comes back on by itself.</li>
+                    <li><strong>No repeated password prompts for Keep Awake</strong> — If you dismiss the permission prompt for keeping your Mac awake with the lid closed, Remio no longer keeps asking again and again during a session.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 10 Jul 2026 06:13:48 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.6/Remio-Host-2.0.6-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="jASTxocbU+QTA5eQPJc0s08uO2Dt4WoKuDai3DhczECazU0A7IHAcT5gDHS4hQd0b/vpdgseGytdqisfgbXuCg=="
+                length="40667327"
+            />
+        </item>
+        <item>
             <title>Version 2.0.5</title>
             <sparkle:version>2607092041</sparkle:version>
             <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
