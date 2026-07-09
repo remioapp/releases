@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.4</title>
+            <sparkle:version>2607091234</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.4</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Ready to connect the moment it's installed</strong> — After you install Remio Host, your Mac is now set up to be reachable right away — including after a restart — without having to open the app once first. Before, a fresh install stayed dormant until you launched it manually.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 09 Jul 2026 12:44:31 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.4/Remio-Host-2.0.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="Ah+Rvai8ws9CZjPzP8bAcotSQ9kmRPQVmOL369zCWokFsQLhkCVhuuw034oAJbovXQW660B5f3sx77Ab2jdgDg=="
+                length="40663653"
+            />
+        </item>
+        <item>
             <title>Version 2.0.3</title>
             <sparkle:version>2607070828</sparkle:version>
             <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
@@ -26,6 +46,7 @@
                 sparkle:edSignature="haKTC0Ro1Rjc+nsVPf3/kM/hkszNCwoRwxub93Lp5o59LQ2hvRoBq0G46aXBsNaiBLQaLVu/MwVbfKa8I9yDDg=="
                 length="40662065"
             />
+        </item>
         <item>
             <title>Version 2.0.2</title>
             <sparkle:version>2607061444</sparkle:version>
