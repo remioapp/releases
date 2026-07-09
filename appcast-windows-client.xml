@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0.5</title>
+            <sparkle:version>2.0.5</sparkle:version>
+            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 09 Jul 2026 14:58:39 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.0.5</h2>
+                <p>Sign in with Google now works, the app has a refreshed and more fluid interface, and lots of small UI issues are fixed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.5-win/Remio-Client-2.0.5-win-x64-Setup.exe"
+                sparkle:version="2.0.5"
+                sparkle:shortVersionString="2.0.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="7yP//0F9B4vA8IUpCLaI5TbSRFo0kl78N6aqDpf2N++UW4QXit9dlhvoJEfNU7wJEVK79X5Vap1o+HTGi/50Aw=="
+                length="59138606"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.9.8</title>
             <sparkle:version>1.9.8</sparkle:version>
             <sparkle:shortVersionString>1.9.8</sparkle:shortVersionString>
