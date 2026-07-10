@@ -4,6 +4,30 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.0.7</title>
+            <sparkle:version>2607102251</sparkle:version>
+            <sparkle:shortVersionString>2.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.0.7</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Keep screen on</strong> — New option in Settings: keep your Mac's screen on during remote sessions, so the screen shows everything as it happens instead of going dark.</li>
+                    <li><strong>Switch Spaces with a three-finger swipe</strong> — When you connect from an iPhone, iPad, or Android device, swiping three fingers now moves between your Mac's full-screen apps and desktops (Spaces), and swiping up opens Mission Control — just like a Magic Trackpad.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Screen reliably comes back after you disconnect</strong> — Fixed the remaining cases where a Mac's screen could stay black after a remote session ended, sometimes requiring a forced restart. Remio Host now verifies your display is actually back on after every session — and after your Mac wakes up — and automatically turns it back on if anything went wrong.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 10 Jul 2026 23:02:02 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.7/Remio-Host-2.0.7-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="Cg0Ufzddgsvx8yvQpJZQwiwLh+6M+4KF1bL6ZMj72REs5GgYS56m+K8Q+U1rzdFykQfI9N7WsXBOqRRlxMcvCQ=="
+                length="40710254"
+            />
+        <item>
             <title>Version 2.0.6</title>
             <sparkle:version>2607100604</sparkle:version>
             <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
