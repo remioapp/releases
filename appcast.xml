@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.1.0</title>
+            <sparkle:version>2607122302</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.1.0</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                    <li><strong>Manage the devices paired to your Mac</strong> — A new Paired Devices panel lists every phone, tablet, and computer that can connect to this Mac, with the ones connected right now highlighted. Remove any device you don't recognize and it's disconnected on the spot — it has to pair again before it can get back in.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 12 Jul 2026 23:27:27 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.1.0/Remio-Host-2.1.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="/1yLp6ETDD9G9OV3Apuq3CPoe+y5zUS5kHgAqOkkLRsnHRZuE1/hiEj4OB83I+mkAdpZz/W2zMOEqItILENgBg=="
+                length="40828294"
+            />
+        </item>
+        <item>
             <title>Version 2.0.7</title>
             <sparkle:version>2607102251</sparkle:version>
             <sparkle:shortVersionString>2.0.7</sparkle:shortVersionString>
@@ -27,6 +47,7 @@
                 sparkle:edSignature="Cg0Ufzddgsvx8yvQpJZQwiwLh+6M+4KF1bL6ZMj72REs5GgYS56m+K8Q+U1rzdFykQfI9N7WsXBOqRRlxMcvCQ=="
                 length="40710254"
             />
+        </item>
         <item>
             <title>Version 2.0.6</title>
             <sparkle:version>2607100604</sparkle:version>
