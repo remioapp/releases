@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.1.0</title>
+            <sparkle:version>2.1.0</sparkle:version>
+            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 12 Jul 2026 16:14:38 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.1.0</h2>
+                <p>Rock-solid startup: the host now comes online reliably every time Windows restarts. Remote control keeps working on UAC prompts and admin apps. And connecting to an idle or static desktop no longer shows a black screen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.1.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.1.0"
+                sparkle:shortVersionString="2.1.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Ge1ga1CDWMOyWRzekR4k15y4A1xN0xwfQ9ipGulEupTGMqFBVqezTBpcawpf4hysvGedBgv68zuGBhljOAnjAw=="
+                length="26831974"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.0.6</title>
             <sparkle:version>2.0.6</sparkle:version>
             <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
