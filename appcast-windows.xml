@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.1.1</title>
+            <sparkle:version>2.1.1</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 13 Jul 2026 06:00:48 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.1.1</h2>
+                <p>Fixed a blank pairing screen — on some Windows PCs the Home screen came up empty, with no Device ID, PIN, or QR code, even though the computer was online and ready to connect. Your pairing details now show up reliably every time the app starts, so you can pair and connect without restarting.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.1.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.1.1"
+                sparkle:shortVersionString="2.1.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="6he50TZEKnCqvIiCZBhJpF+RwaKVKLXmajU8UAw7MGSP5VuuSvqo+2q7mCaD1z+nyEB8nzPtBplulz2Dn/lIBw=="
+                length="26839227"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.1.0</title>
             <sparkle:version>2.1.0</sparkle:version>
             <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
