@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0.7</title>
+            <sparkle:version>2.0.7</sparkle:version>
+            <sparkle:shortVersionString>2.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 14 Jul 2026 07:19:03 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.0.7</h2>
+                <p>Pairing now responds instantly with a clear message when the app needs an update or the computer no longer recognizes this device - no more waiting on a stuck pairing screen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.0.7-win/Remio-Client-2.0.7-win-x64-Setup.exe"
+                sparkle:version="2.0.7"
+                sparkle:shortVersionString="2.0.7"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="NCMHW3KcHI/TDNg8mz1uZWiqfcQremz0aVmfPUpsHqNejAECxwMRlO81AlClOXNQbw8qMxovESEC4aIhn60eAA=="
+                length="59156918"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.0.5</title>
             <sparkle:version>2.0.5</sparkle:version>
             <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
