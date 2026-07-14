@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.1.3</title>
+            <sparkle:version>2607142311</sparkle:version>
+            <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.1.3</h2>
+                <ul>
+                    <li><b>Much sharper streaming over the internet</b> — when you connect from outside your home or office network, video quality now climbs to the sharpest rate your connection can carry instead of staying stuck blurry.</li>
+                    <li><b>Smooth from the first scroll</b> — on home networks, scrolling right after the screen has been still no longer stutters while the stream catches up.</li>
+                    <li><b>No more "Video restored" interruptions</b> — brief screen-capture hiccups now recover silently in the background.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 14 Jul 2026 16:26:34 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.1.3/Remio-Host-2.1.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="/nFqyENFG0oDyTbdEI70s9joQAC2bYdemDvIOh/3EkjkZql0pXoXfJlNAfLollsM032cHEfPoXv/g4hBkLt6Cw=="
+                length="40825849"
+            />
+        </item>
+        <item>
             <title>Version 2.1.2</title>
             <sparkle:version>2607141341</sparkle:version>
             <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
