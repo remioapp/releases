@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.1.2</title>
+            <sparkle:version>2607141341</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.1.2</h2>
+                <ul>
+                    <li><b>A sleeping Mac no longer pretends to be awake</b> — a Mac asleep with the lid closed no longer flickers online in your devices list, so tapping it no longer fails with a confusing error.</li>
+                    <li><b>Back online faster after waking</b> — Remio Host reconnects right away when your Mac wakes from sleep, instead of waiting out a retry timer.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 14 Jul 2026 06:55:16 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.1.2/Remio-Host-2.1.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="6GP953CiYGJtlm4ZuLUwocQPcC5WlOiOdnjJgVtDFwsHoqp+Ni1O4tXioTrwvFAB9VTFOx1Ec8tFup17FjbDDQ=="
+                length="40819017"
+            />
+        </item>
+        <item>
             <title>Version 2.1.1</title>
             <sparkle:version>2607140823</sparkle:version>
             <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
