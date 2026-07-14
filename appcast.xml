@@ -4,6 +4,31 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.1.1</title>
+            <sparkle:version>2607140823</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.1.1</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                    <li><strong>Reconnects on its own after a network change</strong> — Plugging in an Ethernet cable (or a similar change while on the same Wi-Fi network) no longer silently drops the connection and leaves your Mac stuck on "Reconnecting." Remio Host now detects the dropped connection within seconds and reconnects on its own.</li>
+                </ul>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                    <li><strong>Smoother after your screen sits idle</strong> — After your Mac's screen has been still for a while, scrolling and sudden on-screen changes stay sharp and fluid instead of briefly stuttering or blurring.</li>
+                    <li><strong>Steadier connections</strong> — Resolved a rare crash around connection handling for more reliable long sessions.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 14 Jul 2026 09:19:24 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.1.1/Remio-Host-2.1.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="spka6yQYWuOOmD/hqCs8bQbdOqyrEWfvnhH0Vh2GhbTpY37qwJLsRkFIa+UM55I3TciTLYiUbjR2CwzUhZ6FCQ=="
+                length="40816986"
+            />
+        </item>
+        <item>
             <title>Version 2.1.0</title>
             <sparkle:version>2607122302</sparkle:version>
             <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
