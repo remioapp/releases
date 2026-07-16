@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.2.0</title>
+            <sparkle:version>2.2.0</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 16 Jul 2026 10:47:47 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.2.0</h2>
+                <p>Sharper streaming over the internet, steadier picture on congested connections, and fixes for unusual screen sizes</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.2.0"
+                sparkle:shortVersionString="2.2.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="bvZGf+oKNcM8zysL9NPsfBTaomUE8479m7BTG6ajflN/JD9seRvRWM8HKWthlNlwHOl5Y5UhtKgQVTrrMah7AA=="
+                length="26793828"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.1.4</title>
             <sparkle:version>2.1.4</sparkle:version>
             <sparkle:shortVersionString>2.1.4</sparkle:shortVersionString>
