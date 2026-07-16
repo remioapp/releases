@@ -4,6 +4,29 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.2.0</title>
+            <sparkle:version>2607160843</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.2.0</h2>
+                <ul>
+                    <li><b>Smooth streaming on 4K and larger displays</b> — connecting from a 4K screen no longer stutters while scrolling or moving windows. Remio now balances sharpness and smoothness automatically, keeping the stream at a fluid 60 fps.</li>
+                    <li><b>Steadier picture when the internet is congested</b> — on connections that buffer heavily, sudden full-screen changes no longer send the stream into a blur-freeze-recover spiral.</li>
+                    <li><b>Fixed the Mac becoming unreachable after a dropped connection</b> — the host could show "Ready" while silently refusing new connections until restarted. It now recovers by itself within seconds.</li>
+                    <li><b>iPhone and iPad sessions start sharp</b> — fixed a soft, low-frame-rate stream when connecting from a phone or tablet.</li>
+                    <li><b>More resilient with unusual screen sizes</b> — fixed a rare crash with odd-numbered screen resolutions.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 16 Jul 2026 04:13:18 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.0/Remio-Host-2.2.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="F971AIO3puJTwzXYU2G2aXN+jsdrFOwvjhS8bGQ43Tj9NgoYWIeJaYmNaISuYb9QEbkRTbDcRpMVkouvbob5Aw=="
+                length="40860007"
+            />
+        </item>
+        <item>
             <title>Version 2.1.3</title>
             <sparkle:version>2607142311</sparkle:version>
             <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
