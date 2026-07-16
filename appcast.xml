@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.2.1</title>
+            <sparkle:version>2607162132</sparkle:version>
+            <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.2.1</h2>
+                <ul>
+                    <li><b>Bounces back in seconds after a network hiccup</b> — when your connection briefly stumbles, the picture returns to full sharpness within a few seconds instead of staying soft for up to half a minute.</li>
+                    <li><b>Stays readable on weak connections</b> — on congested or lossy internet the picture holds together and stays readable, a little softer but never breaking apart into torn frames.</li>
+                    <li><b>Sharp the moment you scroll again</b> — over the internet, scrolling right after the screen has been still is sharp immediately.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 16 Jul 2026 14:48:31 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.1/Remio-Host-2.2.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="0QmABV6ffHtNIzOosefPofRnPcmumT4v96MexhHTwbkAckS+3Y4w1QDG81c7e3g5xDNdJpdCSA0FFZbhw0qqDA=="
+                length="40861024"
+            />
+        </item>
+        <item>
             <title>Version 2.2.0</title>
             <sparkle:version>2607160843</sparkle:version>
             <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
