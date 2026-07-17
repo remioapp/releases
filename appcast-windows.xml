@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.2.2</title>
+            <sparkle:version>2.2.2</sparkle:version>
+            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 17 Jul 2026 08:12:15 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.2.2</h2>
+                <p>Fixes a black screen that could last an entire session after reconnecting, keeps full graphics-card video quality instead of silently dropping to software, and brings streaming to older Windows 10 and remote-desktop PCs that could never stream before</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.2.2"
+                sparkle:shortVersionString="2.2.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="V85MWhuSzBWaDGNbIqopWYfi0kQq43zK9woErw6v7l+ihnoDgFLi091mlfleA1CkUf9E5jVeOeSxUvg3Eo/HAA=="
+                length="26859280"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.2.1</title>
             <sparkle:version>2.2.1</sparkle:version>
             <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
