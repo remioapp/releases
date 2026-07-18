@@ -4,6 +4,25 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.2.3</title>
+            <sparkle:version>2607181642</sparkle:version>
+            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.2.3</h2>
+                <ul>
+                    <li><b>Fixed a rare crash on long-running hosts</b> — on always-on Macs, the host could quit unexpectedly after roughly 12 hours of cumulative audio streaming. Long-running hosts now stay up indefinitely.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 18 Jul 2026 09:53:08 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.3/Remio-Host-2.2.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="6P3eGIxLXBQ2HaQPDuNAwrjxi1h6/VmWNKFMTXUBS5DC+fLR73erbHxHZJZe0EGBHTl/uazOpdRt7ythc2ieCw=="
+                length="40874655"
+            />
+        </item>
+        <item>
             <title>Version 2.2.2</title>
             <sparkle:version>2607181456</sparkle:version>
             <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
