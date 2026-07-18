@@ -4,6 +4,25 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.2.4</title>
+            <sparkle:version>2607182256</sparkle:version>
+            <sparkle:shortVersionString>2.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.2.4</h2>
+                <ul>
+                    <li><b>Fixed the frozen cursor on macOS Sequoia</b> — on Macs running macOS 15, the cursor you see could stop moving while the invisible "real" pointer kept working — clicks landed, typing worked, but the session was unusable. The cursor now tracks your finger normally on every supported macOS version.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 18 Jul 2026 16:08:05 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.4/Remio-Host-2.2.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="crCY6eEFZuqRBZ5OuIzYAqdKwiJ6OHY+/Fqli9LcJRSHPsIsgIR++zisoRJnlQOIwRBPGgyqGSqIIYSqxbGfCQ=="
+                length="40917949"
+            />
+        </item>
+        <item>
             <title>Version 2.2.3</title>
             <sparkle:version>2607181642</sparkle:version>
             <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
