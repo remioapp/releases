@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.2.2</title>
+            <sparkle:version>2607181456</sparkle:version>
+            <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.2.2</h2>
+                <ul>
+                    <li><b>No more "can see but can't control" sessions</b> — some macOS updates silently switch off Remio's permission to control your Mac, even though System Settings still shows it as allowed. Remio Host now catches this the moment it happens, shows exactly how to turn it back on, and your phone or tablet tells you what's going on instead of leaving you with a frozen cursor.</li>
+                    <li><b>Updates no longer ask for your Mac password</b> — in-app updates now install silently on every Mac, including those that installed Remio Host with the installer package.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 18 Jul 2026 08:05:38 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.2/Remio-Host-2.2.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="9NGiYI8SJvh9vX/lZ/85UNdA9HCR9aK182GirTZfoEWfyo5qQWY2rQqhHKuKlKex2t0xnF5jaFWB8GWIoYUsDA=="
+                length="40875182"
+            />
+        </item>
+        <item>
             <title>Version 2.2.1</title>
             <sparkle:version>2607162132</sparkle:version>
             <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
