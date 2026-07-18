@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Remio Host for Linux</title>
+        <link>https://remio.net</link>
+        <description>Most recent updates for Remio Host on Linux</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.0</title>
+            <sparkle:version>1.0.0</sparkle:version>
+            <pubDate>Sat, 18 Jul 2026 06:51:29 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 1.0.0</h2>
+                <p>First production release of Remio Host for Linux — stream your Linux desktop to iPhone, iPad, Android, Mac, or Windows at up to 4K 60 fps with instant QR pairing, full mouse, keyboard and gamepad control, clipboard sync, file transfer, and dynamic resolution that follows your device's screen. Ships as a portable AppImage for virtually any modern distro, plus a .deb for Ubuntu 24.04 and newer.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.0.0-linux/Remio-Host-1.0.0-linux-x86_64.AppImage"
+                sparkle:version="1.0.0"
+                sparkle:os="linux"
+                length="68274680"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
