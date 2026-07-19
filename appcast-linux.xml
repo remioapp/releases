@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.2</title>
+            <sparkle:version>1.1.2</sparkle:version>
+            <pubDate>Sun, 19 Jul 2026 13:42:51 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 1.1.2</h2>
+                <p>Fixed Wayland screen sharing failing right after granting permission - the app now uses your system screen-sharing stack, so clicking Share once just works</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.1.2-linux/Remio-Host-1.1.2-linux-x86_64.AppImage"
+                sparkle:version="1.1.2"
+                sparkle:os="linux"
+                length="68557304"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.1.1</title>
             <sparkle:version>1.1.1</sparkle:version>
             <pubDate>Sun, 19 Jul 2026 05:24:47 +0000</pubDate>
