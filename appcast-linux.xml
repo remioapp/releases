@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.1</title>
+            <sparkle:version>1.1.1</sparkle:version>
+            <pubDate>Sun, 19 Jul 2026 05:24:47 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 1.1.1</h2>
+                <p>Screen sharing on Wayland is now a clear one-time setup step with a Grant button - no more surprise system prompts, and the host only shows Ready to stream when sharing is actually set up. Terminal installs can grant with remio-host --grant-screen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.1.1-linux/Remio-Host-1.1.1-linux-x86_64.AppImage"
+                sparkle:version="1.1.1"
+                sparkle:os="linux"
+                length="68557304"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.1.0</title>
             <sparkle:version>1.1.0</sparkle:version>
             <pubDate>Sun, 19 Jul 2026 03:48:19 +0000</pubDate>
