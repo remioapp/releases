@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.0</title>
+            <sparkle:version>1.1.0</sparkle:version>
+            <pubDate>Sun, 19 Jul 2026 03:48:19 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 1.1.0</h2>
+                <p>Wayland support: Remio Host now shares your screen on Wayland sessions - the default on modern Ubuntu and Fedora - using the system screen-sharing service. Approve the share prompt once and Remio remembers it. Xorg keeps working exactly as before.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v1.1.0-linux/Remio-Host-1.1.0-linux-x86_64.AppImage"
+                sparkle:version="1.1.0"
+                sparkle:os="linux"
+                length="68557304"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.0.1</title>
             <sparkle:version>1.0.1</sparkle:version>
             <pubDate>Sat, 18 Jul 2026 16:01:16 +0000</pubDate>
