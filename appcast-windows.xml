@@ -16,7 +16,14 @@
             <pubDate>Mon, 20 Jul 2026 15:10:50 +0000</pubDate>
             <description><![CDATA[
                 <h2>Remio Host 2.2.5</h2>
-                <p>Control apps running as administrator, full hardware-quality streaming on cloud and rented PCs, automatic recovery from slideshow-mode video, and a fix for the most common 2.2.4 crash.</p>
+                <h2>What's New in 2.2.5</h2>
+                <ul>
+                    <li><b>Control works over administrator windows</b> — installers, Task Manager, and UAC-elevated apps now receive your clicks and keystrokes instead of silently ignoring them.</li>
+                    <li><b>True-color 4:4:4 streaming on NVIDIA PCs (experimental)</b> — pixel-exact color for fine text on colored backgrounds; enable "4:4:4 color" in the Mac client's settings.</li>
+                    <li><b>Full quality on cloud and rented PCs</b> — machines that refuse Remio's adaptive display no longer sink into a choppy half-rate mode; hardware video stays on at native resolution.</li>
+                    <li><b>Fixed the most common crash</b> — a startup timing problem in the video engine could knock the Host offline until relaunched.</li>
+                    <li><b>Recovers from slideshow-mode video</b> — a stream crawling at ~1 fps is now rescued automatically, and broken-driver PCs stream with software video instead of showing "Offline".</li>
+                </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/remioapp/releases/releases/download/v2.2.5-win/Remio-Host-Windows-x64-Setup.exe"
