@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.2.5</title>
+            <sparkle:version>2607210004</sparkle:version>
+            <sparkle:shortVersionString>2.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 2.2.5</h2>
+                <ul>
+                    <li><b>Fixed the host quitting the instant a device connects on some networks</b> — on certain internet connections, Remio Host could silently close every time a device tried to connect — the connection never completed, with no error and no crash report. The host now rides out these network resets and connects normally.</li>
+                    <li><b>"Update Required" no longer gets stuck</b> — once Remio Host had asked you to update, it could stay locked on that screen even after the requirement was lifted. It now returns to normal on its own as soon as the version is accepted again.</li>
+                    <li><b>The "Grant Access" button always takes you somewhere</b> — clicking Grant Access a second time appeared to do nothing (macOS only shows its prompt once). It now opens the exact System Settings page you need, and the permission row no longer flashes "Denied" before you've answered.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 20 Jul 2026 17:12:18 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.5/Remio-Host-2.2.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="iyJ5+4jTwDb5yhrfDqv/LRo4HJ7HVPgNoz7rgz62qfE3rM0F8a5P/xo+mHW03TyoocS06m/JxO+z5nAhfXvKBQ=="
+                length="33084010"
+            />
+        </item>
+        <item>
             <title>Version 2.2.4</title>
             <sparkle:version>2607182256</sparkle:version>
             <sparkle:shortVersionString>2.2.4</sparkle:shortVersionString>
