@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.2.5</title>
+            <sparkle:version>2.2.5</sparkle:version>
+            <sparkle:shortVersionString>2.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 20 Jul 2026 15:10:50 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.2.5</h2>
+                <p>Control apps running as administrator, full hardware-quality streaming on cloud and rented PCs, automatic recovery from slideshow-mode video, and a fix for the most common 2.2.4 crash.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.2.5-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.2.5"
+                sparkle:shortVersionString="2.2.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="IlEIbXHipBIm/GIlCTHmMK1lZLVt4Wdz8UG3+qn55SFxcZf6FRHRQabcDBwO+bAHD/Vl9a0p6k06dk6SZA21AQ=="
+                length="26880348"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.2.4</title>
             <sparkle:version>2.2.4</sparkle:version>
             <sparkle:shortVersionString>2.2.4</sparkle:shortVersionString>
