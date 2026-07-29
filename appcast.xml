@@ -4,6 +4,41 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.3.0</title>
+            <sparkle:version>2607292251</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>What's New in 2.3.0</h2>
+<h3>New Features</h3>
+<ul>
+<li><b>Connect after a restart, before anyone signs in</b> — Your paired devices can now reach this Mac right at the sign-in screen: see the screen, type your password from your phone or iPad, and land on your desktop. The session picks itself back up once the Mac finishes starting up.</li>
+<li><b>Remio in your language</b> — Now available in French, German, Japanese, Simplified Chinese, Hindi, and Brazilian Portuguese, joining English and Vietnamese.</li>
+<li><b>Lock this Mac when the session ends</b> — Locks your Mac automatically once a remote device disconnects. Off by default.</li>
+<li><b>Reachable through a connection port you forward</b> — Forward one port on your router and a connecting device can come in through exactly that port: a direct connection instead of a relay, noticeably quicker and sharper from outside your home.</li>
+<li><b>Up to four game controllers, with rumble</b> — Each controller gets its own player slot, and vibration is sent back to the player's hands.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>A locked Mac now stays properly locked</b> — Clipboard no longer syncs, files can't be sent, and apps can't be launched until you actually sign in.</li>
+<li><b>A lighter download</b> — The installer dropped from 42 MB to 32 MB.</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><b>Fixed a rare crash right as a device disconnects</b> — Session teardown is now fully ordered and the crash window is closed.</li>
+<li><b>The lock hint now always appears</b> — Whether the Mac locked before or during the session.</li>
+<li><b>"Unlock this Mac remotely" no longer fails silently</b> — It now tells you remote unlocking is turned off instead of dropping keystrokes.</li>
+</ul>
+            ]]></description>
+            <pubDate>Wed, 29 Jul 2026 16:07:55 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.3.0/Remio-Host-2.3.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="yGlLkrEGK0mO2PSmzlIOHXosQTsYHBWdbxvFWwcdIQLZeTMH669EILfs9Q+KyNzEY/SrqsFcjCuw7NPFnCdaAg=="
+                length="34342994"
+            />
+        </item>
+        <item>
             <title>Version 2.2.5</title>
             <sparkle:version>2607210004</sparkle:version>
             <sparkle:shortVersionString>2.2.5</sparkle:shortVersionString>
