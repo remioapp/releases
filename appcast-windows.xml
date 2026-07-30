@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.3.2</title>
+            <sparkle:version>2.3.2</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 30 Jul 2026 15:06:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.3.2</h2>
+                <p>Reach your PC at the sign-in screen right after a restart, Remio in 8 languages, controllers appear to games as real Xbox controllers, direct connections through a port you forward, and a clearer Settings panel with new lock-screen controls.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.3.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.3.2"
+                sparkle:shortVersionString="2.3.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="XrGSB1fhjoB6Nm9D94Jj0o2RXFvczsf7NI0n0VWgLZMfR+XrAlNOPVZO6VZ4obBJMWqSZbbDG+FeAK1TxB1uCA=="
+                length="27281835"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.2.5</title>
             <sparkle:version>2.2.5</sparkle:version>
             <sparkle:shortVersionString>2.2.5</sparkle:shortVersionString>
