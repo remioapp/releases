@@ -4,6 +4,30 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.3.2</title>
+            <sparkle:version>2607301937</sparkle:version>
+            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>What's New in 2.3.2</h2>
+<h3>Improvements</h3>
+<ul>
+<li><b>A clearer, tidier Settings panel</b> &mdash; Settings are now organized into General, Security, and Screen &amp; Power sections, and every switch carries a short note explaining exactly what it does &mdash; including "Keep screen on", which now says up front that the stream keeps this Mac's resolution instead of resizing to fit the connected device.</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li><b>Fixed the Settings panel overflowing the window</b> &mdash; The panel could grow past the window edge and overlap the screen behind it, with no way to scroll. It now scrolls smoothly and always fits the window.</li>
+</ul>
+            ]]></description>
+            <pubDate>Thu, 30 Jul 2026 12:45:05 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.3.2/Remio-Host-2.3.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="wqiS9/pe50EIn5vKbd6+UQFSDPaqQcbnElYUf8NlGkrtyohp7JFrFXZlnnfIWa9NEMhXdd4By+LBN+4m9pdqAg=="
+                length="34367391"
+            />
+        </item>
+        <item>
             <title>Version 2.3.1</title>
             <sparkle:version>2607301530</sparkle:version>
             <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
