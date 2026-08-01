@@ -4,6 +4,30 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 2.4.0</title>
+            <sparkle:version>2608011520</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>What's New in 2.4.0</h2>
+<h3>New Features</h3>
+<ul>
+<li><b>Sign in with email &amp; password</b> &mdash; You can now create a Remio account with just an email address and password, right from the host &mdash; no Google or Apple account needed. Already signed in as a guest? Add an email and password to your existing setup and every pairing carries over.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Critical updates install themselves</b> &mdash; When this host's version becomes too old for devices to connect safely, it now updates itself right away instead of sitting unreachable on an outdated version.</li>
+</ul>
+            ]]></description>
+            <pubDate>Sat, 01 Aug 2026 08:33:09 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.4.0/Remio-Host-2.4.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="RAc577etxEC5kxOpxpzDaiWZDYPjBXU23/QMjihrYeYKnL0tZD9OHa3YE4CcTHUFXIZ3/qFiQui1FMBpcBn7BA=="
+                length="34553084"
+            />
+        </item>
+        <item>
             <title>Version 2.3.2</title>
             <sparkle:version>2607301937</sparkle:version>
             <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
