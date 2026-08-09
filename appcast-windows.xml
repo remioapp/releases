@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.5.0</title>
+            <sparkle:version>2.5.0</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 09 Aug 2026 13:54:17 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.5.0</h2>
+                <p>A PC you also reach over Remote Desktop no longer gets stuck reporting itself at the sign-in screen — with clipboard, file transfer and app launching switched off for the whole session. Holding a modifier while you type keeps holding. Reveal-in-folder opens the folder. A brief network blip refreshes the picture instead of rebuilding the session, keys no longer stay stuck when another device takes over, file transfers are hardened, and a new setting makes a Mac-layout Command key act as the real Windows key.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.5.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.5.0"
+                sparkle:shortVersionString="2.5.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="5SuFKMrDTdTywh4wygTQIHVOB6Zg1h1qWwlgeOyKliG7XsvNiYyiiibJ77L49aM+A+359knsZ7p8wdu5aDVFBA=="
+                length="27327282"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.4.0</title>
             <sparkle:version>2.4.0</sparkle:version>
             <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
