@@ -4,71 +4,32 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.4.0</title>
-            <sparkle:version>2608011520</sparkle:version>
-            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <title>Version 2.5.0</title>
+            <sparkle:version>2608091932</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-<h2>What's New in 2.4.0</h2>
-<h3>New Features</h3>
-<ul>
-<li><b>Sign in with email &amp; password</b> &mdash; You can now create a Remio account with just an email address and password, right from the host &mdash; no Google or Apple account needed. Already signed in as a guest? Add an email and password to your existing setup and every pairing carries over.</li>
-</ul>
-<h3>Improvements</h3>
-<ul>
-<li><b>Critical updates install themselves</b> &mdash; When this host's version becomes too old for devices to connect safely, it now updates itself right away instead of sitting unreachable on an outdated version.</li>
-</ul>
+                <h2>What's New in 2.5.0</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>The frame rate you pick is the frame rate you get</strong> — Choosing 120 frames per second on your device now really delivers 120, from the very first frame. Until now that setting reached this Mac too late to act on, and every session quietly ran at 60.</li>
+                <li><strong>A brief network hiccup no longer interrupts the picture</strong> — A momentary Wi-Fi blip used to blank the screen and rebuild the whole session, sometimes several times in half a minute. The picture now simply refreshes and carries on.</li>
+                <li><strong>Lighter on your Mac when you&#x27;re not watching it</strong> — While the Remio Host window is minimized, hidden, or covered by another window, its animations now stop completely instead of running at full speed out of sight. A host left open all day is noticeably easier on the battery.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li><strong>Fixed stray full stops appearing as you type</strong> — Holding a key down — the space bar especially — could make macOS mistake it for repeated taps and insert a full stop you never typed.</li>
+                <li><strong>Fixed keys staying stuck down after another device takes over</strong> — When a second device took over a session, any key the first one was holding could stay pressed on your Mac afterwards, typing on its own long after that device was gone.</li>
+                <li><strong>Fixed the cursor and interface looking twice their size</strong> — Connecting from a small window, or from a smaller-screened device, could render everything inside the stream at double size, so the cursor no longer matched where you were pointing.</li>
+                <li><strong>Fixed &quot;reveal in Finder&quot; opening where you can&#x27;t see it</strong> — After a file arrived from your device, the Finder window showing where it landed could open on one of this Mac&#x27;s own darkened screens, so the file looked like it had never arrived. It now opens on the screen you&#x27;re actually viewing.</li>
+                </ul>
             ]]></description>
-            <pubDate>Sat, 01 Aug 2026 08:33:09 GMT</pubDate>
+            <pubDate>Sun, 09 Aug 2026 12:43:48 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.4.0/Remio-Host-2.4.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v2.5.0/Remio-Host-2.5.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="RAc577etxEC5kxOpxpzDaiWZDYPjBXU23/QMjihrYeYKnL0tZD9OHa3YE4CcTHUFXIZ3/qFiQui1FMBpcBn7BA=="
-                length="34553084"
-            />
-        </item>
-        <item>
-            <title>Version 2.3.2</title>
-            <sparkle:version>2607301937</sparkle:version>
-            <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-<h2>What's New in 2.3.2</h2>
-<h3>Improvements</h3>
-<ul>
-<li><b>A clearer, tidier Settings panel</b> &mdash; Settings are now organized into General, Security, and Screen &amp; Power sections, and every switch carries a short note explaining exactly what it does &mdash; including "Keep screen on", which now says up front that the stream keeps this Mac's resolution instead of resizing to fit the connected device.</li>
-</ul>
-<h3>Bug Fixes</h3>
-<ul>
-<li><b>Fixed the Settings panel overflowing the window</b> &mdash; The panel could grow past the window edge and overlap the screen behind it, with no way to scroll. It now scrolls smoothly and always fits the window.</li>
-</ul>
-            ]]></description>
-            <pubDate>Thu, 30 Jul 2026 12:45:05 +0000</pubDate>
-            <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.3.2/Remio-Host-2.3.2-mac.zip"
-                type="application/octet-stream"
-                sparkle:edSignature="wqiS9/pe50EIn5vKbd6+UQFSDPaqQcbnElYUf8NlGkrtyohp7JFrFXZlnnfIWa9NEMhXdd4By+LBN+4m9pdqAg=="
-                length="34367391"
-            />
-        </item>
-        <item>
-            <title>Version 2.3.1</title>
-            <sparkle:version>2607301530</sparkle:version>
-            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-<h2>What's New in 2.3.1</h2>
-<h3>Bug Fixes</h3>
-<ul>
-<li><b>Fixed your password being rejected when unlocking this Mac remotely</b> &mdash; If this Mac's screen had gone to sleep, a connected device could see the lock screen and type into it, but every password was refused as incorrect &mdash; even the right one. Typing on a keyboard plugged into the Mac was the only way in. Connecting now wakes the screen first, so your password is accepted the first time. This also covers the sign-in screen after a restart, and locking this Mac from your device is now safely reversible from that same device.</li>
-</ul>
-            ]]></description>
-            <pubDate>Thu, 30 Jul 2026 08:36:07 +0000</pubDate>
-            <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.3.1/Remio-Host-2.3.1-mac.zip"
-                type="application/octet-stream"
-                sparkle:edSignature="OAFmVCmG6lGzQkZQxNYjXSTYKz3rFQjOi+BlQi/kSojrVz9/2xQajhXLiXYW7WaXpffMIca2haKqa5wJ+IkLBw=="
-                length="34346648"
+                sparkle:edSignature="GJgziLLb4KKaIQhrY5nsu2KWzpdkVsHjUvEdgOJdvc9/qMnAOm7apMo/RIqdAygXWE3Qotd5bQ6fxhY8DmiJBg=="
+                length="35037279"
             />
         </item>
     </channel>
