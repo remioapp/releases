@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.5.0</title>
+            <sparkle:version>2.5.0</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 09 Aug 2026 14:07:43 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.5.0</h2>
+                <p>See every paired computer as a grid of large live previews instead of the spinning ring — Remio remembers the layout you prefer. Streaming quality gets a full Advanced settings page from the gear on Home: maximum bitrate, maximum frame rate, direct-connection port, auto-reconnect and clipboard sync in one place.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.5.0-win/Remio-Client-2.5.0-win-x64-Setup.exe"
+                sparkle:version="2.5.0"
+                sparkle:shortVersionString="2.5.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="zbWo+3TsGGZWTHU3O0ABHPP3Cm9ttvBqJ/qUlhHP2PWAipHj3zQFaS8W/BihEYj0GZ/CmaN1Qk0vFjK6z8I4Bw=="
+                length="61275312"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.4.0</title>
             <sparkle:version>2.4.0</sparkle:version>
             <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
