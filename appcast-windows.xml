@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.1</title>
+            <sparkle:version>2.6.1</sparkle:version>
+            <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Aug 2026 06:24:53 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.6.1</h2>
+                <p>Puts your desktop back exactly as you left it after a Keep-screen-on session, and keeps the tray icon reliable.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.6.1"
+                sparkle:shortVersionString="2.6.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="iFvRMTlB9/GYCRLRps5M8LviLMj2H4REBzI5MtK12H3bnfhKcxwzGTvt96dust8RlzFrg2n26N+x8PcbS5sdAw=="
+                length="27360941"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.0</title>
             <sparkle:version>2.6.0</sparkle:version>
             <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
