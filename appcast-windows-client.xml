@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.1</title>
+            <sparkle:version>2.6.1</sparkle:version>
+            <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 15 Aug 2026 06:31:54 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.6.1</h2>
+                <p>Fixes the pairing screen freezing after you finish typing a device code.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.1-win/Remio-Client-2.6.1-win-x64-Setup.exe"
+                sparkle:version="2.6.1"
+                sparkle:shortVersionString="2.6.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="RLQhcyyp2i0sXirqtw7Nt0S5WU3qZrlefRK8QblHkPPFSlAHZvfNwWMmYZi6HVumjiO3dbzyaPISJfiINHICDg=="
+                length="61295555"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.5.0</title>
             <sparkle:version>2.5.0</sparkle:version>
             <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
