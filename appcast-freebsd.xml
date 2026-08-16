@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.1</title>
+            <sparkle:version>2.6.1</sparkle:version>
+            <pubDate>Mon, 17 Aug 2026 01:59:33 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 2.6.1</h2>
+                <p>Fixes a crash that could close Remio Host just seconds after launch — or any time its server connection dropped. The host now stays running and reconnects on its own.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.1-freebsd/Remio-Host-2.6.1-FreeBSD-amd64.pkg"
+                sparkle:version="2.6.1"
+                sparkle:os="freebsd"
+                length="8324562"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.0</title>
             <sparkle:version>2.6.0</sparkle:version>
             <pubDate>Sun, 16 Aug 2026 16:32:11 +0700</pubDate>
