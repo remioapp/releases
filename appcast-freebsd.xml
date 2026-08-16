@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Remio Host for FreeBSD</title>
+        <link>https://remio.net</link>
+        <description>Most recent updates for Remio Host on FreeBSD</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 2.6.0</title>
+            <sparkle:version>2.6.0</sparkle:version>
+            <pubDate>Sun, 16 Aug 2026 16:32:11 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 2.6.0</h2>
+                <p>First release of Remio Host for FreeBSD — stream your FreeBSD desktop to any Remio app.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.0-freebsd/Remio-Host-2.6.0-FreeBSD-amd64.pkg"
+                sparkle:version="2.6.0"
+                sparkle:os="freebsd"
+                length="8312084"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
