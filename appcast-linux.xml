@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.1</title>
+            <sparkle:version>2.6.1</sparkle:version>
+            <pubDate>Sun, 16 Aug 2026 18:26:19 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 2.6.1</h2>
+                <p>Fixes a crash that could close Remio Host just seconds after launch — or any time its server connection dropped. The host now stays running and reconnects on its own. Also includes a fix for a crash when the screen resolution changed as a device connected.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.1-linux/Remio-Host-2.6.1-linux-x86_64.AppImage"
+                sparkle:version="2.6.1"
+                sparkle:os="linux"
+                length="69536248"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.5.0</title>
             <sparkle:version>2.5.0</sparkle:version>
             <pubDate>Sun, 09 Aug 2026 15:37:49 +0000</pubDate>
