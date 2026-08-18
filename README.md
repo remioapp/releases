@@ -20,7 +20,7 @@
 
 ## ✨ What is Remio?
 
-Remio is a **native remote desktop** application that lets you access and control your computer from anywhere. Unlike Electron-based alternatives, every Remio app is built from scratch using each platform's native toolkit — delivering **butter-smooth 4K streaming at 60FPS** with minimal latency.
+Remio is a **native remote desktop** application that lets you access and control your computer from anywhere. Unlike Electron-based alternatives, every Remio app is built from scratch using each platform's native toolkit — delivering **butter-smooth streaming at up to 120FPS** — 4K at 60FPS — with minimal latency.
 
 **Hosts — the computer you control:**
 
@@ -79,7 +79,7 @@ That's it. Full desktop streaming in under a minute. No account required.
 ## ⚡ Key Features
 
 - **100% Native** — SwiftUI on Apple, Jetpack Compose on Android, C++/WinRT on Windows, C++20 on Linux & FreeBSD. Zero Electron.
-- **4K @ 60FPS** — Hardware-accelerated next-gen video compression
+- **Up to 120FPS** — Silky-smooth 120FPS streaming (4K runs at 60FPS), hardware-accelerated next-gen video compression
 - **Ultra-Low Latency** — Sub-16ms on local network
 - **End-to-End Encrypted** — Peer-to-peer WebRTC with DTLS-SRTP
 - **Multi-Touch** — Natural gesture support with Apple Trackpad physics
