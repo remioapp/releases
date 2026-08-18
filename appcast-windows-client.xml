@@ -9,6 +9,40 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.2</title>
+            <sparkle:version>2.6.2</sparkle:version>
+            <sparkle:shortVersionString>2.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 18 Aug 2026 07:40:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.6.2</h2>
+                <h3>Fixed</h3>
+                <ul>
+                    <li>Crash when returning to a window whose session had ended.</li>
+                    <li>Session could become input-dead when the relay notice appeared.</li>
+                    <li>Closed streaming window kept running invisibly and burning CPU.</li>
+                    <li>Per-session graphics memory leak.</li>
+                    <li>Copying very large clipboard content killed clipboard sync for the session.</li>
+                    <li>Device list pegging a CPU core.</li>
+                </ul>
+                <h3>Internal</h3>
+                <ul>
+                    <li>Windows App SDK 1.6 &rarr; 1.7, reproducible packaging, pairing telemetry.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.2-win-client/Remio-Client-2.6.2-win-x64-Setup.exe"
+                sparkle:version="2.6.2"
+                sparkle:shortVersionString="2.6.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="larssSWio45FOda+DVhr6g6TyPaxNFNNhCkt4LQFxHRqcAZcbrgt9deYBXOgKAyz1Qf2O7sZ804vcdNcflYeCg=="
+                length="62618436"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.1</title>
             <sparkle:version>2.6.1</sparkle:version>
             <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
