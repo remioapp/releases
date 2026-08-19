@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.3</title>
+            <sparkle:version>2.6.3</sparkle:version>
+            <sparkle:shortVersionString>2.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 19 Aug 2026 15:45:05 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.6.3</h2>
+                <p>Remio no longer gets stuck when the connection goes quiet, and closing the app is instant again.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.3-win/Remio-Client-2.6.3-win-x64-Setup.exe"
+                sparkle:version="2.6.3"
+                sparkle:shortVersionString="2.6.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="irKmAe/66KaeTjlzt3arClHYMlIQw/3Up1Ye0/AoVh3xlxm/UCWl1gpdFVlqojj7HVmW00vxbXvUdT3K8q8kDQ=="
+                length="62755190"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.2</title>
             <sparkle:version>2.6.2</sparkle:version>
             <sparkle:shortVersionString>2.6.2</sparkle:shortVersionString>
