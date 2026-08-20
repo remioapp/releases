@@ -4,32 +4,30 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.5.0</title>
-            <sparkle:version>2608091932</sparkle:version>
-            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <title>Version 2.6.3</title>
+            <sparkle:version>2608202053</sparkle:version>
+            <sparkle:shortVersionString>2.6.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 2.5.0</h2>
+                <h2>What&#x27;s New in 2.6.3</h2>
                 <h3>⚙️ Improvements</h3>
                 <ul>
-                <li><strong>The frame rate you pick is the frame rate you get</strong> — Choosing 120 frames per second on your device now really delivers 120, from the very first frame. Until now that setting reached this Mac too late to act on, and every session quietly ran at 60.</li>
-                <li><strong>A brief network hiccup no longer interrupts the picture</strong> — A momentary Wi-Fi blip used to blank the screen and rebuild the whole session, sometimes several times in half a minute. The picture now simply refreshes and carries on.</li>
-                <li><strong>Lighter on your Mac when you&#x27;re not watching it</strong> — While the Remio Host window is minimized, hidden, or covered by another window, its animations now stop completely instead of running at full speed out of sight. A host left open all day is noticeably easier on the battery.</li>
+                <li><strong>A sharper picture when your device connects through a forwarded port</strong> — When a device reaches this Mac through a port you&#x27;ve forwarded on your router, the Host now watches how the connection is actually holding up and steps the quality up as it proves itself, instead of staying cautious for the whole session. On a real connection from outside the office, quality climbed from 3.7 to 9.8 Mbps within two minutes.</li>
                 </ul>
                 <h3>🐛 Bug Fixes</h3>
                 <ul>
-                <li><strong>Fixed stray full stops appearing as you type</strong> — Holding a key down — the space bar especially — could make macOS mistake it for repeated taps and insert a full stop you never typed.</li>
-                <li><strong>Fixed keys staying stuck down after another device takes over</strong> — When a second device took over a session, any key the first one was holding could stay pressed on your Mac afterwards, typing on its own long after that device was gone.</li>
-                <li><strong>Fixed the cursor and interface looking twice their size</strong> — Connecting from a small window, or from a smaller-screened device, could render everything inside the stream at double size, so the cursor no longer matched where you were pointing.</li>
-                <li><strong>Fixed &quot;reveal in Finder&quot; opening where you can&#x27;t see it</strong> — After a file arrived from your device, the Finder window showing where it landed could open on one of this Mac&#x27;s own darkened screens, so the file looked like it had never arrived. It now opens on the screen you&#x27;re actually viewing.</li>
+                <li><strong>Fixed the Host quitting in the middle of a session with computer audio on</strong> — Ending or switching a session while sound was streaming could shut the Host down without warning, taking the session with it.</li>
+                <li><strong>Fixed &quot;Show host cursor&quot; doing nothing when you switched it on</strong> — Turning the setting on in the first moment of a session was quietly dropped and stayed off until you reconnected. The setting also reverted on its own if the session recovered from an interruption mid-stream.</li>
+                <li><strong>Fixed a &quot;couldn&#x27;t apply capture settings&quot; warning at the start of every session</strong> — The Host reported a failure to the connecting device on every single connection, even though nothing was wrong.</li>
+                <li><strong>Fixed the Host claiming more connected devices than there are</strong> — Reconnecting from the same device, or handing a session over to a second one, left a phantom entry behind, so the Host said &quot;Streaming to 2 devices&quot; with only one attached.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 09 Aug 2026 12:43:48 +0000</pubDate>
+            <pubDate>Thu, 20 Aug 2026 14:09:24 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.5.0/Remio-Host-2.5.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v2.6.3/Remio-Host-2.6.3-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="GJgziLLb4KKaIQhrY5nsu2KWzpdkVsHjUvEdgOJdvc9/qMnAOm7apMo/RIqdAygXWE3Qotd5bQ6fxhY8DmiJBg=="
-                length="35037279"
+                sparkle:edSignature="eIf4bECqChjWIyTAEqj02E4wan7tLYmME+K1n+OTcAtHj19wYBC9I+OTJ77xhJOwIYFTv40v0b/EpL5i3Is8CQ=="
+                length="34541463"
             />
         </item>
     </channel>
