@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Remote desktop for everyone.</strong><br>
-  Host on macOS, Windows, Linux, Raspberry Pi & FreeBSD — control from iPhone, iPad, Mac, Android, Windows & Apple TV.
+  Host on macOS, Windows, Linux, Android, Raspberry Pi & FreeBSD — control from iPhone, iPad, Mac, Android, Windows & Apple TV.
 </p>
 
 <p align="center">
@@ -20,13 +20,14 @@
 
 ## ✨ What is Remio?
 
-Remio is a **native remote desktop** application that lets you access and control your computer from anywhere. Unlike Electron-based alternatives, every Remio app is built from scratch using each platform's native toolkit — delivering **butter-smooth streaming at up to 120FPS** — 4K at 60FPS — with minimal latency.
+Remio is a **native remote desktop** application that lets you access and control your computer from anywhere. Unlike Electron-based alternatives, every Remio app is built from scratch using each platform's native toolkit — delivering **butter-smooth streaming at up to 120FPS — even at 4K** — with minimal latency.
 
 **Hosts — the computer you control:**
 
 - 🖥️ **macOS Host** — Stream your Mac to any device (SwiftUI + ScreenCaptureKit)
 - 🪟 **Windows Host** — Stream your Windows PC to any device (C++/WinRT)
 - 🐧 **Linux Host** — X11 & Wayland, AppImage/deb/rpm/Arch/Flatpak (C++20)
+- 🤖 **Android Host** — Turn a phone or tablet into a computer you can reach (Kotlin + Jetpack Compose)
 - 🍓 **Raspberry Pi Host** — Raspberry Pi OS 64-bit & 32-bit builds
 - 😈 **FreeBSD Host** — Native FreeBSD 14 package
 
@@ -49,6 +50,7 @@ Remio is a **native remote desktop** application that lets you access and contro
 | **macOS** (Apple Silicon & Intel) | [**⬇️ Download**](https://remio.net/download) · [PKG](https://github.com/remioapp/releases/releases) | macOS 15 Sequoia or later |
 | **Windows** (x64) | [**⬇️ Download**](https://remio.net/download) · [EXE](https://github.com/remioapp/releases/releases) | Windows 10 or later |
 | **Linux** (x86_64) | [**⬇️ Download**](https://remio.net/download) · AppImage · deb · rpm · Arch · Flatpak | Ubuntu 22.04+, Debian 12+, Fedora 36+, Arch — X11 or Wayland |
+| **Android** (phone / tablet) | [**⬇️ Download**](https://remio.net/download) · [APK](https://github.com/remioapp/releases/releases) | Android 14 or later — direct APK, not on Google Play |
 | **Raspberry Pi** (arm64 / armhf) | [**⬇️ Download**](https://remio.net/download) · deb · AppImage | Raspberry Pi OS Bookworm or newer (Pi 3/4/5) |
 | **FreeBSD** (amd64) | [**⬇️ Download**](https://remio.net/download) · pkg | FreeBSD 14 |
 
@@ -64,12 +66,12 @@ Remio is a **native remote desktop** application that lets you access and contro
 | **Apple Vision Pro** | Install the iPad app from the App Store | ✅ Available |
 | **Linux** | — | 📋 On Roadmap |
 
-<sub>🗂️ Every installer is also published on the <a href="https://github.com/remioapp/releases/releases">Releases</a> page. Tags are suffixed per platform: <code>-win</code> (Windows Host), <code>-win-client</code> (Windows Client), <code>-linux</code> (Linux &amp; Raspberry Pi), <code>-freebsd</code> (FreeBSD); untagged versions are the macOS Host.</sub>
+<sub>🗂️ Every installer is also published on the <a href="https://github.com/remioapp/releases/releases">Releases</a> page. Tags are suffixed per platform: <code>-win</code> (Windows Host), <code>-win-client</code> (Windows Client), <code>-linux</code> (Linux &amp; Raspberry Pi), <code>-android</code> (Android Host), <code>-freebsd</code> (FreeBSD); untagged versions are the macOS Host.</sub>
 
 ## 🚀 Quick Start
 
 ```
-1. Download & install Remio Host on your Mac, Windows PC, Linux box, Pi or FreeBSD server
+1. Download & install Remio Host on your Mac, Windows PC, Linux box, Android device, Pi or FreeBSD server
 2. Open Remio on your phone, tablet, TV, or another computer
 3. Scan the QR code (or type the six-digit code) — you're connected!
 ```
@@ -79,7 +81,7 @@ That's it. Full desktop streaming in under a minute. No account required.
 ## ⚡ Key Features
 
 - **100% Native** — SwiftUI on Apple, Jetpack Compose on Android, C++/WinRT on Windows, C++20 on Linux & FreeBSD. Zero Electron.
-- **Up to 120FPS** — Silky-smooth 120FPS streaming (4K runs at 60FPS), hardware-accelerated next-gen video compression
+- **Up to 120FPS** — Silky-smooth 120FPS streaming (4K runs at 120FPS), hardware-accelerated next-gen video compression
 - **Ultra-Low Latency** — Sub-16ms on local network
 - **End-to-End Encrypted** — Peer-to-peer WebRTC with DTLS-SRTP
 - **Multi-Touch** — Natural gesture support with Apple Trackpad physics
@@ -102,6 +104,7 @@ That's it. Full desktop streaming in under a minute. No account required.
 | **macOS Host** | macOS 15 Sequoia, Apple Silicon (M1) or Intel |
 | **Windows Host** | Windows 10 (x64) |
 | **Linux Host** | Ubuntu 22.04+, Debian 12+, Fedora 36+, Arch — X11 or Wayland (x86_64) |
+| **Android Host** | Android 14 (API 34)+ — phone or tablet |
 | **Raspberry Pi Host** | Raspberry Pi OS Bookworm 64-bit (Pi 3/4/5); 32-bit builds for Pi 2 v1.2+ |
 | **FreeBSD Host** | FreeBSD 14 (amd64) |
 | **iOS Client** | iOS 18.0+ |
