@@ -4,27 +4,32 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.6.4</title>
-            <sparkle:version>2608230855</sparkle:version>
-            <sparkle:shortVersionString>2.6.4</sparkle:shortVersionString>
+            <title>Version 2.7.0</title>
+            <sparkle:version>2608232228</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What&#x27;s New in 2.6.4</h2>
+                <h2>What&#x27;s New in 2.7.0</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                <li><strong>Choose the language Remio speaks</strong> — Settings ▸ Language lets you set Remio to English, Vietnamese, French, German, Japanese, Simplified Chinese, Hindi or Brazilian Portuguese on its own, without changing the language of everything else on your Mac. Leave it on Follow system and nothing changes.</li>
+                </ul>
                 <h3>⚙️ Improvements</h3>
                 <ul>
-                <li><strong>A Start button where you actually look for it</strong> — When sharing is off, the Host window now offers Start sharing right under the status line, instead of hiding it in the menu bar. The status line also says &quot;Not sharing&quot; rather than &quot;Offline&quot;, because your Mac is still reachable — it simply isn’t sharing its screen right now.</li>
+                <li><strong>Your own devices connect without pairing again</strong> — Signing in to the same Remio account on a phone, tablet or another computer is now enough for this Mac to recognise it. No six-digit PIN, no QR code — even when the device signs in and connects seconds later.</li>
                 </ul>
                 <h3>🐛 Bug Fixes</h3>
                 <ul>
-                <li><strong>Fixed taking your screen back locking your devices out</strong> — Pressing Esc twice during a session — the shortcut the Host itself suggests — ended sharing for good. Your phone kept listing this Mac as online, but every attempt to connect failed, and the only way back was quitting and reopening Remio Host. Taking your screen back now just ends the session: the Mac is ready to accept a connection again moments later, without anyone touching it.</li>
+                <li><strong>Fixed an external display not returning to its own resolution</strong> — After a session on a Mac running with the lid closed, the external monitor could be left at the wrong resolution — everything on it bigger or softer than before — and stayed that way until you set it back by hand.</li>
+                <li><strong>Fixed the &quot;Check your inbox&quot; screen vanishing mid sign-up</strong> — Creating an account with an email address showed the verification screen for a moment and then dropped back to the sign-in buttons, so clicking the link in the email never completed the sign-up.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 23 Aug 2026 02:03:34 +0000</pubDate>
+            <pubDate>Sun, 23 Aug 2026 15:50:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.6.4/Remio-Host-2.6.4-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v2.7.0/Remio-Host-2.7.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="aY0vUw6J5Zy4egZnK1ckcXgrjfeEykvSNnwgbDoyLpV+sxMOWv9pYMeg1BGR37HENl5pPFwth8IK92pISb+tAA=="
-                length="34566908"
+                sparkle:edSignature="LPrlYHnC9HF708oJcDBG6rYb6Np4iD//mb8NhQJxlBZ2Md/wSOF4xSduD7lCqc4vEX2bAmwIkJrzmruCB/gMBQ=="
+                length="35116052"
             />
         </item>
     </channel>
