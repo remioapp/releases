@@ -4,30 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.6.3</title>
-            <sparkle:version>2608202053</sparkle:version>
-            <sparkle:shortVersionString>2.6.3</sparkle:shortVersionString>
+            <title>Version 2.6.4</title>
+            <sparkle:version>2608230855</sparkle:version>
+            <sparkle:shortVersionString>2.6.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What&#x27;s New in 2.6.3</h2>
+                <h2>What&#x27;s New in 2.6.4</h2>
                 <h3>⚙️ Improvements</h3>
                 <ul>
-                <li><strong>A sharper picture when your device connects through a forwarded port</strong> — When a device reaches this Mac through a port you&#x27;ve forwarded on your router, the Host now watches how the connection is actually holding up and steps the quality up as it proves itself, instead of staying cautious for the whole session. On a real connection from outside the office, quality climbed from 3.7 to 9.8 Mbps within two minutes.</li>
+                <li><strong>A Start button where you actually look for it</strong> — When sharing is off, the Host window now offers Start sharing right under the status line, instead of hiding it in the menu bar. The status line also says &quot;Not sharing&quot; rather than &quot;Offline&quot;, because your Mac is still reachable — it simply isn’t sharing its screen right now.</li>
                 </ul>
                 <h3>🐛 Bug Fixes</h3>
                 <ul>
-                <li><strong>Fixed the Host quitting in the middle of a session with computer audio on</strong> — Ending or switching a session while sound was streaming could shut the Host down without warning, taking the session with it.</li>
-                <li><strong>Fixed &quot;Show host cursor&quot; doing nothing when you switched it on</strong> — Turning the setting on in the first moment of a session was quietly dropped and stayed off until you reconnected. The setting also reverted on its own if the session recovered from an interruption mid-stream.</li>
-                <li><strong>Fixed a &quot;couldn&#x27;t apply capture settings&quot; warning at the start of every session</strong> — The Host reported a failure to the connecting device on every single connection, even though nothing was wrong.</li>
-                <li><strong>Fixed the Host claiming more connected devices than there are</strong> — Reconnecting from the same device, or handing a session over to a second one, left a phantom entry behind, so the Host said &quot;Streaming to 2 devices&quot; with only one attached.</li>
+                <li><strong>Fixed taking your screen back locking your devices out</strong> — Pressing Esc twice during a session — the shortcut the Host itself suggests — ended sharing for good. Your phone kept listing this Mac as online, but every attempt to connect failed, and the only way back was quitting and reopening Remio Host. Taking your screen back now just ends the session: the Mac is ready to accept a connection again moments later, without anyone touching it.</li>
                 </ul>
             ]]></description>
-            <pubDate>Thu, 20 Aug 2026 14:09:24 +0000</pubDate>
+            <pubDate>Sun, 23 Aug 2026 02:03:34 +0000</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.6.3/Remio-Host-2.6.3-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v2.6.4/Remio-Host-2.6.4-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="eIf4bECqChjWIyTAEqj02E4wan7tLYmME+K1n+OTcAtHj19wYBC9I+OTJ77xhJOwIYFTv40v0b/EpL5i3Is8CQ=="
-                length="34541463"
+                sparkle:edSignature="aY0vUw6J5Zy4egZnK1ckcXgrjfeEykvSNnwgbDoyLpV+sxMOWv9pYMeg1BGR37HENl5pPFwth8IK92pISb+tAA=="
+                length="34566908"
             />
         </item>
     </channel>
