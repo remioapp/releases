@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6.2</title>
+            <sparkle:version>2.6.2</sparkle:version>
+            <pubDate>Sun, 23 Aug 2026 05:54:05 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 2.6.2</h2>
+                <p>Fixes a screen left zoomed in too far after a phone or tablet connected — the desktop now keeps a workable size whatever device joins, and eases back toward the connecting device's preference as soon as there is room.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.6.2-linux/Remio-Host-2.6.2-linux-x86_64.AppImage"
+                sparkle:version="2.6.2"
+                sparkle:os="linux"
+                length="69540344"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.1</title>
             <sparkle:version>2.6.1</sparkle:version>
             <pubDate>Sun, 16 Aug 2026 18:26:19 +0000</pubDate>
