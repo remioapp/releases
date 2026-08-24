@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.7.1</title>
+            <sparkle:version>2.7.1</sparkle:version>
+            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 24 Aug 2026 15:22:00 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.7.1</h2>
+                <p>When a host computer cannot confirm this device is allowed in, Remio now tells you what happened and what to do about it, instead of leaving you on an endless Connecting. Volume and mute also keep working with the new sound path in Remio Host 2.7.1, which finally sends your computer's audio to every device.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.7.1-win/Remio-Client-2.7.1-win-x64-Setup.exe"
+                sparkle:version="2.7.1"
+                sparkle:shortVersionString="2.7.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="2jvywHDrTwosOdMDogiKXBXRrRc9bcYRV8F3KM1eR5S0Ol+l+HtyU+FmJGcup5JnSq5Pz9ZaDll52+8rYyo5Dw=="
+                length="62777409"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.7.0</title>
             <sparkle:version>2.7.0</sparkle:version>
             <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
