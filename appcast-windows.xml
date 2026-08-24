@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.7.0</title>
+            <sparkle:version>2.7.0</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.0.17763</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 24 Aug 2026 00:34:17 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.7.0</h2>
+                <p>Signing in with Google now sticks. If Remio had already seen your Google account on another device, sign-in looked like it worked but nothing was kept, so every restart asked you to sign in again. That is fixed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.7.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.7.0"
+                sparkle:shortVersionString="2.7.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="kpB3KbdylbhEBUcpNKEk8j2VbYLyC6oe7F7wRd51EvSCnYM5mg6HGI1OMDM8PT7APL0bYEUFUHs0rG8F2xu9DA=="
+                length="27011149"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.4</title>
             <sparkle:version>2.6.4</sparkle:version>
             <sparkle:shortVersionString>2.6.4</sparkle:shortVersionString>
