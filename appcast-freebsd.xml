@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.7.0</title>
+            <sparkle:version>2.7.0</sparkle:version>
+            <pubDate>Mon, 24 Aug 2026 09:02:44 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 2.7.0</h2>
+                <p>Signing in with Google now sticks. If Remio had already seen your Google account on another device, sign-in looked like it worked but nothing was kept, so every restart asked you to sign in again. That is fixed.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.7.0-freebsd/Remio-Host-2.7.0-FreeBSD-amd64.pkg"
+                sparkle:version="2.7.0"
+                sparkle:os="freebsd"
+                length="8343536"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.6.2</title>
             <sparkle:version>2.6.2</sparkle:version>
             <pubDate>Sun, 23 Aug 2026 13:08:54 +0700</pubDate>
