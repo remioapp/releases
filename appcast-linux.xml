@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.0</title>
+            <sparkle:version>2.8.0</sparkle:version>
+            <pubDate>Tue, 25 Aug 2026 07:14:06 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 2.8.0</h2>
+                <p>Remio Host for Linux 2.8.0 gives every device a desktop of its own shape. Connect from a phone held upright and the desktop stands upright with it, filling the screen instead of sitting inside black bars - on GNOME desktops, which is what Ubuntu and Fedora use out of the box. Your computer's own monitor keeps its settings, so a screen can no longer be asked for a shape it cannot display. This release also brings the sound fix from 2.7.1 to Linux and Raspberry Pi, so sound from the computer now plays on every device you connect from.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.0-linux/Remio-Host-2.8.0-linux-x86_64.AppImage"
+                sparkle:version="2.8.0"
+                sparkle:os="linux"
+                length="69585400"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.7.0</title>
             <sparkle:version>2.7.0</sparkle:version>
             <pubDate>Mon, 24 Aug 2026 01:58:39 +0000</pubDate>
