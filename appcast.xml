@@ -4,22 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.7.1</title>
-            <sparkle:version>2608241952</sparkle:version>
-            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <title>Version 2.8.0</title>
+            <sparkle:version>2608252029</sparkle:version>
+            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 2.7.1</h2>
+                <h2>What's New in 2.8.0</h2>
                 <ul>
-                    <li><strong>Fixed leaving a device stuck on &ldquo;Connecting&hellip;&rdquo; when the account check couldn&rsquo;t finish</strong> &mdash; When this Mac could not confirm that a device belongs to your account &mdash; usually because its own internet connection was struggling &mdash; that device was left waiting with nothing to go on until it gave up minutes later. It now hears what happened straight away, and can retry or pair with a PIN instead.</li>
+                    <li><b>Fixed port forwarding being ignored on many routers</b> — If you forwarded a UDP port to this computer and set it as the direct connection port, some routers still left your devices connecting through a relay: the open port was never actually offered to the connecting device. Remio now announces the forwarded port itself, so a correctly forwarded port reliably gives you a direct connection — even from cellular networks.</li>
                 </ul>
             ]]></description>
-            <pubDate>Mon, 24 Aug 2026 15:21:45 +0000</pubDate>
+            <pubDate>Tue, 25 Aug 2026 20:45:00 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.7.1/Remio-Host-2.7.1-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v2.8.0/Remio-Host-2.8.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="KIM3XK9ial8qyx6E2Y0pI6fEptNSH4JJ/vJltEcO8/JZD1OF4lmeVdgKHmWlI7ULBTF3DCI2mI7hn1j6N4EJCw=="
-                length="35119180"
+                sparkle:edSignature="NW84uvCAxUxmowRPNuA/dm+ZCO3ZrNbxkprUWmRzsT6kRVnscCiEwujU2DwnANE5CWu2PGn/LmSR/U1WMrjADA=="
+                length="35128001"
             />
         </item>
     </channel>
