@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.0</title>
+            <sparkle:version>2.8.0</sparkle:version>
+            <pubDate>Tue, 25 Aug 2026 14:16:35 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 2.8.0</h2>
+                <p>Remio Host for FreeBSD 2.8.0 brings the sound fix from 2.7.1 - sound from this computer now plays on every device you connect from, not only the Windows app.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.0-freebsd/Remio-Host-2.8.0-FreeBSD-amd64.pkg"
+                sparkle:version="2.8.0"
+                sparkle:os="freebsd"
+                length="8372297"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.7.0</title>
             <sparkle:version>2.7.0</sparkle:version>
             <pubDate>Mon, 24 Aug 2026 09:02:44 +0700</pubDate>
