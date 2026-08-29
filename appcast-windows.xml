@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.2</title>
+            <sparkle:version>2.8.2</sparkle:version>
+            <sparkle:shortVersionString>2.8.2</sparkle:shortVersionString>
+            <pubDate>Sat, 29 Aug 2026 13:26:19 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.8.2</h2>
+                <p>The pointer follows what you are doing again, resizing fills the screen edge to edge, and your Host finally keeps itself up to date.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.8.2"
+                sparkle:shortVersionString="2.8.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="5994/ZfHwpybzASL1c2Y5YohejB9aWTz2hei6lA3PBzQrCZelx1I2CSRQa7af1ejpGRqxjprEo/8cTI7Zd4KAg=="
+                length="26686410"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.1</title>
             <sparkle:version>2.8.1</sparkle:version>
             <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
