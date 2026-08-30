@@ -4,22 +4,29 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.8.0</title>
-            <sparkle:version>2608252029</sparkle:version>
-            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
+            <title>Version 2.8.5</title>
+            <sparkle:version>2608302343</sparkle:version>
+            <sparkle:shortVersionString>2.8.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 2.8.0</h2>
+                <h2>What's New in 2.8.5</h2>
+                <h3>New Features</h3>
                 <ul>
-                    <li><b>Fixed port forwarding being ignored on many routers</b> — If you forwarded a UDP port to this computer and set it as the direct connection port, some routers still left your devices connecting through a relay: the open port was never actually offered to the connecting device. Remio now announces the forwarded port itself, so a correctly forwarded port reliably gives you a direct connection — even from cellular networks.</li>
+                    <li><b>Pick which speakers the connected device hears</b> — Choose the sound output Remio sends to the device you are controlling from, independently of what this Mac plays locally.</li>
+                </ul>
+                <h3>Bug Fixes</h3>
+                <ul>
+                    <li><b>Fixed your external display being left less sharp after a session</b> — On a Mac with the lid closed and an external monitor, ending a session could leave that monitor on a blurrier setting than the one you had chosen, and it stayed that way for every session afterwards. Your display now goes back to exactly the setting you started with.</li>
+                    <li><b>Fixed an available update refusing to install</b> — When Remio told you an update was required, the very dialog delivering the message could block the update from installing. Updates now install and relaunch straight away.</li>
+                    <li><b>Fixed a key staying held down on this Mac</b> — A special key whose release was missed could stay stuck as if you were still holding it, affecting everything you typed afterwards.</li>
                 </ul>
             ]]></description>
-            <pubDate>Tue, 25 Aug 2026 20:45:00 +0700</pubDate>
+            <pubDate>Sun, 30 Aug 2026 23:50:38 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.8.0/Remio-Host-2.8.0-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v2.8.5/Remio-Host-2.8.5-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="NW84uvCAxUxmowRPNuA/dm+ZCO3ZrNbxkprUWmRzsT6kRVnscCiEwujU2DwnANE5CWu2PGn/LmSR/U1WMrjADA=="
-                length="35128001"
+                sparkle:edSignature="ZkjFB9ExdPIsMdDI65kLzCbmcLJKiHwF5XGxHI9P+dl+vZeyVW36gwG/hOdkUFxi0sO/S3GBZXI0mapY99UOBQ=="
+                length="35204707"
             />
         </item>
     </channel>
