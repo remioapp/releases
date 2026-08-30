@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.3</title>
+            <sparkle:version>2.8.3</sparkle:version>
+            <sparkle:shortVersionString>2.8.3</sparkle:shortVersionString>
+            <pubDate>Sun, 30 Aug 2026 03:45:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.8.3</h2>
+                <p>Fixes a blank Home screen (no Device ID, PIN or QR code) that made some PCs impossible to pair</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.3-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.8.3"
+                sparkle:shortVersionString="2.8.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="daI0x3n3sD/WMFxaCJ0OVluoBChK1o8HOBSZ0npS/9wPhhMVr4jb0pfxsDLs8n/XY5ZiibHrpYM8NRGFiH8tDA=="
+                length="26685832"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.2</title>
             <sparkle:version>2.8.2</sparkle:version>
             <sparkle:shortVersionString>2.8.2</sparkle:shortVersionString>
