@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.8</title>
+            <sparkle:version>2.8.8</sparkle:version>
+            <sparkle:shortVersionString>2.8.8</sparkle:shortVersionString>
+            <pubDate>Mon, 31 Aug 2026 12:08:41 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.8.8</h2>
+                <p>Remio Host now works properly on computers used over Remote Desktop - the app shows its Device ID, PIN and online status in RDP sessions (cloud VMs, headless machines) instead of coming up empty, and it now starts with Windows on those machines too.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.8-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.8.8"
+                sparkle:shortVersionString="2.8.8"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="9AJZomTjtn3Zxc51lpwt6260tyxSLleBPhp99Bh5xB4camyB4WMB1zbKsr4vaiQIhwIce1U7lv6LH07AWb7CAw=="
+                length="26920819"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.7</title>
             <sparkle:version>2.8.7</sparkle:version>
             <sparkle:shortVersionString>2.8.7</sparkle:shortVersionString>
