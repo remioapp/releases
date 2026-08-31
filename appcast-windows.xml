@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.9</title>
+            <sparkle:version>2.8.9</sparkle:version>
+            <sparkle:shortVersionString>2.8.9</sparkle:shortVersionString>
+            <pubDate>Mon, 31 Aug 2026 15:33:59 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.8.9</h2>
+                <p>Game controllers now work in games - a controller plugged into your device shows up on this PC as a real Xbox or PlayStation pad, with both sticks, every button, the triggers and rumble.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.9-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.8.9"
+                sparkle:shortVersionString="2.8.9"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="+nCDpLtZwZ0KCTe9Ue2r9Kr9sNuSrJ9xPf9EWD4sZPs5TpbDNoxgreDMjhV4lQidW8X1PMZ3mjhjpkDuigpGDg=="
+                length="30387488"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.8</title>
             <sparkle:version>2.8.8</sparkle:version>
             <sparkle:shortVersionString>2.8.8</sparkle:shortVersionString>
