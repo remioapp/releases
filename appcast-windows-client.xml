@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.11</title>
+            <sparkle:version>2.8.11</sparkle:version>
+            <sparkle:shortVersionString>2.8.11</sparkle:shortVersionString>
+            <pubDate>Wed, 02 Sep 2026 05:47:37 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 2.8.11</h2>
+                <p>Remio stays open: the crashes that closed it mid-session and while idle are fixed, the remote pointer is the right size, and the window no longer resizes itself.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.11-win/Remio-Client-2.8.11-win-x64-Setup.exe"
+                sparkle:version="2.8.11"
+                sparkle:shortVersionString="2.8.11"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Opd+YeBG2Jy7veR7OTXDIT1K8Kz/mHmzxbHepvTyprW8zy0MauCtfhzwtJZxe5NVGzUJjYAZMW2mmBSVcn+XBg=="
+                length="62894125"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.2</title>
             <sparkle:version>2.8.2</sparkle:version>
             <sparkle:shortVersionString>2.8.2</sparkle:shortVersionString>
