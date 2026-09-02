@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.12</title>
+            <sparkle:version>2.8.12</sparkle:version>
+            <sparkle:shortVersionString>2.8.12</sparkle:shortVersionString>
+            <pubDate>Wed, 02 Sep 2026 09:55:36 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.8.12</h2>
+                <p>A PC sitting at its Windows sign-in screen now shows that screen instead of a black rectangle, so you can sign in from your phone or laptop and land straight on your desktop. Copy and paste between your devices lands every time too, in both directions.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.12-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.8.12"
+                sparkle:shortVersionString="2.8.12"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="wupbt+AZmjAcY6ct02ZOf+Oi2Qw3zSOxjIkIOOPjGtVyKX7Kx4aakFYmZiulwhUZnMcWgrK1NfbelHDmb6fXBw=="
+                length="30415599"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.11</title>
             <sparkle:version>2.8.11</sparkle:version>
             <sparkle:shortVersionString>2.8.11</sparkle:shortVersionString>
