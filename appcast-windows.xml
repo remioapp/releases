@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.8.14</title>
+            <sparkle:version>2.8.14</sparkle:version>
+            <sparkle:shortVersionString>2.8.14</sparkle:shortVersionString>
+            <pubDate>Sun, 13 Sep 2026 12:24:44 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 2.8.14</h2>
+                <p>Pairing sticks on a fresh install — a phone paired by PIN right after installing is no longer refused with “not paired” a moment later. If a pairing cannot be saved, Remio now says so during pairing instead of accepting it and refusing the connection afterwards.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v2.8.14-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="2.8.14"
+                sparkle:shortVersionString="2.8.14"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="3L0nlYL7KeK1AHS5wbwt28Cs1gYsivVV3+hNryNyFj20U1Yl1YQY4qcZ80x6qyJw+Uj0BlnGY03pkDsIh9PSDg=="
+                length="30430001"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.13</title>
             <sparkle:version>2.8.13</sparkle:version>
             <sparkle:shortVersionString>2.8.13</sparkle:shortVersionString>
