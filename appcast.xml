@@ -4,29 +4,52 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
-            <title>Version 2.8.5</title>
-            <sparkle:version>2608302343</sparkle:version>
-            <sparkle:shortVersionString>2.8.5</sparkle:shortVersionString>
+            <title>Version 3.0.0</title>
+            <sparkle:version>2609212158</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>What's New in 2.8.5</h2>
+                <h2>What's New in 3.0.0</h2>
                 <h3>New Features</h3>
                 <ul>
-                    <li><b>Pick which speakers the connected device hears</b> — Choose the sound output Remio sends to the device you are controlling from, independently of what this Mac plays locally.</li>
+                <li><strong>A new Host window</strong> — Remio Host now looks and behaves like System Settings: a sidebar with Connect, File sharing, Accessories, Devices, Permissions and Settings, and a real screen behind each one. Everything used to be floating panels stacked over a QR code, appearing and disappearing on their own; now each thing has a place you can go back to. The window also keeps the height you drag it to.</li>
+                <li><strong>Send and receive files</strong> — The File sharing page sends files to the device you&#x27;re connected from and receives files sent back the other way. Every transfer keeps a line in the history under the name of the device it came from or went to, so you can open a file you were sent last week in Finder, or send the same file again to the same device with one click.</li>
+                <li><strong>A file arriving while your Mac is locked waits for you</strong> — If your Mac locks in the middle of an incoming file, the transfer pauses with a countdown instead of quietly writing to your disk while nobody is at the keyboard, and picks up exactly where it left off when you unlock.</li>
+                <li><strong>A Devices page that tells you where access came from</strong> — Your devices are now grouped by how they got in: paired with a code on this Mac, or trusted because they&#x27;re signed in to your account. Open any of them to see what it actually is — model, system, app version, screen, how it connects — give it a name of your own, or take its access away.</li>
+                <li><strong>Two different ways to take access away</strong> — Block from this Mac keeps the device on your account but stops it reaching this computer. Remove from account signs it out everywhere. The buttons now say which one you&#x27;re about to do, instead of one Remove that quietly did more than it looked like.</li>
+                <li><strong>A log of what happened with your devices</strong> — The last 30 days of pairings, refused attempts, wrong PINs, session takeovers and revocations, in plain language, per device and across the Mac. A badge appears on Devices when something worth looking at happened while you weren&#x27;t watching.</li>
+                <li><strong>A Permissions page that&#x27;s always there</strong> — Permissions used to be a panel that only appeared when something was broken, which is exactly when it&#x27;s too late to find it. It&#x27;s now a permanent place in the sidebar showing what each permission is for and what state it&#x27;s in. When a macOS update quietly stops a permission from working, the page says so and tells you to switch it off and back on — rather than sending you to press Allow on something that&#x27;s already allowed. Granting a permission in System Settings is noticed within seconds; you don&#x27;t have to restart Remio or come back to the window.</li>
+                <li><strong>Your pairing code expires</strong> — The six-digit code now lasts five minutes, with the countdown on screen, and rotates itself. Five wrong attempts replace it immediately and tell you it happened. A code left on screen all afternoon was a code anyone on the network could keep guessing at.</li>
+                <li><strong>Choose whether your own devices skip pairing</strong> — Settings has a switch for letting devices signed in to your account connect without a code. On by default.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                <li><strong>Connecting is quicker</strong> — Setting up the display on the way into a session dropped from 1.69 to 0.76 seconds, which is time your device spends on &quot;Connecting…&quot; before the first frame.</li>
+                <li><strong>The session panel says what the connection is actually doing</strong> — Packet loss, jitter and how many times the picture froze now sit alongside bitrate and latency, so a session that feels wrong can be pointed at something.</li>
+                <li><strong>When a second device takes over, the window says so</strong> — Handing a session to another device now names the device that took it, marks it as the new owner and restarts the session clock, instead of silently swapping who is in control.</li>
+                <li><strong>Disconnecting a device no longer looks like unpairing it</strong> — Pressing Disconnect told the device it was &quot;no longer paired&quot;, which made it look like it had lost access for good. It now says this Mac ended the session, and the device can simply connect again.</li>
+                <li><strong>One name for each permission, on every screen</strong> — &quot;Screen sharing&quot; and &quot;Mouse and keyboard control&quot; are called that everywhere in Remio. Apple&#x27;s own names appear only inside the step-by-step instructions, word for word as macOS writes them, so what you read here matches what you&#x27;re looking for over there.</li>
                 </ul>
                 <h3>Bug Fixes</h3>
                 <ul>
-                    <li><b>Fixed your external display being left less sharp after a session</b> — On a Mac with the lid closed and an external monitor, ending a session could leave that monitor on a blurrier setting than the one you had chosen, and it stayed that way for every session afterwards. Your display now goes back to exactly the setting you started with.</li>
-                    <li><b>Fixed an available update refusing to install</b> — When Remio told you an update was required, the very dialog delivering the message could block the update from installing. Updates now install and relaunch straight away.</li>
-                    <li><b>Fixed a key staying held down on this Mac</b> — A special key whose release was missed could stay stuck as if you were still holding it, affecting everything you typed afterwards.</li>
+                <li>Fixed a Mac with both Ethernet and Wi‑Fi on hosting over Wi‑Fi — When a cable and Wi‑Fi were both connected, the host could offer its Wi‑Fi address first and every client would stream through it. The wired connection now takes precedence.</li>
+                <li><strong>Fixed your monitors coming back in the wrong order</strong> — A display arranged to the left of your main one came back on the right after a session, and any vertical offset was lost, leaving your mouse crossing between screens in the wrong direction until you fixed it by hand. Remio now records where every display actually sits and puts them back exactly.</li>
+                <li><strong>Fixed a left click opening the right-click menu</strong> — After using any shortcut with Control, every click that followed behaved as a Control-click for the rest of the session, so left-clicking opened context menus.</li>
+                <li><strong>Fixed copying on your device and pasting on the Mac giving you the old text</strong> — Copying something on the device you&#x27;re controlling from and pressing ⌘V on the Mac could paste the previous thing, or nothing at all, and the workaround was pasting into another app and copying again. Every copy now lands. Your Mac&#x27;s clipboard is also no longer replaced by the device&#x27;s the moment you connect.</li>
+                <li><strong>Fixed the Host freezing seconds after a device connects</strong> — On a Mac signed in to the same iCloud account as another Apple device, something copied on that other device could stop the Host dead as it tried to fetch the content over the network.</li>
+                <li><strong>Fixed the Host quitting when a device offered an impossible file</strong> — A single message claiming a file size that couldn&#x27;t exist took the whole Host down, session included. Oversized files are refused with a message now.</li>
+                <li><strong>Fixed the window getting shorter every time you opened it</strong> — The window lost about fifty points of height per launch — 658, then 606, then 554 — and forgot whatever height you had set for it.</li>
+                <li><strong>Fixed reconnecting from the same device resetting the session clock</strong> — A brief network drop restarted the timer as if a new device had arrived, and numbers from the previous connection could be shown under the new device&#x27;s name.</li>
+                <li><strong>Fixed a failed transfer you couldn&#x27;t do anything about</strong> — A transfer that failed left a row in the history with no way to retry it or pick a different file.</li>
+                <li><strong>Fixed small files showing as &quot;0 KB&quot;</strong> — Anything under a kilobyte reported itself as empty while it transferred perfectly well.</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 30 Aug 2026 23:50:38 +0700</pubDate>
+            <pubDate>Mon, 21 Sep 2026 22:06:38 +0700</pubDate>
             <enclosure
-                url="https://github.com/remioapp/releases/releases/download/v2.8.5/Remio-Host-2.8.5-mac.zip"
+                url="https://github.com/remioapp/releases/releases/download/v3.0.0/Remio-Host-3.0.0-mac.zip"
                 type="application/octet-stream"
-                sparkle:edSignature="ZkjFB9ExdPIsMdDI65kLzCbmcLJKiHwF5XGxHI9P+dl+vZeyVW36gwG/hOdkUFxi0sO/S3GBZXI0mapY99UOBQ=="
-                length="35204707"
+                sparkle:edSignature="F6IoVEnAvSktCzrZC9rDYDtb1hmBh66VxSwniV3hfU1/EZXreQ2dEUHAd5XsCfy4zwx8lNvXUKJjaqQwUtxCDA=="
+                length="40118241"
             />
         </item>
     </channel>
