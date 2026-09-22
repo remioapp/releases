@@ -4,6 +4,29 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.2</title>
+            <sparkle:version>2609222204</sparkle:version>
+            <sparkle:shortVersionString>3.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.2</h2>
+                <h3>Bug Fixes</h3>
+                <ul>
+                <li><strong>A Mac that stopped sharing because the screen capture broke now starts sharing again on its own</strong> &#x2014; If macOS cut the capture mid-session and the automatic retries could not bring it back, the Host used to switch sharing off and wait for someone to press Start on the Mac. It now comes back by itself after a few seconds (waiting longer if it keeps happening), and only asks for a hand when the capture is genuinely broken.</li>
+                <li><strong>Devices no longer see the Mac as online when it has stopped sharing</strong> &#x2014; After that kind of stop, the Host kept telling the server it still had its old room, so every device saw the Mac online, and every connect failed with &quot;no active host&quot; until the Host was restarted. The Host now drops the room the moment it stops, and corrects itself if the server ever reports the room gone while it is idle.</li>
+                <li><strong>The Host window is dark on every Mac, whatever the Mac itself is set to</strong> &#x2014; On a Mac set to Light appearance the window&#x27;s own frame stayed light around a dark page: the sidebar came up pale with white text on it, and a grey band sat across the top of the window. The sidebar, the title bar and every sheet and alert are now dark, the way the rest of the app already was.</li>
+                <li><strong>A Mac that once took a required update is offered ordinary updates again</strong> &#x2014; After a required update had installed itself, the Host went on quietly downloading later releases in the background instead of telling you about them &#x2014; and since a Mac you leave on is rarely quit, those releases never finished installing. It asks again before installing, and now looks for a new version every hour.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 22 Sep 2026 22:14:55 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.2/Remio-Host-3.0.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="OKJKqRaskGl6CnmGNF9Bgufj93dqlvXjjBjthM4ED7HdLu4+SCoOC9kKlN7dRYNvZ1Ur0Bpeovvc9dAN5CtwAQ=="
+                length="40127060"
+            />
+        </item>
+        <item>
             <title>Version 3.0.1</title>
             <sparkle:version>2609221553</sparkle:version>
             <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
