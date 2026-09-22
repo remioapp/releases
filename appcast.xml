@@ -4,6 +4,26 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.1</title>
+            <sparkle:version>2609221553</sparkle:version>
+            <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.1</h2>
+                <h3>Bug Fixes</h3>
+                <ul>
+                <li><strong>Fixed the Host window on macOS Sequoia</strong> — On macOS 15 the sidebar opened with a single row tucked under the window buttons and the rest of the column empty, so there was no way to reach Connect, File sharing, Accessories, Devices or Permissions. The full list of pages is back, and the window now opens the same way on every version of macOS.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 22 Sep 2026 16:02:17 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.1/Remio-Host-3.0.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="miUIGQ3d2wY4TnLmT7VUgPldohMcYieiSg3qaYgzRqF8hibyoypc1eymtNmW5YpOj3DCRPe62mO+gMUTOIDtCg=="
+                length="40119590"
+            />
+        </item>
+        <item>
             <title>Version 3.0.0</title>
             <sparkle:version>2609212158</sparkle:version>
             <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
