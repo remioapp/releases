@@ -4,6 +4,33 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.4</title>
+            <sparkle:version>2609240632</sparkle:version>
+            <sparkle:shortVersionString>3.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.4</h2>
+                <h3>Bug Fixes</h3>
+                <ul>
+                <li><b>Turning on screen sharing is noticed straight away</b> — A Mac where you had switched Remio Host on under System Settings → Privacy &amp; Security → Remote Desktop could stay on &quot;Waiting for you&quot; for good, however many times you pressed Recheck, reopened Remio or reinstalled it. The Host now sees the switch within seconds, and a Mac that was stuck this way starts sharing as soon as it updates — nothing to grant again.</li>
+                <li><b>No more detour to the wrong settings page</b> — Right after the first permission prompt, macOS could show a second one whose button opened Screen &amp; System Audio Recording instead of Remote Desktop. That second prompt no longer appears, and every button in Remio takes you straight to Remote Desktop. If you already turned Remio Host on under Screen &amp; System Audio Recording, that works too — leave it as it is.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                <li><b>A Mac you leave on stays reachable</b> — If the Host ever crashes or freezes while you&#x27;re away, it now starts again by itself: within seconds after a crash, a little over a minute after a freeze. Quitting Remio yourself still quits it. The helper that does this shows up as a background item from Remio Host in System Settings → General → Login Items; switching it off there turns it off.</li>
+                <li><b>Back online by itself after long sleeps</b> — After the Mac had been asleep for more than an hour, or its clock had drifted, the Host could be turned away by the connection server and stay offline until someone restarted it. It now reconnects on its own, and keeps retrying while the network is down instead of waiting for a change it might never notice.</li>
+                <li><b>Screen sharing keeps coming back</b> — When macOS cuts the screen capture and the first retries fail, the Host now keeps trying every ten minutes for as long as it takes, instead of giving up and waiting for someone at the Mac.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 23 Sep 2026 23:40:56 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.4/Remio-Host-3.0.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="BiLF4+pueJ2FnhGnTEYGuVYGwOjX5aD9XGqIc7ZdS/WkWqy2FMLoDGagRewO2Kpjcn4RIOFEuPUUzFujT3FZBg=="
+                length="40155606"
+            />
+        </item>
+        <item>
             <title>Version 3.0.3</title>
             <sparkle:version>2609222348</sparkle:version>
             <sparkle:shortVersionString>3.0.3</sparkle:shortVersionString>
