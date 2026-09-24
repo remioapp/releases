@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.1</title>
+            <sparkle:version>3.0.1</sparkle:version>
+            <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+            <pubDate>Thu, 24 Sep 2026 00:57:29 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.0.1</h2>
+                <p>Connecting from your phone goes through again — when this PC had to reshape its screen to fit the phone, it could give up while still getting ready, and the phone said the computer was not responding. Remio also comes back online on its own when Windows misses the network returning, stays reachable on a PC whose clock is a few minutes off, and no longer crashes when a device connects just as sharing stops.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.0.1"
+                sparkle:shortVersionString="3.0.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="UNv65Lim9Et5UHu+RMjamfL5/u2KXR5nei2zLQViCUVxX3U/NTcvfi6zHzpsQ5f6W8rS1Wwb6mQeqMStmPQjCA=="
+                length="31263340"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.0</title>
             <sparkle:version>3.0.0</sparkle:version>
             <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
