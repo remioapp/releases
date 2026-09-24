@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.1</title>
+            <sparkle:version>3.0.1</sparkle:version>
+            <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+            <pubDate>Thu, 24 Sep 2026 13:26:01 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.0.1</h2>
+                <p>The biggest Windows update yet: Remio in your language, files that travel both ways, virtual displays for the Mac you control, real gamepads, a toolbar you arrange yourself and a one-click blank screen for the computer, plus a steadier connection and many fixes.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.1-win/Remio-Client-3.0.1-win-x64-Setup.exe"
+                sparkle:version="3.0.1"
+                sparkle:shortVersionString="3.0.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="us3BXK9/3sPqmcJGt1PnZyC7pEo8fZGKsf17+wTqkfu8NFKWtCObWXLkeS91iepaoUPzYOaVQ6yGAwGX77b9CQ=="
+                length="63738946"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.11</title>
             <sparkle:version>2.8.11</sparkle:version>
             <sparkle:shortVersionString>2.8.11</sparkle:shortVersionString>
