@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.0</title>
+            <sparkle:version>3.0.0</sparkle:version>
+            <pubDate>Fri, 25 Sep 2026 14:03:41 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.0.0</h2>
+                <p>Remio Host for FreeBSD 3.0 brings the new Host window: a sidebar with Connect, File sharing, Devices, Permissions and Settings, each with a page of its own. Files now travel both ways, with a history of every transfer. The Devices page shows how each device got access and keeps a 30-day log, and the pairing code now expires after five minutes. Remio also speaks eight languages, lives in your system tray, restarts itself if it ever stops, and lets you choose which speaker the sound comes from.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.0-freebsd/Remio-Host-3.0.0-FreeBSD-amd64.pkg"
+                sparkle:version="3.0.0"
+                sparkle:os="freebsd"
+                length="8925787"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 2.8.1</title>
             <sparkle:version>2.8.1</sparkle:version>
             <pubDate>Tue, 25 Aug 2026 19:44:45 +0700</pubDate>
