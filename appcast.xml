@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.5</title>
+            <sparkle:version>2609262138</sparkle:version>
+            <sparkle:shortVersionString>3.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.5</h2>
+                <h3>Bug Fixes</h3>
+                <ul>
+                <li><b>Fast motion no longer falls behind</b> — Scrolling a long page, playing a video or anything else that changes the whole screen could leave the picture, and every click and keystroke with it, more than a second behind on a local network. The Host now sends each frame as soon as it is ready, so what you do shows up right away — even at 120 Hz.</li>
+                <li><b>The Host uses your cable again</b> — On a Mac connected by both a cable and Wi‑Fi, the stream could run over Wi‑Fi. It now picks the wired connection, for a steadier picture with less delay.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 26 Sep 2026 14:44:51 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.5/Remio-Host-3.0.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="fWtoLEPztWpmfmszcksSH/06ZO69M+YpdICGugo7Gr9N1GbhpEjB7LHtPkud3xHqRhc43bdIPhMK+JjSS76QCA=="
+                length="40254985"
+            />
+        </item>
+        <item>
             <title>Version 3.0.4</title>
             <sparkle:version>2609240632</sparkle:version>
             <sparkle:shortVersionString>3.0.4</sparkle:shortVersionString>
