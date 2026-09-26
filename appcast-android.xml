@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Remio Host for Android</title>
+        <link>https://remio.net</link>
+        <description>Most recent updates for Remio Host on Android</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 3.0.0</title>
+            <sparkle:version>3.0.0</sparkle:version>
+            <pubDate>Sat, 26 Sep 2026 02:08:47 +0000</pubDate>
+            <description><![CDATA[<h2>Remio Host for Android 3.0.0</h2><p>A new Remio Host window, files both ways, and a Devices page that shows every device that can get in.</p>]]></description>
+            <enclosure url="https://github.com/remioapp/releases/releases/download/v3.0.0-android/Remio-Host-3.0.0-android.apk"
+                sparkle:version="3.0.0" sparkle:os="android" length="50166114"
+                type="application/vnd.android.package-archive"/>
+        </item>
+    </channel>
+</rss>
