@@ -4,6 +4,34 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.6</title>
+            <sparkle:version>2609271216</sparkle:version>
+            <sparkle:shortVersionString>3.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.6</h2>
+                <h3>Bug Fixes</h3>
+                <ul>
+                <li><b>Detailed scenes no longer freeze the picture</b> — Opening a large photo or cutting to a busy new scene at high resolution could freeze the stream for about three seconds, with nothing to say why. Every frame the Host sends now arrives in one piece, so the picture keeps moving.</li>
+                <li><b>Text-heavy screens keep their full frame rate</b> — On a large screen full of text, the stream could quietly settle at half its frame rate. It now holds the full rate.</li>
+                <li><b>The Host picks itself up if the Mac&#x27;s video encoder hangs</b> — Rarely, macOS&#x27;s video encoder stops answering. The Host then still showed as online, but no device could connect, sometimes for hours. It now notices within seconds and restarts itself.</li>
+                <li><b>No more unexpected restarts</b> — The Host could restart itself every few minutes in three cases: on a Mac mini after a session ended, while the &quot;You&#x27;re up to date&quot; message was left on screen, and while macOS was waiting for permission to use the Host&#x27;s saved key. None of these restart it any more.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                <li><b>Full sharpness at 120 Hz on big screens</b> — On large, high-refresh sessions the Host used to lower the resolution and fall back to 60 fps to keep up. It now keeps full resolution at 120 fps, and returns to full sharpness sooner after a busy moment.</li>
+                <li><b>120 Hz sessions start at full quality</b> — A 120 Hz session on your local network started at half the quality your connection could carry, and was capped below the limit you set. It now starts at the right quality and uses your limit.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Sep 2026 05:22:20 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.6/Remio-Host-3.0.6-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="cw6pgAX2nbuFpjNEiLb4JIDoeevWf9EHpjBPLadZip9qufP9YB59dwG2/pKKj6BXQn7L38nKqM+J6ObsPjU+Bg=="
+                length="40266390"
+            />
+        </item>
+        <item>
             <title>Version 3.0.5</title>
             <sparkle:version>2609262138</sparkle:version>
             <sparkle:shortVersionString>3.0.5</sparkle:shortVersionString>
