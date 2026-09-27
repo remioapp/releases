@@ -4,6 +4,31 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.7</title>
+            <sparkle:version>2609271957</sparkle:version>
+            <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.7</h2>
+                <h3>Bug Fixes</h3>
+                <ul>
+                <li><b>Connecting from a phone or tablet no longer ends in &quot;reopen Remio&quot;</b> — On some Macs, the display the Host creates for your phone or tablet didn&#x27;t come up, and the Host took that for a missing permission: it stopped sharing and told you to reopen Remio, even while another device was streaming from the same Mac without trouble. It now tries that display again and, if it still doesn&#x27;t appear, streams your Mac&#x27;s own screen instead — sharing stays on.</li>
+                <li><b>Files you send to your Mac show up where you can see them</b> — Since 3.0, a file the Host received only raised a notification, easy to miss when you&#x27;re looking at the Mac through Remio. The Host now shows the file in a Finder window on the screen you&#x27;re viewing, as it did before 3.0.</li>
+                </ul>
+                <h3>Improvements</h3>
+                <ul>
+                <li><b>A sharper picture on 120 Hz screens when your Mac is at its limit</b> — When your Mac couldn&#x27;t keep up with a large 120 Hz screen, such as an iPad Pro 13&quot;, the Host kept 120 fps and lowered the resolution, so text looked soft. It now steps down to 60 fps first — still smooth — and lowers the resolution only if 60 fps is too much as well. Over a relay connection a Mac at its limit now holds 60 fps too, instead of letting the frame rate fall.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 27 Sep 2026 13:02:37 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.7/Remio-Host-3.0.7-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="4LQm79JkBbHjaEVM/p0sKIzQpnMVOxe7jQsbAsdT2ciDnm29t7iSCPsODdgWHAESygsVYOo5b/OCIYyV3Mz7Cw=="
+                length="40286468"
+            />
+        </item>
+        <item>
             <title>Version 3.0.6</title>
             <sparkle:version>2609271216</sparkle:version>
             <sparkle:shortVersionString>3.0.6</sparkle:shortVersionString>
