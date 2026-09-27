@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.7</title>
+            <sparkle:version>3.0.7</sparkle:version>
+            <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
+            <pubDate>Sun, 27 Sep 2026 14:58:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.0.7</h2>
+                <p>Remio now rides out a brief connection hiccup instead of rebuilding the session, never asks for more frames than your monitor can show, switches a computer that cannot really play H.265 over to H.264 on its own, and stays disconnected when the owner of the other computer ends your session.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.7-win/Remio-Client-3.0.7-win-x64-Setup.exe"
+                sparkle:version="3.0.7"
+                sparkle:shortVersionString="3.0.7"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="SJ65k03dD+RXXgRcPQ4GeQPDF4C8Q8eTjBPYZba1bm4iY9jtUpqSnexWykQwV9wUgds3a9x3MiDL/dOkdAY8AQ=="
+                length="63710608"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.1</title>
             <sparkle:version>3.0.1</sparkle:version>
             <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
