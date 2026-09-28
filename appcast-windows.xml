@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.8</title>
+            <sparkle:version>3.0.8</sparkle:version>
+            <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
+            <pubDate>Mon, 28 Sep 2026 13:08:26 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.0.8</h2>
+                <p>Text is sharp and the frame rate is full from the moment you connect over the internet, a still screen stays sharp instead of blurring again every few seconds, the Remio Host window no longer keeps your graphics card busy, and switching devices mid-session keeps the right display size.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.8-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.0.8"
+                sparkle:shortVersionString="3.0.8"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Zpx3/zlv3+6TLeSuDpyuVs2Tr9+WEpGXHSUojxkneeXHPKIiqpwe4e9Wta6hxpBuhU2TZFW3Q6fgP5giSoeyDw=="
+                length="31314044"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.7</title>
             <sparkle:version>3.0.7</sparkle:version>
             <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
