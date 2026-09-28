@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.7</title>
+            <sparkle:version>3.0.7</sparkle:version>
+            <pubDate>Mon, 28 Sep 2026 07:18:21 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.0.7</h2>
+                <p>Remio Host for FreeBSD 3.0.7 streams 120 Hz devices at up to 120 frames a second, keeps fast motion live on your local network, picks your cable over Wi-Fi, and opens files you receive in your file manager. It also fixes devices on your own account being refused, paired devices that could be forgotten, a rare encoder hang that left this computer unreachable, a hang when the desktop session restarts, and multi-monitor desktops losing their layout.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.7-freebsd/Remio-Host-3.0.7-FreeBSD-amd64.pkg"
+                sparkle:version="3.0.7"
+                sparkle:os="freebsd"
+                length="8955239"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.0</title>
             <sparkle:version>3.0.0</sparkle:version>
             <pubDate>Fri, 25 Sep 2026 14:03:41 +0700</pubDate>
