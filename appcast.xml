@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.0.8</title>
+            <sparkle:version>2609281838</sparkle:version>
+            <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.0.8</h2>
+                <ul><li><b>Remio Host keeps itself up to date</b> — New versions now download in the background and install on their own while no device is connected, so a Mac you reach from far away stays current without anyone sitting at it. Turn it off any time in Settings → Install updates automatically.</li><li><b>A required update no longer takes your Mac offline</b> — When an update was required, the Host stopped sharing until it was installed, and on many Macs it waited for someone to click a button on the Mac itself. It now keeps sharing and installs the update at the next quiet moment.</li><li>Fixed "it says it updated, then asks to update again" — If you installed a new version from the website while Remio Host was running, the Host kept running the old version and kept asking for the update. It now switches to the new version by itself.</li><li><b>A MacBook with its lid closed shows the picture</b> — A MacBook on power with its lid closed could accept your connection and then show nothing. It now wakes itself up for you and streams.</li><li><b>A lid-closed MacBook keeps its external display</b> — With the lid closed and one external display attached, every other session could leave that display switched off afterwards, and the Mac would go to sleep. Your display now comes back exactly as it was.</li></ul>
+            ]]></description>
+            <pubDate>Mon, 28 Sep 2026 11:42:02 +0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.8/Remio-Host-3.0.8-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="DtAjyfkENgTlMrM3d1PIa3DLuUkbKvIzUbarHhbX4fS0HEHPXbwQ6LG8BjsHjvFMFo1pDZH5DNEvqbN3dhU7Dw=="
+                length="40337665"
+            />
+        </item>
+        <item>
             <title>Version 3.0.7</title>
             <sparkle:version>2609271957</sparkle:version>
             <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
