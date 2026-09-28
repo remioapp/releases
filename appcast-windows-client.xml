@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.0.8</title>
+            <sparkle:version>3.0.8</sparkle:version>
+            <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
+            <pubDate>Mon, 28 Sep 2026 13:15:49 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.0.8</h2>
+                <p>Disconnecting now frees the other computer at once, a still screen reads Idle instead of a frame rate that looks like a problem, and cursor size and screen fit are free for good.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.0.8-win/Remio-Client-3.0.8-win-x64-Setup.exe"
+                sparkle:version="3.0.8"
+                sparkle:shortVersionString="3.0.8"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="jacXXQxgRw2zPDleg1WwOzAKozEVV1LPJ/MGroWjQ21Qm8JvtyUrKNLVii+XnRvpH4y2JOF7poZudn3gTObTDg=="
+                length="63915790"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.7</title>
             <sparkle:version>3.0.7</sparkle:version>
             <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
