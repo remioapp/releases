@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.1.0</title>
+            <sparkle:version>2610011714</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.1.0</h2>
+                <h3>New Features</h3><ul><li><b>Copy images between your Mac and your devices</b> — Copy a picture on one side and paste it on the other, in both directions. The new Clipboard section in Remio Host shows everything that crossed during the session, lets you copy any of it again, and tells you right away if something didn't arrive. Images need Remio 3.1 or later on the Mac, iPhone, iPad or Windows PC you connect from; text works with every version.</li><li><b>HDR streaming</b> — On a Mac with Apple silicon, iPhones, iPads and Macs with an HDR screen can now see your desktop in HDR, with the brightness and color it really has. Turn on HDR in the device's stream settings.</li></ul><h3>Improvements</h3><ul><li><b>Smoother scrolling</b> — Scrolling with a mouse wheel or trackpad now stops cleanly at the edge of a page and lands where you aimed.</li><li><b>Faster reconnects</b> — When your Mac's network changes, Remio Host is reachable again on the new network straight away.</li></ul><h3>Bug Fixes</h3><ul><li>Fixed Remio Host freezing when you switched back to it — The Host could stop responding the moment you brought its window to the front. It now always responds.</li><li>Fixed a rare crash on a Mac that has been sharing for a long time — Remio Host could quit on its own after running for a day or more. It now keeps running.</li><li>Fixed a crash when VoiceOver reads the pairing code — The pairing code can now be read aloud without the Host quitting.</li><li><b>Extra displays stay put</b> — A display you added in the middle of a session no longer disappears, and when another device takes over the session it gets your extra displays too.</li><li><b>The pointer reaches every corner</b> — On a streamed display placed beside or above your main screen, the pointer now reaches the whole display.</li><li><b>Empty files can be sent</b> — Sending an empty file to or from your Mac now works instead of failing.</li></ul>
+            ]]></description>
+            <pubDate>Thu, 01 Oct 2026 10:24:43 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0/Remio-Host-3.1.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="GaD5QPvk2+0Q9g2drK7aG100O/AH9e7OKT2qI1Sm93O0G1ext9ewMqTSpmxZjXGsG+BNj/5cFAL88uy1Kgn5CA=="
+                length="41158254"
+            />
+        </item>
+        <item>
             <title>Version 3.0.8</title>
             <sparkle:version>2609281838</sparkle:version>
             <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
