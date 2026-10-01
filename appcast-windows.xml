@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.1.0</title>
+            <sparkle:version>3.1.0</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <pubDate>Thu, 01 Oct 2026 23:25:49 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.1.0</h2>
+                <p>Add extra displays from the device you connect from, copy pictures both ways, stream your HDR desktop, choose which sound the stream carries and keep this PC quiet, and stay smooth on any PC. Also fixes Remio Host slowing the PC down after running for a while, rare crashes, sessions stuck at 15 fps, and reconnecting right after leaving.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.1.0"
+                sparkle:shortVersionString="3.1.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Rm2v+NMRZcDVRCshPNs/5U385u19CMgktnf/lUr+vExfxJEFHn6KgH1woQKdbNCKsF3i4QNuzvINje/3/7e7BA=="
+                length="31853620"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.8</title>
             <sparkle:version>3.0.8</sparkle:version>
             <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
