@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.1.2</title>
+            <sparkle:version>3.1.2</sparkle:version>
+            <sparkle:shortVersionString>3.1.2</sparkle:shortVersionString>
+            <pubDate>Fri, 02 Oct 2026 17:25:16 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.1.2</h2>
+                <p>Keeps full resolution on large, fast screens like iPad Pro instead of dropping to half, and stops some PCs from dropping off about every minute when Windows screen capture keeps failing. Devices stay connected while the picture recovers, Settings gains a Language choice, and with the latest Remio app you can pick 1x or 2x display scaling from your device.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.1.2"
+                sparkle:shortVersionString="3.1.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="jVgIssUwt6BbSBv9EZXJzJ2DfnxgIasxcBcOXA1TjV2ajQS6qab9Js21QaIo25bM6Ut8LJbu5QCzbiYI7AUnDw=="
+                length="31797573"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.1.1</title>
             <sparkle:version>3.1.1</sparkle:version>
             <sparkle:shortVersionString>3.1.1</sparkle:shortVersionString>
