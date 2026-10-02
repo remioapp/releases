@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.1.1</title>
+            <sparkle:version>3.1.1</sparkle:version>
+            <sparkle:shortVersionString>3.1.1</sparkle:shortVersionString>
+            <pubDate>Fri, 02 Oct 2026 08:40:43 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.1.1</h2>
+                <p>Fixes Remio Host closing on its own on some PCs with Intel or AMD graphics, and connections breaking off right after it starts. A connected device now hears right away when this PC restarts, updates or is taken back with Esc twice, and PCs without a monitor reconnect faster.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.1.1"
+                sparkle:shortVersionString="3.1.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Asw0jxVlolduILo2vuw7BWoICaj1pZ1+fF7qcQy4cq6GJKOboPqWRcUUG1NArIM3flKIVYEbZdib81/n9avdCA=="
+                length="31858581"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.1.0</title>
             <sparkle:version>3.1.0</sparkle:version>
             <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
