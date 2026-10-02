@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.1.0</title>
+            <sparkle:version>3.1.0</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <pubDate>Fri, 02 Oct 2026 00:03:53 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.1.0</h2>
+                <p>Copy pictures both ways with a new Clipboard panel, see HDR desktops in HDR, adjust everything in one Settings panel in the same order as on iPhone, iPad and Mac, and send your Ctrl shortcuts to the other computer. Your computers show an honest online status, and a session rides out a restarting computer. Also fixes settings lost between sessions, doubled letters, sending several files at once, and Disconnect leaving the other computer streaming.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0-win/Remio-Client-3.1.0-win-x64-Setup.exe"
+                sparkle:version="3.1.0"
+                sparkle:shortVersionString="3.1.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="iqJowj5GLGv7DcdOG9sz1hLtShSr6yQu3cyFhJ67fdRYJ3hI+eFPMSO0bEdO1BeIlEk6dGN8hiXzCBRV+vcbDQ=="
+                length="65347573"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.8</title>
             <sparkle:version>3.0.8</sparkle:version>
             <sparkle:shortVersionString>3.0.8</sparkle:shortVersionString>
