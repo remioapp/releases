@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.1.0</title>
+            <sparkle:version>3.1.0</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 21:40:02 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.1.0</h2>
+                <p>Extra displays from your device, PlayStation controllers, automatic updates, 120 Hz streaming and lower delay on your local network.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0-linux/Remio-Host-3.1.0-linux-x86_64.AppImage"
+                sparkle:version="3.1.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="ExCBrUNzJx+9oDa3uSui+yjUFV5mBL/vAlrLnbLCO7twDgP8P6LM77zeJCQDMm4wj5v5K83cHxobXYuwAdwqAQ=="
+                length="71109112"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.1.0 (aarch64)</title>
+            <sparkle:version>3.1.0</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 21:40:02 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.1.0</h2>
+                <p>Extra displays from your device, PlayStation controllers, automatic updates, 120 Hz streaming and lower delay on your local network.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0-linux/Remio-Host-3.1.0-linux-aarch64.AppImage"
+                sparkle:version="3.1.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="oeHgmCcXpbtGEgXgnQ0dqMlJYNt0EO4M0cGkATuH+QHu/bp7p8+gurA71cOmu7hO00RGNpZ+hXmUkKwkcoFsAg=="
+                length="67430920"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.1.0 (armhf)</title>
+            <sparkle:version>3.1.0</sparkle:version>
+            <pubDate>Sat, 03 Oct 2026 21:40:02 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.1.0</h2>
+                <p>Extra displays from your device, PlayStation controllers, automatic updates, 120 Hz streaming and lower delay on your local network.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0-linux/Remio-Host-3.1.0-linux-armhf.AppImage"
+                sparkle:version="3.1.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="AGf7kLA1g+XjWmi9R5m3/nuaJFzMlaAH/XHbhixxBxAEpog17cLdRTlqcmsyJdlnY36980JIEu4YewniM7SFCw=="
+                length="68193668"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.0</title>
             <sparkle:version>3.0.0</sparkle:version>
             <pubDate>Fri, 25 Sep 2026 04:26:02 +0000</pubDate>
