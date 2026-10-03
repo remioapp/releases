@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.1.0</title>
+            <sparkle:version>3.1.0</sparkle:version>
+            <pubDate>Sun, 04 Oct 2026 05:17:30 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.1.0</h2>
+                <p>Extra displays from your device, PlayStation controllers, automatic updates, 120 Hz streaming and lower delay on your local network.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.1.0-freebsd/Remio-Host-3.1.0-FreeBSD-amd64.pkg"
+                sparkle:version="3.1.0"
+                sparkle:os="freebsd"
+                length="9383168"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.0.7</title>
             <sparkle:version>3.0.7</sparkle:version>
             <pubDate>Mon, 28 Sep 2026 07:18:21 +0700</pubDate>
