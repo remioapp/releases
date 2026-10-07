@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.0</title>
+            <sparkle:version>3.2.0</sparkle:version>
+            <pubDate>Wed, 07 Oct 2026 08:32:50 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.2.0</h2>
+                <p>Ready for Second Display once your Remio app updates, a smoother picture on busy networks, and fixes for freezes, a hang when a third device connects, and the screen-sharing prompt.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.0-linux/Remio-Host-3.2.0-linux-x86_64.AppImage"
+                sparkle:version="3.2.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="uZmdrcAA1UpKQwXppnXjsMMqPsCfJVf23p7dcr5aT+X3qPYH1rop6vESFzVtinaloocx3ZZR7LFpjibCgrWtDg=="
+                length="71371256"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.2.0 (aarch64)</title>
+            <sparkle:version>3.2.0</sparkle:version>
+            <pubDate>Wed, 07 Oct 2026 08:32:50 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.2.0</h2>
+                <p>Ready for Second Display once your Remio app updates, a smoother picture on busy networks, and fixes for freezes, a hang when a third device connects, and the screen-sharing prompt.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.0-linux/Remio-Host-3.2.0-linux-aarch64.AppImage"
+                sparkle:version="3.2.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="vuClUh6XFPAyTMgcNqERhnVLEHXJJp5lZt2xoi5pnmJGJQu9PtI5DdPj09tuwg2AdvR6W9TjA3gGGH8JWCFOCQ=="
+                length="67639816"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.2.0 (armhf)</title>
+            <sparkle:version>3.2.0</sparkle:version>
+            <pubDate>Wed, 07 Oct 2026 08:32:50 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.2.0</h2>
+                <p>Ready for Second Display once your Remio app updates, a smoother picture on busy networks, and fixes for freezes, a hang when a third device connects, and the screen-sharing prompt.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.0-linux/Remio-Host-3.2.0-linux-armhf.AppImage"
+                sparkle:version="3.2.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="y+KZsrDHzcpP9wOlalxTmKaxOWBxQ+1BONsRQUEZqKGXyoj2g2UoGfK+pklLHh3KD+NK+gv/jB4xpLJ0KvtJDw=="
+                length="68390276"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.1.0</title>
             <sparkle:version>3.1.0</sparkle:version>
             <pubDate>Sat, 03 Oct 2026 21:40:02 +0000</pubDate>
