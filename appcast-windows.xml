@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.0</title>
+            <sparkle:version>3.2.0</sparkle:version>
+            <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
+            <pubDate>Wed, 07 Oct 2026 09:38:47 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.2.0</h2>
+                <p>Ready for Second Display once your Remio app updates, a smoother picture on busy networks, Quit now fully stops Remio Host, Keep screen on keeps your resolution, and fixes for closing after wake, restarting at sign-in and sessions freezing.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.2.0"
+                sparkle:shortVersionString="3.2.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="9BSNQMu8XneI8zIvrENfPxImfhUhY/HABRlE2ARBou80+ORZGddVPzmWmAYeUbMSFdPgCMe/xIBBczMV6+RhCw=="
+                length="31960197"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.1.2</title>
             <sparkle:version>3.1.2</sparkle:version>
             <sparkle:shortVersionString>3.1.2</sparkle:shortVersionString>
