@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.2</title>
+            <sparkle:version>3.2.2</sparkle:version>
+            <sparkle:shortVersionString>3.2.2</sparkle:shortVersionString>
+            <pubDate>Wed, 07 Oct 2026 23:56:03 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.2.2</h2>
+                <p>Your paired devices survive a power cut, sessions from signed-in devices no longer end after an hour, Second Display works with this PC, and a device that loses a race to connect is told at once.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.2.2"
+                sparkle:shortVersionString="3.2.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Hfk8QsXHBOd0NmDoeFaoh037kABvyQDXybL2HARMO0QfftARSsV9N3hVzn28pLWqQZO4pVb79wiphWywy3WyCw=="
+                length="31981214"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.1</title>
             <sparkle:version>3.2.1</sparkle:version>
             <sparkle:shortVersionString>3.2.1</sparkle:shortVersionString>
