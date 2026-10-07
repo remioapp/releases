@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.1</title>
+            <sparkle:version>3.2.1</sparkle:version>
+            <sparkle:shortVersionString>3.2.1</sparkle:shortVersionString>
+            <pubDate>Wed, 07 Oct 2026 14:14:22 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.2.1</h2>
+                <p>Devices that lose a race to connect are told at once, every connection starts at full size again on PCs that lower the picture to keep up, and a second display stays sharp after resizing.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.2.1"
+                sparkle:shortVersionString="3.2.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="rCwyV4cUPoqcl9YByj88INk0fr6XaBrFYl5i2bX+ZevvfpuJgSWghmqAw5H0GAL3rG6D0uS206twxYZW69qmCQ=="
+                length="31979397"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.0</title>
             <sparkle:version>3.2.0</sparkle:version>
             <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
