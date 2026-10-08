@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.2</title>
+            <sparkle:version>3.2.2</sparkle:version>
+            <sparkle:shortVersionString>3.2.2</sparkle:shortVersionString>
+            <pubDate>Thu, 08 Oct 2026 00:03:23 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.2.2</h2>
+                <p>Use this PC as a second display for a computer on the same network, a question before switching computers, no tearing in full screen, and the right picture after resizing or restoring the window.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.2-win/Remio-Client-3.2.2-win-x64-Setup.exe"
+                sparkle:version="3.2.2"
+                sparkle:shortVersionString="3.2.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="koPIwY7o70StUPRDWS8fNd73Vzbl+tkOD16mf64pJfekdaOc/b9kpikufT6n7H39/F9sROZjQwaUQY+oXAn0CQ=="
+                length="65582721"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.1.0</title>
             <sparkle:version>3.1.0</sparkle:version>
             <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
