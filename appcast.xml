@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.2.2</title>
+            <sparkle:version>2610091234</sparkle:version>
+            <sparkle:shortVersionString>3.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.2.2</h2>
+                <h3>New Features</h3><ul><li><b>Ready for Second Display</b> — Once your Remio app updates, your iPad, iPhone, tablet or another computer can become an extra screen for this Mac. It extends your desktop instead of copying it: your own screens stay on, you drag windows onto it like onto any other display, and it shows this Mac's pointer. Windows keep the size they have on your Mac, each device's screen comes back where you left it, and sound stays on the Mac. Everything stays on your local network.</li><li><b>Several second displays at once</b> — Up to three devices can each add a screen of their own, even while another device is controlling this Mac. The Remio Host window and the menu bar list every device with its own Disconnect, so you can end one without touching the others. Drop a file on a device's row to send it to that device only, and text and pictures you copy on the Mac reach every device.</li></ul><h3>Improvements</h3><ul><li><b>A still screen no longer looks like a bad connection</b> — When nothing on your screen was changing, the Host showed the connection as poor, in red. It now simply says Idle.</li><li><b>Smoother picture on busy networks</b> — Remio Host no longer resends the whole screen every 30 seconds, which caused brief stutters on slower Wi-Fi.</li><li><b>Full frame rate after a takeover</b> — A device that takes a session over from another now gets the full frame rate straight away, instead of the slower rate the previous device had dropped to.</li><li><b>Told at once when another device wins</b> — When two devices try to connect to this Mac at the same moment, the one that loses now sees right away that another device took over, instead of a connection error about 15 seconds later. Needs the updated Remio apps.</li><li><b>Quitting tells your devices</b> — When you quit Remio Host, a connected device is told right away that this Mac stopped sharing, instead of waiting for a time-out.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed sessions ending after about an hour</b> — A session from a signed-in device could end on its own after about an hour. Sessions now last as long as you need.</li><li><b>Fixed Remio Host restarting again and again</b> — On some Macs, macOS's keychain could stop answering when the Host started, and the Host was restarted over and over. It now waits, keeps running, and carries on as soon as the keychain answers.</li><li><b>Fixed HDR sometimes not turning on</b> — A device could be told HDR was on while it was still receiving the standard picture. HDR now starts with the first frame.</li><li><b>Fixed screen sharing carrying on after a device left</b> — When a device dropped out, for example when this Mac went to sleep, a late message from it could restart screen sharing with nobody connected. It now stops together with the session.</li></ul>
+            ]]></description>
+            <pubDate>Fri, 09 Oct 2026 05:39:44 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.2/Remio-Host-3.2.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="EqKO4s3ruXkfTlGlaMMlOu1HTBU4/d64cqQi0iTzxiEujhfWJPNeoTHQBsWGFCCxFkceCCRmQHJT6IOw40uFBQ=="
+                length="41630569"
+            />
+        </item>
+        <item>
             <title>Version 3.1.0</title>
             <sparkle:version>2610011714</sparkle:version>
             <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
