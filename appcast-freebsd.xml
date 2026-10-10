@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.1</title>
+            <sparkle:version>3.2.1</sparkle:version>
+            <pubDate>Sat, 10 Oct 2026 19:51:11 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.2.1</h2>
+                <p>Devices that lose the race to connect to this computer are now told right away that another device took over.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.1-freebsd/Remio-Host-3.2.1-FreeBSD-amd64.pkg"
+                sparkle:version="3.2.1"
+                sparkle:os="freebsd"
+                length="9582211"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.0</title>
             <sparkle:version>3.2.0</sparkle:version>
             <pubDate>Wed, 07 Oct 2026 15:34:34 +0700</pubDate>
