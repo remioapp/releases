@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.3</title>
+            <sparkle:version>3.2.3</sparkle:version>
+            <sparkle:shortVersionString>3.2.3</sparkle:shortVersionString>
+            <pubDate>Sat, 10 Oct 2026 06:18:04 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.2.3</h2>
+                <p>Disconnect one device at a time from the tray, a tip on the Connect page for turning a tablet or phone into an extra screen for this PC, and your devices now show when this PC is already in use.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.3-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.2.3"
+                sparkle:shortVersionString="3.2.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Ps0mC/v1YiFn+bFZ7615AuOwiir4Jb6/WQ9nt1NCK3nyCraFVHRGTkD4BtpZimFk6ljn7PyIJErXSiIuADt/Cw=="
+                length="32308576"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.2</title>
             <sparkle:version>3.2.2</sparkle:version>
             <sparkle:shortVersionString>3.2.2</sparkle:shortVersionString>
