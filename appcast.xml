@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.2.3</title>
+            <sparkle:version>2610101102</sparkle:version>
+            <sparkle:shortVersionString>3.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.2.3</h2>
+                <h3>Improvements</h3><ul><li><b>Clearer screen names</b> — On your device, the screen this Mac makes for remote control now shows up as "This computer's desktop" instead of "Remio Virtual".</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed "no picture" on a second display next to remote control</b> — When a second display joined while another device was controlling this Mac, the Mac took a few seconds to prepare the desktop without saying so, and the second display gave up with "no picture". The second display now waits, and the picture appears. The device in control also keeps its picture when it reconnects at the same moment a second display joins.</li><li><b>Back in control right away</b> — With second displays connected, a device controlling this Mac that was closed and reopened, or lost its connection, could be refused with "Second display in use" for up to 90 seconds. It now gets straight back in.</li><li><b>Fixed reconnecting next to second displays</b> — A device coming back to control this Mac while second displays are connected is no longer turned away or mistaken for a second display. When several second displays reconnect at the same moment, for example after Remio Host restarts, each one comes back instead of one stopping for good.</li><li><b>Fixed a second display going dark</b> — When one device connected to control this Mac at the same moment another added a second display, the second display could go dark with "This computer can't add a second display". Both now connect.</li><li><b>A clear message when remote control ends</b> — On a Mac with no screen of its own, when the remote-control session a second display extends comes to an end, the second display now says so instead of "This computer can't add a second display".</li><li><b>Fixed the picture not coming back</b> — A device that connected just as another session was ending, such as the same device reconnecting within a moment, could be left without a picture. The same could happen when switching to another screen or resizing did not go through. The picture now comes back.</li><li><b>Fixed a crash when the disk is full</b> — Remio Host could quit when the Mac ran completely out of disk space. It now keeps running.</li></ul>
+            ]]></description>
+            <pubDate>Sat, 10 Oct 2026 04:15:07 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.3/Remio-Host-3.2.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="pZ4won6B8fc0wwK1imgKksdJ0T2caNz5/JLsrNJH6dRcKe2qR2OH51wF39IXQkz/sgmzQtbteTmbvipF/vsuBA=="
+                length="41680250"
+            />
+        </item>
+        <item>
             <title>Version 3.2.2</title>
             <sparkle:version>2610091234</sparkle:version>
             <sparkle:shortVersionString>3.2.2</sparkle:shortVersionString>
