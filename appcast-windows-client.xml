@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.0</title>
+            <sparkle:version>3.3.0</sparkle:version>
+            <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
+            <pubDate>Sat, 10 Oct 2026 06:35:32 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.3.0</h2>
+                <p>Use your USB accessories on a Mac you control, send whole folders, see every file you sent and received on the home screen, quality presets, sharper text with 4:4:4 color, and many fixes for pairing, audio and Blank screen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.0-win/Remio-Client-3.3.0-win-x64-Setup.exe"
+                sparkle:version="3.3.0"
+                sparkle:shortVersionString="3.3.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="BmO0PfyEIzHTCcVcKKlLRxXDLFDx27cw4gn7HGgE6dFvL03RReuqQ6ANJQgM7+4vp3j0x+5dtx/E02q1uQHgAg=="
+                length="67556316"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.2</title>
             <sparkle:version>3.2.2</sparkle:version>
             <sparkle:shortVersionString>3.2.2</sparkle:shortVersionString>
