@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.1</title>
+            <sparkle:version>3.2.1</sparkle:version>
+            <pubDate>Sun, 11 Oct 2026 05:19:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.2.1</h2>
+                <p>Disconnect one device at a time from the tray, a second display that stays sharp after resizing, and an instant notice when another device takes over the connection.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.1-linux/Remio-Host-3.2.1-linux-x86_64.AppImage"
+                sparkle:version="3.2.1"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="jhnMOqMRiGtrxQ/uaZe9gJLAriXXb5L2aWc+IhSpxawxca5PtQLBEUwHznuChcYOoELS3a40BxL1URWWKto3Dw=="
+                length="72055288"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.2.1 (aarch64)</title>
+            <sparkle:version>3.2.1</sparkle:version>
+            <pubDate>Sun, 11 Oct 2026 05:19:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.2.1</h2>
+                <p>Disconnect one device at a time from the tray, a second display that stays sharp after resizing, and an instant notice when another device takes over the connection.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.1-linux/Remio-Host-3.2.1-linux-aarch64.AppImage"
+                sparkle:version="3.2.1"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="gZG08Azp8r4oFea1ygFSZdN7RlxUP/G3uVsSXc27TB4Lhawj1aVw+zJFKZqXMHIXC30ZrNzyTzn4sCCNiUQaBw=="
+                length="68303368"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.2.1 (armhf)</title>
+            <sparkle:version>3.2.1</sparkle:version>
+            <pubDate>Sun, 11 Oct 2026 05:19:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.2.1</h2>
+                <p>Disconnect one device at a time from the tray, a second display that stays sharp after resizing, and an instant notice when another device takes over the connection.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.1-linux/Remio-Host-3.2.1-linux-armhf.AppImage"
+                sparkle:version="3.2.1"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="qycQJNZMxYhitxCYEHxusCASvF1P9ReyoWMkHTy4zU1Ogj/kPWsuVIxbmxXxhYGffHk9BVjTPVF+tn9gfR+MDw=="
+                length="68951428"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.0</title>
             <sparkle:version>3.2.0</sparkle:version>
             <pubDate>Wed, 07 Oct 2026 08:32:50 +0000</pubDate>
