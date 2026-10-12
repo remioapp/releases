@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.2.5</title>
+            <sparkle:version>2610122102</sparkle:version>
+            <sparkle:shortVersionString>3.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.2.5</h2>
+                <h3>Improvements</h3><ul><li><b>Sharper on 5K and 6K displays</b> — A Mac with a 5K or 6K display, such as a Studio Display, Pro Display XDR or iMac 5K, controlling this Mac now gets full Retina sharpness instead of a lower-resolution picture. Needs the updated Remio app on that Mac.</li><li><b>Every device starts at full quality</b> — A data limit set by one device, for example a phone on mobile data, now ends with its session. The next device no longer starts out blurry for a few seconds.</li><li><b>Direct connections stay direct</b> — With a fixed direct-connection port set in Remio, a short network drop or another device taking over no longer leaves the session on the slower relay path. It reconnects directly within seconds.</li></ul><h3>Bug Fixes</h3><ul><li><b>"Fit to this device" follows your window</b> — With Keep screen on, resizing the window on the controlling device now resizes the fitted display too.</li><li><b>Fixed a second display going dark after a reconnect</b> — After a reconnect or a Remio Host restart, the old connection could take a second display down a few seconds into the new one, with "This computer can't add a second display". It now stays on.</li><li><b>Fixed Remio Host restarting on MacBooks</b> — On a MacBook, a slow battery or charger check could make Remio Host restart itself and drop your connection. It no longer waits on it.</li><li><b>Fixed a black screen after a quick reconnect</b> — A device that reconnected twice in quick succession could be left without a picture. The picture now comes back.</li><li><b>Fixed no picture on very large displays</b> — On Macs that cannot encode a very large display, such as an older iMac 5K, Remio Host now steps down to a slightly smaller picture instead of showing nothing.</li></ul>
+            ]]></description>
+            <pubDate>Mon, 12 Oct 2026 14:13:32 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.5/Remio-Host-3.2.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="iD8kMNzVxeFGYhHMmQxBB9kuvWS1v1kxfU5T51FsP6d3HANkurmc3zMvZcR9dmYkQtnAmjIwbQcxTlMtGtdDBw=="
+                length="43533054"
+            />
+        </item>
+        <item>
             <title>Version 3.2.3</title>
             <sparkle:version>2610101102</sparkle:version>
             <sparkle:shortVersionString>3.2.3</sparkle:shortVersionString>
