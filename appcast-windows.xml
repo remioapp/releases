@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.2.5</title>
+            <sparkle:version>3.2.5</sparkle:version>
+            <sparkle:shortVersionString>3.2.5</sparkle:shortVersionString>
+            <pubDate>Mon, 12 Oct 2026 08:53:15 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.2.5</h2>
+                <p>Updates no longer end your session, a fix for a black screen on Apple devices with Intel graphics, steadier Wi-Fi streaming, and many stability fixes.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.2.5-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.2.5"
+                sparkle:shortVersionString="3.2.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="TIfHdpi+6VXriwulPJig6w5epHn0R1BMcC05pDSIjcyA6SQqLHolfynbVJ+9nKM9DtuqwIhcIwiyGCeOYXrpDw=="
+                length="32409443"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.4</title>
             <sparkle:version>3.2.4</sparkle:version>
             <sparkle:shortVersionString>3.2.4</sparkle:shortVersionString>
