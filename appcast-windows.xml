@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.0</title>
+            <sparkle:version>3.3.0</sparkle:version>
+            <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
+            <pubDate>Wed, 14 Oct 2026 13:07:10 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.3.0</h2>
+                <p>Show each screen in its own window, restart this PC or send Ctrl+Alt+Del from your device, and reconnect in about 5 seconds after an update. Fixes for no picture, second displays and networks that blocked sessions.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.3.0"
+                sparkle:shortVersionString="3.3.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="vN24zcLb2+j91Jl1ZW0fX9kQCDy2v8vDA5bv10UdEm+Yri2cDV6QupwMLouEwhtMStLQurXuTRFb8VzX7wueAQ=="
+                length="32571385"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.5</title>
             <sparkle:version>3.2.5</sparkle:version>
             <sparkle:shortVersionString>3.2.5</sparkle:shortVersionString>
