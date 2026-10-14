@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.2</title>
+            <sparkle:version>3.3.2</sparkle:version>
+            <sparkle:shortVersionString>3.3.2</sparkle:shortVersionString>
+            <pubDate>Wed, 14 Oct 2026 12:58:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.3.2</h2>
+                <p>Open several computers at once, show each screen in its own window, restart a computer, aim freely with Lock mouse, and watch with View only. Long sessions recover more reliably and your typing always reaches the computer.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.2-win/Remio-Client-3.3.2-win-x64-Setup.exe"
+                sparkle:version="3.3.2"
+                sparkle:shortVersionString="3.3.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="CszaO6TR5JU/Z1kE0TJacpOpkgnVhk1NuNw9Fo0OkrYo6Z8Lv+JL7i2QTc8x23/IIWp5ma+zUe3V1V6KMPWjCw=="
+                length="28487632"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.1</title>
             <sparkle:version>3.3.1</sparkle:version>
             <sparkle:shortVersionString>3.3.1</sparkle:shortVersionString>
