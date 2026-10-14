@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.0</title>
+            <sparkle:version>3.3.0</sparkle:version>
+            <pubDate>Wed, 14 Oct 2026 14:45:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.0</h2>
+                <p>Reach this computer at its sign-in screen, share your screen without waiting for a click, and open each monitor in its own window. Fixes GNOME logouts on reconnect and memory left behind after sessions.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.0-linux/Remio-Host-3.3.0-linux-x86_64.AppImage"
+                sparkle:version="3.3.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="d1OrAHpB1LwJjhG6HKfN1x8v1uoaKAimb73Kg96E2tA6jpdPO8Zi84edy+yb0U2eQBS5bBrG/thPYVnfkToXCg=="
+                length="72436216"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.0 (aarch64)</title>
+            <sparkle:version>3.3.0</sparkle:version>
+            <pubDate>Wed, 14 Oct 2026 14:45:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.0</h2>
+                <p>Reach this computer at its sign-in screen, share your screen without waiting for a click, and open each monitor in its own window. Fixes GNOME logouts on reconnect and memory left behind after sessions.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.0-linux/Remio-Host-3.3.0-linux-aarch64.AppImage"
+                sparkle:version="3.3.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="p6pNtEQxPQu0pZjCkUlx3QJ2jiCUyjjGu+frdMEq00xTy+wp/PV/1CEGZzcK+jI/70MXsdMIWCI2RKjoJQwsDQ=="
+                length="68680200"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.0 (armhf)</title>
+            <sparkle:version>3.3.0</sparkle:version>
+            <pubDate>Wed, 14 Oct 2026 14:45:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.0</h2>
+                <p>Reach this computer at its sign-in screen, share your screen without waiting for a click, and open each monitor in its own window. Fixes GNOME logouts on reconnect and memory left behind after sessions.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.0-linux/Remio-Host-3.3.0-linux-armhf.AppImage"
+                sparkle:version="3.3.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="D8B4TsBnIf7lHj8U1Kij3JSbL0a9hT0E5ceJcvOnAhu1Riq8ddu5EYaj/YJvT/S+PO+wIm4mZ9Rq/6feKVUtBg=="
+                length="69283204"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.2</title>
             <sparkle:version>3.2.2</sparkle:version>
             <pubDate>Sun, 11 Oct 2026 13:10:29 +0000</pubDate>
