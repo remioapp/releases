@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.4</title>
+            <sparkle:version>2610152036</sparkle:version>
+            <sparkle:shortVersionString>3.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.4</h2>
+                <h3>Improvements</h3><ul><li><b>Your device keeps up on every network</b> — On 5G, 4G, a busy Wi‑Fi or through the relay, a scroll could trail what you did by a third of a second to well over half a second. It now stays within about a tenth of a second on these connections, at a smooth frame rate.</li><li><b>Quicker response on your home network</b> — What you click or type on this Mac shows up on your device around 15 ms sooner, about a third faster than before.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed a blurry, stuttering picture on mobile data and through the relay</b> — Since 3.3.2, scrolling on 5G, 4G or through the relay could leave the picture at a fraction of its sharpness for the rest of the session, or slow it to a few frames a second. Text now stays sharp and motion stays smooth.</li><li><b>Fixed the picture taking up to a second to come back after a short drop</b> — When the connection blipped while this Mac&#x27;s screen was still, the picture could stay frozen for up to a second after the connection recovered. It now comes back right away.</li><li><b>Fixed blurry, slow scrolling after the screen sat still on Wi-Fi</b> — On Wi-Fi, after this Mac&#x27;s screen had stayed still for a while, the next scroll could look blurry and lag for the rest of the session. Scrolling now stays sharp and quick however long the screen was still.</li><li><b>Fixed the picture freezing on mobile data</b> — When you connected from a phone on 5G or 4G, the picture could freeze for seconds after every short drop in the connection, or stop and not come back. Remio Host now sends a picture the connection can carry, so it comes back within a moment after a drop.</li></ul>
+            ]]></description>
+            <pubDate>Thu, 15 Oct 2026 13:47:30 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.4/Remio-Host-3.3.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="377AdENgrrjv77ChpxI6dGn/MKDgQVduFo2dJNBdwk+S9w8/PPt57nOHdwOK/Q2978xACyidaDifK1ssdgMYDA==" length="44231630"
+            />
+        </item>
+        <item>
             <title>Version 3.3.3</title>
             <sparkle:version>2610151510</sparkle:version>
             <sparkle:shortVersionString>3.3.3</sparkle:shortVersionString>
