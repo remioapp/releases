@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.2</title>
+            <sparkle:version>2610151451</sparkle:version>
+            <sparkle:shortVersionString>3.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.2</h2>
+                <h3>Bug Fixes</h3><ul><li><b>Fixed the picture freezing on mobile data</b> — When you connected from a phone on 5G or 4G, the picture could freeze for seconds after every short drop in the connection, or stop and not come back. Remio Host now sends a picture the connection can carry, so it comes back within a moment after a drop.</li><li><b>Fixed the picture running behind on slow connections</b> — Through the relay, on mobile data or on a busy Wi-Fi, what you saw could lag one to two seconds behind what you did. Remio Host now always sends the newest picture instead of letting older ones pile up, so the screen keeps up with you.</li></ul>
+            ]]></description>
+            <pubDate>Thu, 15 Oct 2026 08:04:32 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.2/Remio-Host-3.3.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="MDXGGYp1qj9KxfG6O72fRzGXM1xZA8o/MrAdwivtekv7aGGUBAlCHwvtoCXthtkOsvHWuUgW8K4yc+dVjIpWCw==" length="44216692"
+            />
+        </item>
+        <item>
             <title>Version 3.3.1</title>
             <sparkle:version>2610151120</sparkle:version>
             <sparkle:shortVersionString>3.3.1</sparkle:shortVersionString>
