@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.2</title>
+            <sparkle:version>3.3.2</sparkle:version>
+            <pubDate>Thu, 15 Oct 2026 17:03:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.2</h2>
+                <p>Sessions on a weak Wi-Fi connection no longer end while your device is reconnecting, and the Flatpak now tells you exactly how to update it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.2-linux/Remio-Host-3.3.2-linux-x86_64.AppImage"
+                sparkle:version="3.3.2"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="N5StoAPsLgfFgUascXbhGSNyiXOjeHSa5md/kdSgXypom5LpoYt61mk5beHuyu9uA99DiKGVz4WTH6UsZwNWBA=="
+                length="72485368"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.2 (aarch64)</title>
+            <sparkle:version>3.3.2</sparkle:version>
+            <pubDate>Thu, 15 Oct 2026 17:03:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.2</h2>
+                <p>Sessions on a weak Wi-Fi connection no longer end while your device is reconnecting, and the Flatpak now tells you exactly how to update it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.2-linux/Remio-Host-3.3.2-linux-aarch64.AppImage"
+                sparkle:version="3.3.2"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="AfM0ZBxOkN59MNSmaMrPam5usw60/8V/48Cb8ttGVrge4zvJrzAsbNmvcKme6vvyBD7uTCV5mB7H2b4tM9VaAQ=="
+                length="68717064"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.2 (armhf)</title>
+            <sparkle:version>3.3.2</sparkle:version>
+            <pubDate>Thu, 15 Oct 2026 17:03:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.2</h2>
+                <p>Sessions on a weak Wi-Fi connection no longer end while your device is reconnecting, and the Flatpak now tells you exactly how to update it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.2-linux/Remio-Host-3.3.2-linux-armhf.AppImage"
+                sparkle:version="3.3.2"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="77WyfXpT/qp9laP0AT1MRah98sy3HiyQtZ6WeDi26IL1YI/2rLZ4lfw9lEVNQ++UC6OaZwx5LaE7HmE+m2vMAQ=="
+                length="69344644"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.1</title>
             <sparkle:version>3.3.1</sparkle:version>
             <pubDate>Thu, 15 Oct 2026 12:02:50 +0000</pubDate>
