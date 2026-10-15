@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.3</title>
+            <sparkle:version>2610151510</sparkle:version>
+            <sparkle:shortVersionString>3.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.3</h2>
+                <h3>Bug Fixes</h3><ul><li><b>Fixed blurry, slow scrolling after the screen sat still on Wi-Fi</b> — On Wi-Fi, after this Mac&#x27;s screen had stayed still for a while, the next scroll could look blurry and lag for the rest of the session. Scrolling now stays sharp and quick however long the screen was still.</li><li><b>Fixed the picture freezing on mobile data</b> — When you connected from a phone on 5G or 4G, the picture could freeze for seconds after every short drop in the connection, or stop and not come back. Remio Host now sends a picture the connection can carry, so it comes back within a moment after a drop.</li><li><b>Fixed the picture running behind on slow connections</b> — Through the relay, on mobile data or on a busy Wi-Fi, what you saw could lag one to two seconds behind what you did. Remio Host now always sends the newest picture instead of letting older ones pile up, so the screen keeps up with you.</li></ul>
+            ]]></description>
+            <pubDate>Thu, 15 Oct 2026 08:33:59 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.3/Remio-Host-3.3.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="S6fYEyhJ7JjW8JLZjkBcw1mfqvDMsXCcGuhxH5LDe47ETZLcn5fPdig1NmLYfUIE9l4vSPJdde2HnxRUtBxTAw==" length="44216718"
+            />
+        </item>
+        <item>
             <title>Version 3.3.2</title>
             <sparkle:version>2610151451</sparkle:version>
             <sparkle:shortVersionString>3.3.2</sparkle:shortVersionString>
