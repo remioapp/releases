@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.3</title>
+            <sparkle:version>3.3.3</sparkle:version>
+            <sparkle:shortVersionString>3.3.3</sparkle:shortVersionString>
+            <pubDate>Thu, 15 Oct 2026 11:10:18 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.3.3</h2>
+                <p>Remio Host for Windows 3.3.3 keeps the picture moving on mobile data: after a short drop on 5G or 4G it comes back within a moment instead of freezing, scrolling stays sharp on Wi-Fi after the screen sat still, and on AMD graphics the picture no longer runs a frame behind. It also fixes pinch to zoom, paired devices after turning off Reachable at the sign-in screen, and the Host processing reading on a still screen.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.3-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.3.3"
+                sparkle:shortVersionString="3.3.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="t0ibn9VvTzjc1Hx1iFpF5DTCQWbYI2mQSelcwxG6XioanBtVQi/FPWgoEZC81YtaYpaze8Wzvuf4fdOTWXRJDQ=="
+                length="32590196"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.0</title>
             <sparkle:version>3.3.0</sparkle:version>
             <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
