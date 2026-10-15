@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.3</title>
+            <sparkle:version>3.3.3</sparkle:version>
+            <sparkle:shortVersionString>3.3.3</sparkle:shortVersionString>
+            <pubDate>Thu, 15 Oct 2026 13:31:02 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.3.3</h2>
+                <p>The right advice when the connection is too weak: Remio says the connection is the problem and what to try.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.3-win/Remio-Client-3.3.3-win-x64-Setup.exe"
+                sparkle:version="3.3.3"
+                sparkle:shortVersionString="3.3.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="DE2Y8pOf0IxS8seqp6DCGipmM6Dv+dC2T//KPKc979YBrqvyVTANITbYBrLxaHmIv92OS0ilzBc0Ci4kmRj3Aw=="
+                length="28547908"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.2</title>
             <sparkle:version>3.3.2</sparkle:version>
             <sparkle:shortVersionString>3.3.2</sparkle:shortVersionString>
