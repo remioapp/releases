@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.1</title>
+            <sparkle:version>2610151120</sparkle:version>
+            <sparkle:shortVersionString>3.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.1</h2>
+                <h3>Improvements</h3><ul><li><b>Your device waits while this Mac gets its screen ready</b> — If this Mac was slow to start sharing its screen when you connected, for example right after it woke up, your device gave up and said there was no picture. It now shows that the picture is on its way and waits while Remio Host tries again.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed a black screen on networks slower than they looked</b> — When a device connected directly over a weak Wi-Fi or a long-distance connection, the session could stay black or start with a frozen picture. Remio Host now notices the slow path and sends a picture that fits it.</li><li><b>Fixed a phone held upright getting this Mac&#x27;s own screen</b> — Connecting from a phone held upright could show this Mac&#x27;s own screen instead of a screen sized for the phone. You now get the screen made for your phone.</li><li><b>Fixed pinch to zoom zooming much too far</b> — Pinching from an iPhone, iPad, Android device or Windows PC zoomed far more than your fingers moved. One pinch now zooms by as much as you pinch.</li><li><b>Fixed adding a second display while this Mac&#x27;s screen was asleep</b> — If this Mac&#x27;s screen had gone to sleep, using your device as a second display was refused as if the Mac had no screen. Remio Host now wakes the screen and adds the display.</li><li><b>Fixed this Mac needing a restart after a session got stuck</b> — When macOS failed to remove the screen of a session that had ended, the next connection could show nothing until this Mac was restarted. The next session now shows this Mac&#x27;s own screen, and Remio Host restarts itself to clear the stuck screen once no one is connected.</li><li><b>Fixed this Mac&#x27;s screen turning on after an automatic update</b> — When Remio Host updated itself while this Mac&#x27;s screen was asleep, it could turn the screen on. It now leaves the screen as it was.</li><li><b>Fixed Remio Host staying offline after an update or restart</b> — If the connection server was slow to answer when Remio Host started, it could give up and stay unreachable for a while before trying again. It now keeps waiting until the server answers.</li><li><b>Fixed the wrong codec showing on this Mac</b> — During a session, Remio Host could show H.265 while the picture was sent as H.264. It now shows the codec in use.</li></ul>
+            ]]></description>
+            <pubDate>Thu, 15 Oct 2026 04:26:17 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.1/Remio-Host-3.3.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="K5pNrwa2na90NZIKUVvLPnV/FE8YRqWfnNO3Dri00VoTgUFGJcrlud/jcCLeHlpRydvyruqUkFzNIEVcjoJXDA==" length="44209763"
+            />
+        </item>
+        <item>
             <title>Version 3.3.0</title>
             <sparkle:version>2610141741</sparkle:version>
             <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
