@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.7</title>
+            <sparkle:version>2610162125</sparkle:version>
+            <sparkle:shortVersionString>3.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.7</h2>
+                <h3>Improvements</h3><ul><li><b>Reconnecting is faster</b> — Disconnect and connect again right away, and your Mac now appears in about 3 seconds instead of 5 to 6. Every other connection shows the picture a little sooner too.</li><li><b>Smooth from the very first scroll on a direct connection</b> — On the same Wi‑Fi, or any direct connection, the picture keeps its full frame rate while this Mac&#x27;s screen sits still, so the first scroll after a pause starts smooth instead of stuttering for a moment.</li><li><b>Full quality from the first second on mobile data</b> — When a phone on 5G or 4G connects, or scrolls after this Mac&#x27;s screen sat still or after its signal dropped for a moment, the picture now starts sharp and smooth right away. Before, it could start soft and choppy and take up to a minute to catch up.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed a phone on mobile data staying on the relay</b> — With a Direct connection port set up, a phone on 5G or 4G could still end up going through Remio&#x27;s relay for the whole session, with less sharpness and smoothness than a direct connection. It now connects directly.</li></ul>
+            ]]></description>
+            <pubDate>Fri, 16 Oct 2026 14:42:31 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.7/Remio-Host-3.3.7-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="DOIERfTGWtZl5/3OTr8olXYqIzGTwWxUmeRrp1FBoMzXoQXL5hg6V/I0Zrs+OL6G2owL5Oq8etYprnTt2TeaAQ==" length="44283838"
+            />
+        </item>
+        <item>
             <title>Version 3.3.6</title>
             <sparkle:version>2610161112</sparkle:version>
             <sparkle:shortVersionString>3.3.6</sparkle:shortVersionString>
