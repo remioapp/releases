@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.6</title>
+            <sparkle:version>2610161112</sparkle:version>
+            <sparkle:shortVersionString>3.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.6</h2>
+                <h3>Bug Fixes</h3><ul><li><b>Fixed a very blurry picture after your phone&#x27;s signal dropped for a moment</b> — On 5G, when the signal cut out for a few seconds, Remio Host could treat the gap as a slow connection: the picture turned very blurry and took up to 40 seconds to sharpen again. Now the picture comes back at full quality as soon as the signal does.</li></ul>
+            ]]></description>
+            <pubDate>Fri, 16 Oct 2026 04:38:27 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.6/Remio-Host-3.3.6-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="sLg6b3cfMUPh8aljA35M6bDVrF+ci1+UOebpDy8tVVaKt04WJmL/gZXjTxhzw8nrwd26DtQKep4upxY6hJTvBA==" length="44256288"
+            />
+        </item>
+        <item>
             <title>Version 3.3.5</title>
             <sparkle:version>2610160925</sparkle:version>
             <sparkle:shortVersionString>3.3.5</sparkle:shortVersionString>
