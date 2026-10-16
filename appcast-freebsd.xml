@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.7</title>
+            <sparkle:version>3.3.7</sparkle:version>
+            <pubDate>Sat, 17 Oct 2026 06:56:34 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.3.7</h2>
+                <p>The first scroll after a pause is smooth on a direct connection, phones on mobile data get full quality from the first second, and sessions no longer drop on a weak connection or after an hour.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.7-freebsd/Remio-Host-3.3.7-FreeBSD-amd64.pkg"
+                sparkle:version="3.3.7"
+                sparkle:os="freebsd"
+                length="9808048"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.2.1</title>
             <sparkle:version>3.2.1</sparkle:version>
             <pubDate>Sat, 10 Oct 2026 19:51:11 +0700</pubDate>
