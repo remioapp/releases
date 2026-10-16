@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.7</title>
+            <sparkle:version>3.3.7</sparkle:version>
+            <sparkle:shortVersionString>3.3.7</sparkle:shortVersionString>
+            <pubDate>Fri, 16 Oct 2026 17:40:40 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.3.7</h2>
+                <p>Closing a computer's window as it connects no longer closes Remio, links work while Remio starts, and the controller and arrow keys find their way around Home and Settings.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.7-win/Remio-Client-3.3.7-win-x64-Setup.exe"
+                sparkle:version="3.3.7"
+                sparkle:shortVersionString="3.3.7"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="UoYKJcKNZ+g+LtvvIeb1o5dCHiaWCXVqmgGUZ0J1bPDbpil/36wotvr5/86QlyMRpo8CXi4SiphRL0z+KFgjCg=="
+                length="28534001"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.3</title>
             <sparkle:version>3.3.3</sparkle:version>
             <sparkle:shortVersionString>3.3.3</sparkle:shortVersionString>
