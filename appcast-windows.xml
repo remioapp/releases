@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.7</title>
+            <sparkle:version>3.3.7</sparkle:version>
+            <sparkle:shortVersionString>3.3.7</sparkle:shortVersionString>
+            <pubDate>Fri, 16 Oct 2026 17:39:28 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.3.7</h2>
+                <p>The first scroll after a pause is smooth on a direct connection, phones on mobile data get full quality from the first second, a device with another screen takes over in 1 to 2 seconds, and the short pauses on Intel graphics are gone.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.7-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.3.7"
+                sparkle:shortVersionString="3.3.7"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="USz9AJ4mtyLPlJk7PQPX7XyN13KfTIqivVBWHW/fdV6xAYu1e2Zfh+Mi4bGeXla025FkqP9/Ld4aZXG43H5pAw=="
+                length="32660426"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.4</title>
             <sparkle:version>3.3.4</sparkle:version>
             <sparkle:shortVersionString>3.3.4</sparkle:shortVersionString>
