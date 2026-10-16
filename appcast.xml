@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.5</title>
+            <sparkle:version>2610160925</sparkle:version>
+            <sparkle:shortVersionString>3.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.5</h2>
+                <h3>Improvements</h3><ul><li><b>Sharper scrolling after a pause, away from home</b> — After this Mac&#x27;s screen had sat still, the next scroll from a phone on 5G or 4G, or from a laptop on another network, could start soft and take a few seconds to sharpen. It now starts sharper and keeps up better.</li><li><b>Steadier scrolling on mobile data</b> — Scrolling from a device on 5G or 4G could creep and then jump, because your touches reached this Mac in clumps. Remio Host now evens them out, holding a touch for 20 ms at most. It steps in only when the connection needs it, so a steady connection feels exactly as before.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed Remio Host getting stuck after you silence this Mac&#x27;s speakers</b> — If this Mac hadn&#x27;t yet allowed Remio Host to record system sound, silencing its speakers or choosing a sound output from your device left Remio Host waiting for someone at the Mac to click Allow. After you left, reconnecting could fail for about a minute. Remio Host now carries on meanwhile, your device keeps hearing the sound, and the setting switches itself off if the Mac never allows it.</li><li><b>Fixed clicks pulling your aim in mouse-look games</b> — With Lock mouse on, a click or a shot sent the pointer back to where your device&#x27;s pointer was parked, so every shot yanked the camera. Clicks now land where you&#x27;re aiming.</li><li><b>Fixed a display you added coming back as a new one</b> — A display you added from the Displays panel was rebuilt for your next session as a brand-new display, so after a reconnect your device couldn&#x27;t find the one you had picked and stayed on this Mac&#x27;s own screen. It now comes back as the same display. Remio on iPhone and iPad takes you back to it from 3.3.5.</li></ul>
+            ]]></description>
+            <pubDate>Fri, 16 Oct 2026 02:38:06 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.5/Remio-Host-3.3.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="rl7R0d1gQYkMtBBVObWDwtQruKQXjyGNJkXElVRm5RzEQwyIggXtdUHnMUx2mYoedsZ7xXlIreAbtfo9ZvBbCw==" length="44253639"
+            />
+        </item>
+        <item>
             <title>Version 3.3.4</title>
             <sparkle:version>2610152036</sparkle:version>
             <sparkle:shortVersionString>3.3.4</sparkle:shortVersionString>
