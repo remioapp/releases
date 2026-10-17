@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.10</title>
+            <sparkle:version>2610180458</sparkle:version>
+            <sparkle:shortVersionString>3.3.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.10</h2>
+                <h3>Bug Fixes</h3><ul><li><b>Fixed a blank screen when you switch devices with All screens at once</b> — If one device was showing every screen of this Mac at once, including screens you had added, and you then connected from another device, the new device could show nothing and play no sound for about half a minute before it reconnected. It now shows this Mac, with sound, right away.</li><li><b>Fixed Remio Host restarting itself while another app was recording the screen</b> — When another app on this Mac used the video encoder at the same time, a screen recording for example, Remio Host could restart itself and every connected device had to reconnect. Your session now carries on.</li></ul>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 22:03:25 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.10/Remio-Host-3.3.10-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="oKskSTvRZf1XrMWMlUIVHJyIkB8EIZ6Gcd8UZMPqqo4d2e5mrM4N6pit4SYRkPScyW/e29Bt0JHjsntwYNNYDQ==" length="44491983"
+            />
+        </item>
+        <item>
             <title>Version 3.3.9</title>
             <sparkle:version>2610180200</sparkle:version>
             <sparkle:shortVersionString>3.3.9</sparkle:shortVersionString>
