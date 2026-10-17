@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.9</title>
+            <sparkle:version>3.3.9</sparkle:version>
+            <sparkle:shortVersionString>3.3.9</sparkle:shortVersionString>
+            <pubDate>Sat, 17 Oct 2026 21:02:26 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.3.9</h2>
+                <p>This release makes control feel more direct: the computer's pointer moves with your mouse at your screen's next refresh, the newest picture comes first after a short hiccup, and the small hitch every two seconds is gone.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.9-win/Remio-Client-3.3.9-win-x64-Setup.exe"
+                sparkle:version="3.3.9"
+                sparkle:shortVersionString="3.3.9"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="NKMqb8UhnHzVhbZtjVSn49MtxefFmj8Y3X7rrYXvplIV1bHiS7ys+79fEHIWt7KO2Gv3eEbUIL+cct5AO46pBA=="
+                length="28571069"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.7</title>
             <sparkle:version>3.3.7</sparkle:version>
             <sparkle:shortVersionString>3.3.7</sparkle:shortVersionString>
