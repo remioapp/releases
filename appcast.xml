@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.8</title>
+            <sparkle:version>2610170656</sparkle:version>
+            <sparkle:shortVersionString>3.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.8</h2>
+                <h3>Bug Fixes</h3><ul><li><b>Fixed Remio Host stopping to respond for a few seconds</b> — When the app in front on this Mac was busy or still opening, tapping into it from your device or switching apps could leave Remio Host unresponsive for several seconds. Remio Host now keeps going whatever the other apps are doing.</li><li><b>Fixed short freezes when opening Remio Host&#x27;s own screens</b> — Showing the pairing QR code, opening Settings and the first-run setup could freeze Remio Host for a moment on some Macs. They now open right away.</li></ul>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 00:03:26 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.8/Remio-Host-3.3.8-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="VLb6uQ2G6bRhVKDeEUP38xDG2MAAF6Ao7d1sRVEpKywIEOf4W1Ybz6Fh3iD1PsZO3V0KU7IuLt5aO3i7UUrDCA==" length="44296710"
+            />
+        </item>
+        <item>
             <title>Version 3.3.7</title>
             <sparkle:version>2610162125</sparkle:version>
             <sparkle:shortVersionString>3.3.7</sparkle:shortVersionString>
