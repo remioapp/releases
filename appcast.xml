@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.9</title>
+            <sparkle:version>2610180200</sparkle:version>
+            <sparkle:shortVersionString>3.3.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.9</h2>
+                <h3>New Features</h3><ul><li><b>Screens you added show up when you view every screen</b> — When your device shows every screen of this Mac at once, the screens you added from that device now appear alongside this Mac&#x27;s own, and your pointer reaches all of them. A Mac with no display of its own, such as a Mac mini, can now be shown this way too once you&#x27;ve added two or more screens to it. Turn it on with Each screen in its own window in Remio on a Mac, or with All screens at once in Remio 3.3.9 on iPhone and iPad, which is part of Remio Pro.</li></ul><h3>Improvements</h3><ul><li><b>The picture comes up about a second sooner</b> — When you connect to control this Mac, its picture now appears about a second earlier, and your clicks and touches work from that moment instead of a moment later.</li><li><b>A still screen uses far less of your network on a direct connection</b> — On the same Wi‑Fi or any other direct connection, Remio Host keeps a still screen at your full frame rate, and doing so used to take several megabits a second, for example for a phone or tablet used as a second display. It now sends about 0.4 Mbps in our test, so your network has far less to carry and your device far less to decode.</li><li><b>Remio uses the cable between your iPhone or iPad and this Mac</b> — Connect an iPhone or iPad to this Mac with a USB cable and Remio now carries the session over the cable instead of Wi‑Fi: in our tests a round trip took about 1 ms over the cable against 3 to 4 ms on Wi‑Fi. Unplug the cable and the session carries on over Wi‑Fi after a pause of a few seconds; plug it back in and it returns to the cable. Needs Remio 3.3.9 on the iPhone or iPad.</li><li><b>Remio Host&#x27;s window does less while a device is connected</b> — During a session the window no longer redraws itself every second to keep its timers and numbers current. Only those readouts change, so Remio Host does less work on this Mac.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed Remio Host freezing and restarting itself</b> — When Remio Host adjusted its frame rate during a session, it could lock up: the picture stopped and, about ten seconds later, Remio Host restarted itself and your device had to reconnect. Changing the frame rate no longer locks it up, so the picture keeps flowing.</li><li><b>Fixed Unlock this Mac remotely not applying after a short connection drop</b> — If the connection to Remio&#x27;s server dropped for a moment during a session, Remio Host stopped following this Mac&#x27;s lock for the rest of that session: when the Mac locked, keyboard and mouse from your device could still reach the lock screen with Unlock this Mac remotely turned off. The setting now applies every time this Mac locks or unlocks.</li></ul>
+            ]]></description>
+            <pubDate>Sat, 17 Oct 2026 19:06:44 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.9/Remio-Host-3.3.9-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="b7lNSlETtte0iP8qUT7HssuHn3pHnrCIEfH0SJYlw0TPLDnbXlL6kuIdq6Zg79G+wzPzTKaeLcntB9k20pwkBw==" length="44491991"
+            />
+        </item>
+        <item>
             <title>Version 3.3.8</title>
             <sparkle:version>2610170656</sparkle:version>
             <sparkle:shortVersionString>3.3.8</sparkle:shortVersionString>
