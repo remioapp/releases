@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.9</title>
+            <sparkle:version>3.3.9</sparkle:version>
+            <sparkle:shortVersionString>3.3.9</sparkle:shortVersionString>
+            <pubDate>Sat, 17 Oct 2026 21:01:35 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.3.9</h2>
+                <p>This release is about speed. When your device shows this PC at 60 frames a second, what you type, click or scroll now appears in about half the time while this PC is plugged in, and the end of a scroll shows up right away. PCs with Intel graphics reach your devices up to 11 ms sooner and no longer pause when the picture adjusts; PCs with AMD graphics do less work on every frame, and an iPad in HDR runs at up to 120 frames a second on AMD built-in graphics. A phone or tablet used as a second display can no longer become this PC's main screen, and your sign-in now survives a restart.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.9-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.3.9"
+                sparkle:shortVersionString="3.3.9"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="nA8oXohM+uuvjBI6X1e+S6SkNCB6FtOw/mF6uTRTfPoX18GHPmfpFqVpsEntHaIZFjGyH7mb8xC4GFsdq7b6DA=="
+                length="32695059"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.7</title>
             <sparkle:version>3.3.7</sparkle:version>
             <sparkle:shortVersionString>3.3.7</sparkle:shortVersionString>
