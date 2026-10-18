@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.9</title>
+            <sparkle:version>3.3.9</sparkle:version>
+            <pubDate>Sun, 18 Oct 2026 01:20:35 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.9</h2>
+                <p>The picture comes back sooner when the network drops part of a frame.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.9-linux/Remio-Host-3.3.9-linux-x86_64.AppImage"
+                sparkle:version="3.3.9"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="L2w0dX9V1q8mQ1zZ8aJkBpJ1zT5SLtzOlNd0mMRfinvUdrvWs6l0kM4sW6kvif4w4HeEy4APmn0gJkAXQ4TGBA=="
+                length="72468984"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.9 (aarch64)</title>
+            <sparkle:version>3.3.9</sparkle:version>
+            <pubDate>Sun, 18 Oct 2026 01:20:35 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.9</h2>
+                <p>The picture comes back sooner when the network drops part of a frame.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.9-linux/Remio-Host-3.3.9-linux-aarch64.AppImage"
+                sparkle:version="3.3.9"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="FhR7DwQWxD2ttsTErpdMueFsjlYr6g5FIcyvXyXcyE5B6xJY/VpTsdU2H+goVBNi2wNXtSCcWqekWJuSTPE9Bg=="
+                length="68717064"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.9 (armhf)</title>
+            <sparkle:version>3.3.9</sparkle:version>
+            <pubDate>Sun, 18 Oct 2026 01:20:35 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.9</h2>
+                <p>The picture comes back sooner when the network drops part of a frame.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.9-linux/Remio-Host-3.3.9-linux-armhf.AppImage"
+                sparkle:version="3.3.9"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="cajYVJ79B8E+RN3ShtHpTaMvCJ0LVEJed9Vd+ubohmGthGEpWsZAX3qUa5yliSB0ErfBSrZKqTjmTwDSAvp9DQ=="
+                length="69320068"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.7</title>
             <sparkle:version>3.3.7</sparkle:version>
             <pubDate>Fri, 16 Oct 2026 18:17:41 +0000</pubDate>
