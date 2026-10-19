@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.13</title>
+            <sparkle:version>2610200619</sparkle:version>
+            <sparkle:shortVersionString>3.3.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.13</h2>
+                <h3>New Features</h3><ul><li><b>A second display away from your home network</b> — With the latest Remio app, a phone, tablet or another computer can be a second display for this Mac over any direct connection, not only on the same Wi‑Fi: across the street, at the office, on mobile data. It never goes through Remio&#x27;s relay, so it stays as sharp and quick as at home.</li><li><b>Follow this Mac&#x27;s pointer from screen to screen</b> — With the latest Remio app, the view can follow this Mac&#x27;s pointer, or the window you&#x27;re working in, to whichever screen it is on, and you can jump to the next or previous screen in one step.</li><li><b>Move the pointer onto your other devices&#x27; screens</b> — When a phone or tablet is a second display for this Mac, the pointer you control from another device can now move across onto it, like an extra monitor on your desk. Needs the latest Remio app on both devices.</li></ul><h3>Improvements</h3><ul><li><b>Less data while you type on a still screen</b> — On a direct connection, a blinking cursor or the letters you type no longer keep this Mac streaming at full rate, so the device you watch from uses less data and stays cooler.</li><li><b>Choose whether to share usage statistics</b> — A new <b>Share usage statistics</b> switch in Settings › General lets you stop sending the numbers that help us improve Remio: which features get used and how well connections run. They never include what&#x27;s on your screen, what you type or your files.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed Remio Host staying closed after restarting itself</b> — When Remio Host had to restart, it could stay closed until it was checked on again a while later, and your devices could not connect meanwhile. It now comes back as soon as the old copy has quit.</li><li><b>Fixed short freezes as a session starts or ends</b> — On some Macs, Remio Host could stop responding for a couple of seconds each time a session started or ended. It now stays responsive.</li><li><b>Fixed Remio Host not responding while the disk was busy</b> — When this Mac&#x27;s disk stalled for a moment, Remio Host could stop answering for a few seconds. It now keeps going.</li><li><b>Fixed a screen staying dark after a session</b> — If a display dropped off while a session was ending, Remio could leave one of this Mac&#x27;s screens turned off. Every screen now comes back as it was.</li><li><b>Fixed Remio Host quitting in the middle of a session</b> — On some Macs, Remio Host could quit while streaming when the Mac&#x27;s video encoder briefly failed. It now skips that one frame and the session carries on.</li></ul>
+            ]]></description>
+            <pubDate>Mon, 19 Oct 2026 23:40:53 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.13/Remio-Host-3.3.13-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="P2c3ddXjLWwxlKpbxRPyHRG21lZc+VqDxuB5EPVqHzrM2jGFericU+pZ67iH6g4GijKPnkFgLp2BNzMKyGRtBg==" length="44936705"
+            />
+        </item>
+        <item>
             <title>Version 3.3.10</title>
             <sparkle:version>2610180458</sparkle:version>
             <sparkle:shortVersionString>3.3.10</sparkle:shortVersionString>
