@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.12</title>
+            <sparkle:version>3.3.12</sparkle:version>
+            <sparkle:shortVersionString>3.3.12</sparkle:shortVersionString>
+            <pubDate>Mon, 19 Oct 2026 08:03:54 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.3.12</h2>
+                <p>Fixes Remio Host closing on some PCs with NVIDIA graphics, brings the picture back right away after a graphics driver reset, and tells you why there is no picture when the Remote Desktop window is minimized.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.12-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.3.12"
+                sparkle:shortVersionString="3.3.12"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="mWxaYXASnEoF9cxuInInzu8eJgY9peSaNz9Ocu9nXcNSiHj29CY9bh/7udC884CeMlVgYzQFEVm8e/0djesxBQ=="
+                length="32730330"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.11</title>
             <sparkle:version>3.3.11</sparkle:version>
             <sparkle:shortVersionString>3.3.11</sparkle:shortVersionString>
