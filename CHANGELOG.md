@@ -1,18 +1,8 @@
 # Changelog
 
-All notable changes to Remio will be documented in this file.
+Release notes for every Remio app — macOS, Windows, Linux, Raspberry Pi, FreeBSD and Android hosts, and the iPhone, iPad, Mac, Apple TV, Android and Windows apps — live in two places:
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+- **[remio.net/changelog](https://remio.net/changelog)** — every platform, newest first.
+- **[GitHub Releases](https://github.com/remioapp/releases/releases)** — the notes that ship with each installer. Tags: `vX.Y.Z` macOS Host · `-win` Windows Host and the Windows app · `-linux` Linux and Raspberry Pi · `-freebsd` FreeBSD · `-android` Android Host.
 
-## [Unreleased]
-
-### macOS Host
-- Initial public release
-
-### iOS Client
-- Initial public release
-
----
-
-*For detailed release notes, see [GitHub Releases](https://github.com/remioapp/releases/releases).*
+Apps from the App Store and Google Play list their notes under **What's New** in the store.
