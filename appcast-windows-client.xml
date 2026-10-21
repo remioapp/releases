@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.15</title>
+            <sparkle:version>3.3.15</sparkle:version>
+            <sparkle:shortVersionString>3.3.15</sparkle:shortVersionString>
+            <pubDate>Wed, 21 Oct 2026 06:52:14 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Client 3.3.15</h2>
+                <p>Remio for Windows 3.3.15 adds Text on screen, instant strokes over slow connections, switching between the computer's screens, your controller's battery on the computer and a second display away from home, works with Narrator, and no longer grows in memory with every session.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.15-win/Remio-Client-3.3.15-win-x64-Setup.exe"
+                sparkle:version="3.3.15"
+                sparkle:shortVersionString="3.3.15"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="lr/nyqwg5kvG1ISJxw1fhRjmWSTMmIyNdTjv2RWgrNPCFcxTPKqjRCFV7NW3wxSpDWnyOY6UFuFRqnWUXQw4Cw=="
+                length="28798871"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.9</title>
             <sparkle:version>3.3.9</sparkle:version>
             <sparkle:shortVersionString>3.3.9</sparkle:shortVersionString>
