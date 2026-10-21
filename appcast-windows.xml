@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.15</title>
+            <sparkle:version>3.3.15</sparkle:version>
+            <sparkle:shortVersionString>3.3.15</sparkle:shortVersionString>
+            <pubDate>Wed, 21 Oct 2026 06:51:20 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host 3.3.15</h2>
+                <p>Remio Host 3.3.15 brings the picture back on PCs that still list a disconnected monitor or whose AMD graphics driver restarts at every connection, shows a phone held upright as a second display on older Intel and NVIDIA graphics, and makes Start and Stop sharing in the Remio Host window do what they say.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.15-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.3.15"
+                sparkle:shortVersionString="3.3.15"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="4TDK8cXvZZtJf+teHgrV0o1d8GXSIkEPuvaCTUjl6uKzlHfCYiFDtaRwIOnw2C37Z+2W4uM6EhECdjsMbPEJCw=="
+                length="32812334"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.12</title>
             <sparkle:version>3.3.12</sparkle:version>
             <sparkle:shortVersionString>3.3.12</sparkle:shortVersionString>
