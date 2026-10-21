@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.15</title>
+            <sparkle:version>2610211333</sparkle:version>
+            <sparkle:shortVersionString>3.3.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.15</h2>
+                <h3>New Features</h3><ul><li><b>See this Mac live on your iPhone, iPad and Apple TV</b> — With the latest Remio app, this Mac&#x27;s card on your other devices&#x27; Home screen shows what&#x27;s on its screen right now, a couple of times a second, so you can check on it before you connect. It needs a direct connection, never adds a screen or wakes a sleeping one, and this Mac&#x27;s window shows which devices are watching.</li><li><b>Up to five screens for another Mac</b> — With Remio Pro and the latest Remio app on another Mac, you can work on up to five screens of this Mac at once, each made to fit a screen over there. Needs a direct connection.</li></ul><h3>Improvements</h3><ul><li><b>&quot;All screens at once&quot; matches your desk</b> — On an iPhone or iPad with the latest Remio app, this Mac&#x27;s screens now appear side by side exactly as you arranged them here, instead of stacked, so the pointer crosses where the screens meet.</li><li><b>Screens from Screen Sharing and Sidecar count</b> — A screen another app adds to this Mac, such as Screen Sharing&#x27;s High Performance display or Sidecar, now shows up in &quot;All screens at once&quot; and &quot;Each screen in its own window&quot;. Before, a Mac with no monitor reached through Screen Sharing had no screens to pick.</li><li><b>Four second displays at once</b> — Up to four devices can be second displays for this Mac at the same time, up from three. A second display that isn&#x27;t changing now sends less, so the device showing it uses less data and stays cooler.</li><li><b>A clearer permission step</b> — On the permission step, the button that opens System Settings is now the main button, and reopening Remio Host with setup unfinished goes straight back to that step instead of flashing the main window first.</li><li><b>Your devices say why there&#x27;s no picture</b> — When macOS stops Remio Host from recording the screen, your devices with the latest Remio app now say so and point to Remio Host on this Mac, instead of suggesting a restart that wouldn&#x27;t help.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed warnings flashing every time Remio Host opened</b> — &quot;Lost the connection to Remio&quot; and a permission warning no longer appear for a moment at launch when nothing is wrong.</li><li><b>Fixed devices on some networks not reaching this Mac after a Remio service update</b> — After Remio&#x27;s servers restarted, this Mac could stop offering a connection through Remio&#x27;s relay for hours, so devices on networks that need it couldn&#x27;t connect. It now keeps that connection ready.</li></ul>
+            ]]></description>
+            <pubDate>Wed, 21 Oct 2026 06:49:44 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.15/Remio-Host-3.3.15-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="yur9PLJQR6yG6WHs7Wqt5qZx4pQHjCbUQlvLRncwDsExXQ+jwM/Ep2o6mPRxQHdzeqZhPkAC4YhF1/oltDPCDQ==" length="45261986"
+            />
+        </item>
+        <item>
             <title>Version 3.3.14</title>
             <sparkle:version>2610200800</sparkle:version>
             <sparkle:shortVersionString>3.3.14</sparkle:shortVersionString>
