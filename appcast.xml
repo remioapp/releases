@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.16</title>
+            <sparkle:version>2610212047</sparkle:version>
+            <sparkle:shortVersionString>3.3.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.16</h2>
+                <h3>Improvements</h3><ul><li><b>This Mac&#x27;s live preview is for your devices only</b> — The picture of this Mac&#x27;s screen on your other devices&#x27; Home screen can now be seen only by devices you&#x27;ve paired with this Mac. Devices with an older Remio app keep showing the last preview they had until they update.</li><li><b>Smoother sessions while another device watches this Mac</b> — When another of your devices shows this Mac&#x27;s live card on its Home screen, the device you&#x27;re working from keeps its full frame rate instead of dropping to about 40 frames a second.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed no picture when reconnecting to a Mac without a monitor</b> — Reconnecting to a Mac with no monitor attached, while another device was its second display and nothing on screen was changing, could leave you looking at &quot;No picture&quot; after a few seconds. The picture now appears right away.</li><li><b>Fixed the picture pausing while you move the pointer</b> — Moving the pointer over a screen where nothing else was changing could make the picture pause for a moment about every 30 seconds. It now stays smooth.</li><li><b>Fixed Remio Host restarting during a session</b> — When another app on this Mac was using video encoding heavily, such as a screen recorder, Remio Host could restart itself and drop your session. It now waits and keeps the session.</li><li><b>Fixed short freezes when Remio Host opens and when a session ends</b> — Remio Host no longer stops responding for a few seconds while it starts up with your Mac, or while it puts your windows back after a session.</li></ul>
+            ]]></description>
+            <pubDate>Wed, 21 Oct 2026 14:24:20 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.16/Remio-Host-3.3.16-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="xhQMp07JDPZub2EGkQUYtWJ5DCkVWsiP1g06jFN1PuKNOZrnY2yUKZxYu24CJ7VxW4L0ZtYfN4mDKjKquWI2BA==" length="45286554"
+            />
+        </item>
+        <item>
             <title>Version 3.3.15</title>
             <sparkle:version>2610211333</sparkle:version>
             <sparkle:shortVersionString>3.3.15</sparkle:shortVersionString>
