@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.3.16</title>
+            <sparkle:version>3.3.16</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 17:57:56 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.16</h2>
+                <p>See this computer live on your iPhone and iPad, run your own command when a device connects, keys that follow your keyboard layout on X11, up to five screens on your Mac, use a controller from the computer you connect from, send whole folders, and ultrawide and 5K screens at their own size.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.16-linux/Remio-Host-3.3.16-linux-x86_64.AppImage"
+                sparkle:version="3.3.16"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="bfyDA/MQ1jRtcCD/C53ztYb4HM+xdRsHVrMF+rQMc2SebtKIv7m55NBcG0PnNL1v9ViwnN/PFQcIUsbMqZWGAg=="
+                length="72997368"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.16 (aarch64)</title>
+            <sparkle:version>3.3.16</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 17:57:56 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.16</h2>
+                <p>See this computer live on your iPhone and iPad, run your own command when a device connects, keys that follow your keyboard layout on X11, up to five screens on your Mac, use a controller from the computer you connect from, send whole folders, and ultrawide and 5K screens at their own size.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.16-linux/Remio-Host-3.3.16-linux-aarch64.AppImage"
+                sparkle:version="3.3.16"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="tDju+G6D4hCZ1XVmI7c8WdO9t+HHvaUmsgsPLGn67sPlNIYSEZakXhu+SvehLM8JErOV/DBWo83enVnzDvKqBw=="
+                length="69216776"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.3.16 (armhf)</title>
+            <sparkle:version>3.3.16</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 17:57:56 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.3.16</h2>
+                <p>See this computer live on your iPhone and iPad, run your own command when a device connects, keys that follow your keyboard layout on X11, up to five screens on your Mac, use a controller from the computer you connect from, send whole folders, and ultrawide and 5K screens at their own size.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.16-linux/Remio-Host-3.3.16-linux-armhf.AppImage"
+                sparkle:version="3.3.16"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="oz8N0d5poaXK98OPwysGYK38qxsiPP4a89oeeIOo+x50aw4+b5ASkWjy4/Ws8m4EfGqgL+wc3GWrl9a9NaoLCg=="
+                length="69815684"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.9</title>
             <sparkle:version>3.3.9</sparkle:version>
             <pubDate>Sun, 18 Oct 2026 01:20:35 +0000</pubDate>
