@@ -4,6 +4,22 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.3.17</title>
+            <sparkle:version>2610221444</sparkle:version>
+            <sparkle:shortVersionString>3.3.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.3.17</h2>
+                <h3>New Features</h3><ul><li><b>&quot;When you&#x27;re away&quot; on the Permissions page</b> — Beside the two permissions Remio needs, the Permissions page now shows what keeps this Mac reachable while you&#x27;re away: opening at login, staying awake, starting after a power cut and waking for network access, each with one button to set it up. A yellow dot on Permissions tells you something is worth a look.</li><li><b>See whether this Mac is ready before you connect</b> — With the latest Remio app, this Mac&#x27;s card on your other devices says when something is in the way: in red when screen sharing is off, in yellow when this Mac goes to sleep when idle, won&#x27;t open Remio after a restart, stays off after a power cut, or can&#x27;t be woken from there.</li></ul><h3>Improvements</h3><ul><li><b>Sharper screens for another Mac</b> — The screens this Mac makes for another Mac are now built the way macOS builds its own Screen Sharing screens: sharp at Retina resolution, exactly the size of the window over there, and in HDR when the other Mac asks for it. Removing one of them no longer makes the other Mac&#x27;s main window jump to it for a moment.</li><li><b>A steadier picture on 5G</b> — A session over a mobile connection no longer drops to a low-quality picture a minute in while nothing on screen is moving, so the first scroll afterwards is sharp and smooth.</li><li><b>The menu bar icon switch says how to get back</b> — When you hide the menu bar icon, the setting now tells you how to bring the window back: open Remio Host again from Applications or Spotlight.</li><li><b>VoiceOver reads every switch in Settings</b> — Each switch in Settings and in first-run setup is now read out with its name instead of as an unnamed checkbox.</li></ul><h3>Bug Fixes</h3><ul><li><b>Fixed a Mac that went to sleep showing as offline</b> — When this Mac sleeps on its own, from the lid closing or from being idle, your devices now show it as Asleep, ready to wake, instead of as gone.</li><li><b>Fixed a black screen from older Macs</b> — On a Mac that can&#x27;t encode HEVC in hardware, such as a 2015 MacBook Pro, sessions showed a black screen at one to three frames a second. These Macs now stream in H.264 and the picture comes through smoothly.</li><li><b>Fixed a frozen picture after rotating a second display</b> — Rotating a device used as a second display while nothing on this Mac&#x27;s screen was moving could leave the picture frozen for several seconds. It now updates right away.</li><li><b>Fixed a crash at the sign-in screen</b> — On macOS 15, Remio at this Mac&#x27;s sign-in screen could crash as you signed in or shut down. It now hands over cleanly.</li></ul>
+            ]]></description>
+            <pubDate>Thu, 22 Oct 2026 07:58:06 GMT</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.3.17/Remio-Host-3.3.17-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="uIrVNl5xhFYC17YwZ/DR0HA1rAMaNH6NL6y15xEqRFD/dI8dMcDOycT881nHh+tZFkxhUb5wD6os8658Id4OAA==" length="45486479"
+            />
+        </item>
+        <item>
             <title>Version 3.3.16</title>
             <sparkle:version>2610212047</sparkle:version>
             <sparkle:shortVersionString>3.3.16</sparkle:shortVersionString>
