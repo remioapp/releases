@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.0</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <pubDate>Sat, 24 Oct 2026 12:11:49 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.4.0</h2>
+                <p>See this computer live on your devices, up to five screens on a Mac or Windows PC, your own commands, whole folders, a second display away from home, and many fixes for a steadier picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.0-freebsd/Remio-Host-3.4.0-FreeBSD-amd64.pkg"
+                sparkle:version="3.4.0"
+                sparkle:os="freebsd"
+                length="10226587"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.7</title>
             <sparkle:version>3.3.7</sparkle:version>
             <pubDate>Sat, 17 Oct 2026 06:56:34 +0700</pubDate>
