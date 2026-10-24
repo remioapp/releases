@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.0</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+            <pubDate>Sat, 24 Oct 2026 03:55:56 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 3.4.0</h2>
+                <p>Several computers at once, every screen in its own window, your computers live on Home, Lock Remio with Windows Hello, Text on screen, touch control, and many fixes.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.0-win/Remio-Client-3.4.0-win-x64-Setup.exe"
+                sparkle:version="3.4.0"
+                sparkle:shortVersionString="3.4.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="UoBHrWqmFD032eY8KxisNcrtbFN3Y5Uvvev8kFvLhpG8mO8MaWvv21OIsUxG5xFy/lAc52EiLurUy6tq2JeWCw=="
+                length="29150318"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.15</title>
             <sparkle:version>3.3.15</sparkle:version>
             <sparkle:shortVersionString>3.3.15</sparkle:shortVersionString>
