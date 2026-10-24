@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.0</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <pubDate>Sat, 24 Oct 2026 04:47:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.4.0</h2>
+                <p>See this computer live on your devices, up to five screens on a Mac or Windows PC, your own commands, whole folders, a second display away from home, and many fixes for a quicker, steadier picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.0-linux/Remio-Host-3.4.0-linux-x86_64.AppImage"
+                sparkle:version="3.4.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="NyHdCiz3/rk9hiD8bjP8GqMn1ISunWC/yAi2GeQl3SKvtcu/GIiT+3jWiTy4LgKbFIVZPKs7xkSU+p6IZUsXCQ=="
+                length="73198072"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.4.0 (aarch64)</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <pubDate>Sat, 24 Oct 2026 04:47:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.4.0</h2>
+                <p>See this computer live on your devices, up to five screens on a Mac or Windows PC, your own commands, whole folders, a second display away from home, and many fixes for a quicker, steadier picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.0-linux/Remio-Host-3.4.0-linux-aarch64.AppImage"
+                sparkle:version="3.4.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="G+xev45k+OZw+k3FgCqv8BiXgbS9B3K4ZdKPrkZOf31eLDa/pUaQ7m5unNQjfWUGil1EuawCNldh6sjmzAdmBA=="
+                length="69413384"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.4.0 (armhf)</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <pubDate>Sat, 24 Oct 2026 04:47:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.4.0</h2>
+                <p>See this computer live on your devices, up to five screens on a Mac or Windows PC, your own commands, whole folders, a second display away from home, and many fixes for a quicker, steadier picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.0-linux/Remio-Host-3.4.0-linux-armhf.AppImage"
+                sparkle:version="3.4.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="RXtw+DXgEhsHkLvG/I9aVDckVMc/YM6KcxkeKPP7kTmFnVKIoY6yYajV/AJET1iByKDpaM5Vjg8i4Z7R0Bl4AA=="
+                length="70012292"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.16</title>
             <sparkle:version>3.3.16</sparkle:version>
             <pubDate>Thu, 22 Oct 2026 17:57:56 +0000</pubDate>
