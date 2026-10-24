@@ -7,6 +7,16 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.0</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <pubDate>Sat, 24 Oct 2026 04:17:57 +0000</pubDate>
+            <description><![CDATA[<h2>Remio Host for Android 3.4.0</h2><p>A sharper, steadier picture, connections that hold up better, and a handful of fixes.</p>]]></description>
+            <enclosure url="https://github.com/remioapp/releases/releases/download/v3.4.0-android/Remio-Host-3.4.0-android.apk"
+                sparkle:version="3.4.0" sparkle:os="android" length="52158599"
+                type="application/vnd.android.package-archive"/>
+        </item>
+
+        <item>
             <title>Version 3.0.0</title>
             <sparkle:version>3.0.0</sparkle:version>
             <pubDate>Sat, 26 Sep 2026 02:08:47 +0000</pubDate>
