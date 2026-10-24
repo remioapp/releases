@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.0</title>
+            <sparkle:version>3.4.0</sparkle:version>
+            <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+            <pubDate>Sat, 24 Oct 2026 03:52:14 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.4.0</h2>
+                <p>Up to five screens, a second display near or far, your own commands and script buttons, whole folders, Steam games in Apps, and a long list of fixes for a quicker, steadier picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.4.0"
+                sparkle:shortVersionString="3.4.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="JD10zDSL2j8vB297IvvU8FXHvHYYbA1NK/Ehv69xNMGz+8P7JyV+amdqYUqalfXCZ9Hk/wWv7FDNpybMnQtCBg=="
+                length="33235315"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.3.15</title>
             <sparkle:version>3.3.15</sparkle:version>
             <sparkle:shortVersionString>3.3.15</sparkle:shortVersionString>
