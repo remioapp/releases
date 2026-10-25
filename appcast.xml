@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.4.3</title>
+            <sparkle:version>2610251251</sparkle:version>
+            <sparkle:shortVersionString>3.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.4.3</h2>
+                <h3>Bug Fixes</h3><ul><li>Fixed Remio Host closing a moment after it opened, every time, on some Macs that a phone had just been connected to. It now opens and stays open.</li></ul>
+            ]]></description>
+            <pubDate>Sun, 25 Oct 2026 13:19:36 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.3/Remio-Host-3.4.3-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="7JMrvkTDcbDLccVYLXpVYAJMmFqsgc3WqoQ0fwEy6EzAZFCfYRrToH7W5T3hCV65nNNkpmRDywnSOOBG0AUPDA=="
+                length="46292182"
+            />
+        </item>
+        <item>
             <title>Version 3.4.2</title>
             <sparkle:version>2610251057</sparkle:version>
             <sparkle:shortVersionString>3.4.2</sparkle:shortVersionString>
