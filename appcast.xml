@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.4.2</title>
+            <sparkle:version>2610251057</sparkle:version>
+            <sparkle:shortVersionString>3.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.4.2</h2>
+                <h3>Improvements</h3><ul><li><b>No pause when a device connects</b> — On some Macs, macOS takes a few seconds to set up or resize the display Remio Host makes for a device. Remio Host now waits for it in the background, so its window and your pointer keep responding while it does.</li><li><b>Quicker first start</b> — Remio Host no longer pauses for a couple of seconds the first time it opens after an update on some Macs.</li></ul><h3>Bug Fixes</h3><ul><li>Fixed the window&#x27;s look in 3.4.1 — the sidebar runs the full height of the window again, with the window buttons on top of it, and the button that hides or shows the sidebar is back.</li><li>Fixed the window sometimes growing wider than its content after a device connected, leaving empty bands on both sides.</li><li>Fixed another device being unable to connect while the device using this Mac had its Remio window minimized — it now takes over right away.</li></ul>
+            ]]></description>
+            <pubDate>Sun, 25 Oct 2026 11:03:57 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.2/Remio-Host-3.4.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="jIcoHBjv/CcnsV2hQNJrHjR1BGGK81SQ/ND9Zpy5/c/lLidaizV3BnMrZ54t5yKW2lf1Q+hmcHF+HurGvU5YCg=="
+                length="46291780"
+            />
+        </item>
+        <item>
             <title>Version 3.4.1</title>
             <sparkle:version>2610250908</sparkle:version>
             <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
