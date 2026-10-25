@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.4.1</title>
+            <sparkle:version>2610250908</sparkle:version>
+            <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.4.1</h2>
+                <h3>New Features</h3><ul><li><b>Know who is about to take over</b> — When a device connects to control this Mac and its screens are about to go dark, the screens first show which device it is.</li></ul><h3>Improvements</h3><ul><li><b>Fewer pauses, no needless restarts</b> — Remio Host no longer redraws its window every second while nobody can see it, and no longer asks macOS for the pointer many times a second while it stays the same. Both were behind the brief freezes some Macs had, mostly ones short on memory. When the whole Mac stalls for a moment, Remio Host now waits it out instead of restarting itself, so a session is not dropped for it.</li><li><b>Opened at login, it stays out of the way</b> — When Remio Host opens by itself at login, it waits in the menu bar instead of putting its window on screen.</li><li><b>Displays behave as you set them</b> — A display you removed stays removed when Remio Host restarts mid-session, a display added mid-session no longer brings this Mac&#x27;s own screens back for a couple of seconds, and new displays are numbered from 1.</li><li><b>Sharp on small windows</b> — A device whose window is smaller than macOS&#x27;s smallest Retina size now gets the smallest sharp desktop, not a blurred one.</li><li><b>Clearer setup</b> — The permissions step always has a way forward (Not now, Need help, and an email you can send to IT), says when this Mac&#x27;s screen will go dark while a device is connected, checks that a desktop Mac won&#x27;t fall asleep once you leave, and asks you to reopen Remio after you turn on Screen Recording.</li></ul><h3>Bug Fixes</h3><ul><li>Fixed a warning strip appearing when another of your paired devices took over a session — it is now a note in the log, as it is expected.</li><li>Fixed a short pause the first time Remio Host showed text after launch.</li></ul>
+            ]]></description>
+            <pubDate>Sun, 25 Oct 2026 09:28:07 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.1/Remio-Host-3.4.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="qPxyJRXAU5aSkjJtXV4itLEE/Ek706FDbbOFOTdRJ23KwVi3Su2+M8y7Yw5EH5MG2LRcsfxYRY/sldKZEm/mDg=="
+                length="46285959"
+            />
+        </item>
+        <item>
             <title>Version 3.4.0</title>
             <sparkle:version>2610241035</sparkle:version>
             <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
