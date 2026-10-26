@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.4.4</title>
+            <sparkle:version>2610262135</sparkle:version>
+            <sparkle:shortVersionString>3.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.4.4</h2>
+                <h3>New Features</h3><ul><li><b>Your device knows the display is on its way</b> — When a device connects and Remio Host makes a display for it, the device now says the display is being prepared instead of showing a still picture.</li><li><b>Displays come back where you left them</b> — Displays a device added come back after it reconnects, in the same place beside this Mac&#x27;s screen, including after a short network drop.</li></ul><h3>Improvements</h3><ul><li><b>Quicker, steadier displays</b> — Adding, resizing and removing displays from a device is faster and more dependable. Two displays added a moment apart get their own names, and removing the display you are looking at switches you to another screen first.</li><li><b>A window that feels like a Mac app</b> — The toolbar shows the page&#x27;s name with its buttons on the right, and the window opens with less of a pause.</li><li><b>Fewer freezes</b> — Remio Host no longer stops to check permissions, write files or draw app icons while you use it, and Sign in with Apple, the keep-awake check and Esc twice no longer hold the window up.</li><li><b>Calmer on a busy Mac</b> — When a Mac is too loaded to keep up, Remio Host gives it more time before restarting itself, instead of restarting again and again.</li><li><b>A picture even when the video hardware is busy</b> — On Macs where another app is using the video encoder, Remio Host now switches to its own encoder instead of sending a black screen.</li></ul><h3>Bug Fixes</h3><ul><li>Fixed Remio Host closing unexpectedly when you removed a custom-button script in Settings.</li><li>Fixed a rare crash and freezes when Remio Host came to the front.</li><li>Fixed Remio Host changing this Mac&#x27;s screens while another user was logged in at it.</li><li>Fixed a MacBook with its lid closed keeping its own screen off after a second-display session.</li><li>Fixed the live preview of this Mac on your other devices showing no picture, and ending when the screen it showed was turned off.</li><li>Fixed a device that takes over from one using sharper color getting a picture it could not show.</li><li>Fixed Settings menus overlapping their labels in a narrow window.</li></ul>
+            ]]></description>
+            <pubDate>Mon, 26 Oct 2026 21:55:41 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.4/Remio-Host-3.4.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="/nZo1KfyDcY6x64BXrtCtE4l9oggKq4LCEyxRDK1hZ5/FU6G7tES+RcYHZ0YqJa67my0exy+yLgzHTuTXHgUDA=="
+                length="46783912"
+            />
+        </item>
+        <item>
             <title>Version 3.4.3</title>
             <sparkle:version>2610251251</sparkle:version>
             <sparkle:shortVersionString>3.4.3</sparkle:shortVersionString>
