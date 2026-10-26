@@ -5,7 +5,7 @@
 <h1 align="center">Remio</h1>
 
 <p align="center">
-  <b>Your computer, anywhere you go.</b><br>
+  <b>Control your Mac or PC from any screen.</b><br>
   The free, 100% native remote desktop — up to <b>6K at 120 FPS</b>, about <b>8 ms</b> of processing latency on your local network.
 </p>
 
