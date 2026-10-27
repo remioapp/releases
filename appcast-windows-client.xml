@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.5</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <sparkle:shortVersionString>3.4.5</sparkle:shortVersionString>
+            <pubDate>Tue, 27 Oct 2026 05:47:08 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 3.4.5</h2>
+                <p>Paste files onto your computers, arrange your extra displays, real touch, and many fixes.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5-win/Remio-Client-3.4.5-win-x64-Setup.exe"
+                sparkle:version="3.4.5"
+                sparkle:shortVersionString="3.4.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="tau2LbPreRLyB94Y0dyTdQ+WOo9rhb5ulgQb4qX7yRnG9+7eJFrMf9K3VC2Jcdig3BJzIq8Vhr73bXQxA4mNCA=="
+                length="29328225"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.0</title>
             <sparkle:version>3.4.0</sparkle:version>
             <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
