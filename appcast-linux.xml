@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.5</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 14:52:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.4.5</h2>
+                <p>KDE Plasma 6.8 gets its picture again, a locked GNOME computer no longer leaves a frozen picture, your own desktop while you are signed out, faster resizing on GNOME, and displays that come back as you left them.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5-linux/Remio-Host-3.4.5-linux-x86_64.AppImage"
+                sparkle:version="3.4.5"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="GV3UrL2MGtkJh9HNYr3Zp8ICTTTptOgvHz3ttRG8jNeYx74kC574wTwAzkHBhHIDujZ7aHonYLGjj1BhBFUGAQ=="
+                length="73447928"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.4.5 (aarch64)</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 14:52:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.4.5</h2>
+                <p>KDE Plasma 6.8 gets its picture again, a locked GNOME computer no longer leaves a frozen picture, your own desktop while you are signed out, faster resizing on GNOME, and displays that come back as you left them.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5-linux/Remio-Host-3.4.5-linux-aarch64.AppImage"
+                sparkle:version="3.4.5"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="9dcNvAP9qtBjl7RfFiXG1PRrf8cwPJPjsyUg92SsTZAL1mIjhASggaQKNcJ60oYT+YGr/tXISjENe5MkcZvPDA=="
+                length="69675528"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.4.5 (armhf)</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 14:52:58 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.4.5</h2>
+                <p>KDE Plasma 6.8 gets its picture again, a locked GNOME computer no longer leaves a frozen picture, your own desktop while you are signed out, faster resizing on GNOME, and displays that come back as you left them.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5-linux/Remio-Host-3.4.5-linux-armhf.AppImage"
+                sparkle:version="3.4.5"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="oMsf7I645+F8V/xk04PEuYt3I9nlIIVySCXUrovu9nWcrQUh8yGs6rKbU9ZS9CcZf91k+qyj4r2KavwAVI/4Aw=="
+                length="70245764"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.0</title>
             <sparkle:version>3.4.0</sparkle:version>
             <pubDate>Sat, 24 Oct 2026 04:47:31 +0000</pubDate>
