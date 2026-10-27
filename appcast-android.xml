@@ -7,6 +7,16 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.5</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 13:40:40 +0000</pubDate>
+            <description><![CDATA[<h2>Remio Host for Android 3.4.5</h2><p>Back, Home and Recent apps and real touch from the device that controls this phone, an easier first start, and a fix for Remio Host closing during a session.</p>]]></description>
+            <enclosure url="https://github.com/remioapp/releases/releases/download/v3.4.5-android/Remio-Host-3.4.5-android.apk"
+                sparkle:version="3.4.5" sparkle:os="android" length="52495563"
+                type="application/vnd.android.package-archive"/>
+        </item>
+
+        <item>
             <title>Version 3.4.0</title>
             <sparkle:version>3.4.0</sparkle:version>
             <pubDate>Sat, 24 Oct 2026 04:17:57 +0000</pubDate>
