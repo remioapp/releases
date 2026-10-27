@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.5</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <pubDate>Tue, 27 Oct 2026 23:30:15 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.4.5</h2>
+                <p>Get Remio for the other device right from the Connect page, a screen that waits for you when the connection drops, displays that come back as you left them, and a Mac on Wi-Fi that wakes when asked.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5-freebsd/Remio-Host-3.4.5-FreeBSD-amd64.pkg"
+                sparkle:version="3.4.5"
+                sparkle:os="freebsd"
+                length="10371406"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.0</title>
             <sparkle:version>3.4.0</sparkle:version>
             <pubDate>Sat, 24 Oct 2026 12:11:49 +0700</pubDate>
