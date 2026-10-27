@@ -4,6 +4,23 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.4.5</title>
+            <sparkle:version>2610271125</sparkle:version>
+            <sparkle:shortVersionString>3.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New in 3.4.5</h2>
+                <h3>Bug Fixes</h3><ul><li>Fixed the pointer disappearing from the picture after you typed, when you connect from a Mac. It now stays visible for the whole session.</li><li>Fixed a black screen and repeated restarts on some Intel Macs when a device connected. Remio Host now shows this Mac&#x27;s own screen instead.</li></ul>
+            ]]></description>
+            <pubDate>Tue, 27 Oct 2026 11:48:53 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5/Remio-Host-3.4.5-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="LR8rIZa/hRlkbBsbGRdGmO3fcwf5geSxVChqvq4Po5tM8chu0xVfd+qC7xiut61FjALtrQiZ+bT60Q8YM97cCA=="
+                length="46790802"
+            />
+        </item>
+        <item>
             <title>Version 3.4.4</title>
             <sparkle:version>2610262135</sparkle:version>
             <sparkle:shortVersionString>3.4.4</sparkle:shortVersionString>
