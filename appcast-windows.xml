@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.4.5</title>
+            <sparkle:version>3.4.5</sparkle:version>
+            <sparkle:shortVersionString>3.4.5</sparkle:shortVersionString>
+            <pubDate>Tue, 27 Oct 2026 05:38:17 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.4.5</h2>
+                <p>Paste files from your other PC onto this one, steadier extra displays, and fixes for crashes and black screens.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.4.5-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.4.5"
+                sparkle:shortVersionString="3.4.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="ZHu0YXHONbuJJrKInDha7pXtloW6kpFmJL2Q7w8azNNTvvbHUPHViQMEWQIvAgU2V2Nou47GNhIWgqgeXHACDQ=="
+                length="33381028"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.0</title>
             <sparkle:version>3.4.0</sparkle:version>
             <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
