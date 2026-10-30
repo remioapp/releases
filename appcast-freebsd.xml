@@ -7,6 +7,23 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.5.0</title>
+            <sparkle:version>3.5.0</sparkle:version>
+            <pubDate>Fri, 30 Oct 2026 19:18:38 +0700</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for FreeBSD 3.5.0</h2>
+                <p>Faster, clearer and more reliable Remio Host for FreeBSD. See the full changelog below.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.0-freebsd/Remio-Host-3.5.0-FreeBSD-amd64.pkg"
+                sparkle:version="3.5.0"
+                sparkle:os="freebsd"
+                length="10649007"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.5</title>
             <sparkle:version>3.4.5</sparkle:version>
             <pubDate>Tue, 27 Oct 2026 23:30:15 +0700</pubDate>
