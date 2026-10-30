@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.5.0</title>
+            <sparkle:version>3.5.0</sparkle:version>
+            <pubDate>Fri, 30 Oct 2026 12:19:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.5.0</h2>
+                <p>Connect without internet on your own network, see GNOME's lock screen on your device, and get the picture back on KDE Plasma with Intel graphics. See the full changelog below.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.0-linux/Remio-Host-3.5.0-linux-x86_64.AppImage"
+                sparkle:version="3.5.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="LllI6dW3rx8fauIwAUeRXKlcCDr7fQGCPku6rhDHP+FStZb2HloT/JMfpBPaJ/jJsXZzhPWywmB/50JjTOEuCA=="
+                length="73923064"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.5.0 (aarch64)</title>
+            <sparkle:version>3.5.0</sparkle:version>
+            <pubDate>Fri, 30 Oct 2026 12:19:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.5.0</h2>
+                <p>Connect without internet on your own network, see GNOME's lock screen on your device, and get the picture back on KDE Plasma with Intel graphics. See the full changelog below.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.0-linux/Remio-Host-3.5.0-linux-aarch64.AppImage"
+                sparkle:version="3.5.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="yfcokhjTVscJeJmKhKqK5Ai3eaGsdagQ2eLQusBCuqC4csisrMrvVLD+esAUyqHMb2WrOoalNcLOw9TE0YqGDQ=="
+                length="70076936"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.5.0 (armhf)</title>
+            <sparkle:version>3.5.0</sparkle:version>
+            <pubDate>Fri, 30 Oct 2026 12:19:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.5.0</h2>
+                <p>Connect without internet on your own network, see GNOME's lock screen on your device, and get the picture back on KDE Plasma with Intel graphics. See the full changelog below.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.0-linux/Remio-Host-3.5.0-linux-armhf.AppImage"
+                sparkle:version="3.5.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="FjMht/D9ZiZEQLroaKb3boLW8Obq6IiXjxFJpjS0A76pzGt0Dzuo19EZZ5/BrJ5Iu4X9vKrirBKCTAXbmJfVCA=="
+                length="70634884"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.5</title>
             <sparkle:version>3.4.5</sparkle:version>
             <pubDate>Tue, 27 Oct 2026 14:52:58 +0000</pubDate>
