@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.5.0</title>
+            <sparkle:version>3.5.0</sparkle:version>
+            <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
+            <pubDate>Fri, 30 Oct 2026 07:46:52 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 3.5.0</h2>
+                <p>Reach your computers over your own network even when the internet is down, pair a nearby computer with one click, send files from Remio Host's tray or File Explorer, and arrange your extra screens with Screen layout.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.0-win/Remio-Client-3.5.0-win-x64-Setup.exe"
+                sparkle:version="3.5.0"
+                sparkle:shortVersionString="3.5.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS /RELAUNCH"
+                sparkle:edSignature="O9kDToXq55PKSKJV60AvO14X+GQ2cX8BtgyZZc0o5B+lgmwdkes2FLH/YddSGWItRAI2fXAT9p775ViRx5cXDA=="
+                length="29643073"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.5</title>
             <sparkle:version>3.4.5</sparkle:version>
             <sparkle:shortVersionString>3.4.5</sparkle:shortVersionString>
