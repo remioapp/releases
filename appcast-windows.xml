@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.5.0</title>
+            <sparkle:version>3.5.0</sparkle:version>
+            <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
+            <pubDate>Fri, 30 Oct 2026 07:44:30 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.5.0</h2>
+                <p>Devices paired with this PC now reach it over your own network even when the internet is down, you can send files to a device from the tray or from File Explorer's Send to menu, and sharing comes back by itself after you take this PC back.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.5.0"
+                sparkle:shortVersionString="3.5.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="cUqWZpPy/uLbL3XpYv8NkRTDiQ+xp9B4Cbec8JYXTGsUl9MjMf2Sx9ilGhM0e5Gvs9D61SA3LTsBx/1MXK5nCg=="
+                length="33935855"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.4.5</title>
             <sparkle:version>3.4.5</sparkle:version>
             <sparkle:shortVersionString>3.4.5</sparkle:shortVersionString>
