@@ -4,6 +4,24 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.5.1</title>
+            <sparkle:version>2611011913</sparkle:version>
+            <sparkle:shortVersionString>3.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.5.1</h2>
+                <h3>Improvements</h3><ul><li><b>Back on a direct connection after a network hiccup</b> — When a Wi‑Fi blip moves a session onto Remio&#x27;s relay, this Mac now finds the direct connection again by itself once the network recovers, instead of staying on the slower relay until you reconnect.</li><li><b>Your device says why there&#x27;s no picture</b> — When this Mac&#x27;s lid closes over its only screen or the screen being shared goes away, your device now says so within seconds instead of showing a general error after a long wait. With the latest Remio on the device, it also says when this Mac went to sleep.</li><li><b>Sessions ride out a sleeping or mirrored display</b> — A shared display that goes to sleep now wakes again when you use it, and one that macOS puts into a mirror set keeps being shared, instead of the session ending.</li><li><b>Your Mac is yours again sooner</b> — When a session ends, this Mac&#x27;s own screens and windows come back in about a second instead of three.</li><li><b>Clearer when offline or signed out</b> — Without internet, the note under the pairing card explains why there&#x27;s no PIN, and a signed-out Mac offers <b>Sign In</b> instead of a greyed-out switch.</li></ul><h3>Bug Fixes</h3><ul><li>Fixed Remio Host quitting and reopening by itself on some Macs left idle with its window closed, most often on Macs short on free memory.</li><li>Fixed a crash on macOS 26 when a display was added, removed or changed while Remio Host&#x27;s window was open.</li><li>Fixed Remio Host freezing for a moment when a device connected or disconnected, right after launch, or when something copied on your device arrived while this Mac was busy with its clipboard.</li><li>Fixed sessions to a MacBook with its lid closed and <b>Keep screen on</b> turned on ending about ten seconds in, again and again.</li><li>Fixed a session that came back from a short Wi‑Fi drop sometimes sending your clicks and keys the long way round, through Remio&#x27;s relay, for the rest of the session.</li><li>Fixed a display you made the main one losing that role when its size changed.</li><li>Fixed a fresh install&#x27;s keep-awake showing &quot;failed&quot; while it was only waiting for your approval in System Settings.</li><li>Fixed the session card calling an iPad&#x27;s system iOS instead of iPadOS, and the Devices log naming a device by a long code instead of its name.</li></ul>
+            ]]></description>
+            <pubDate>Sun, 01 Nov 2026 20:02:35 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.5.1/Remio-Host-3.5.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="NgcHa4CkvBArRk23BtoATwDf2koY9OXER1ckykqTh1TUoCQtwdeLnLPkHuhNTt56RpJOMhzhpmzDrp594ad2CA=="
+                length="26043229"
+            />
+        </item>
+        <item>
             <title>Version 3.5.0</title>
             <sparkle:version>2610301313</sparkle:version>
             <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
