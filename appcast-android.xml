@@ -7,6 +7,16 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.6.0</title>
+            <sparkle:version>3.6.0</sparkle:version>
+            <pubDate>Wed, 04 Nov 2026 09:23:16 +0000</pubDate>
+            <description><![CDATA[<h2>Remio Host for Android 3.6.0</h2><p>Back online in seconds after a network drop, a sideways phone fills the other device's window, and Vietnamese typed on the other device keeps every letter.</p>]]></description>
+            <enclosure url="https://github.com/remioapp/releases/releases/download/v3.6.0-android/Remio-Host-3.6.0-android.apk"
+                sparkle:version="3.6.0" sparkle:os="android" length="55216979"
+                type="application/vnd.android.package-archive"/>
+        </item>
+
+        <item>
             <title>Version 3.4.5</title>
             <sparkle:version>3.4.5</sparkle:version>
             <pubDate>Tue, 27 Oct 2026 13:40:40 +0000</pubDate>
