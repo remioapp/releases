@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.6.2</title>
+            <sparkle:version>3.6.2</sparkle:version>
+            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
+            <pubDate>Fri, 06 Nov 2026 16:20:12 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 3.6.2</h2>
+                <p>Connects by itself when the computer you were waiting for wakes up, says where to get Remio Pro, and fixes HDR sessions that kept restarting.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.2-win/Remio-Client-3.6.2-win-x64-Setup.exe"
+                sparkle:version="3.6.2"
+                sparkle:shortVersionString="3.6.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS /RELAUNCH"
+                sparkle:edSignature="bixW1SBjhcP2x80jd7mzLsKm1hTv1j7YrHarPBZt9EP2ZseiA6f2ZV75GqvRl1VknH/zZcVkE1bfk+IXV6kFBw=="
+                length="30200910"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.0</title>
             <sparkle:version>3.6.0</sparkle:version>
             <sparkle:shortVersionString>3.6.0</sparkle:shortVersionString>
