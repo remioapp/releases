@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.6.2</title>
+            <sparkle:version>3.6.2</sparkle:version>
+            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
+            <pubDate>Fri, 06 Nov 2026 16:19:17 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.6.2</h2>
+                <p>Stays reachable when the network quietly drops, keeps your device's extra displays through Windows' hiccups, and fixes crashes on Zhaoxin and some older Intel graphics.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.6.2"
+                sparkle:shortVersionString="3.6.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="kbLXKF5JKxxWIVVx5LWkkvCdnYc+eLOHOJnmsiTLP+qejD1Xblwm3lpgzj2VoqJZNyWFt+oMWWC3L5xrmYZuCA=="
+                length="34649370"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.0</title>
             <sparkle:version>3.6.0</sparkle:version>
             <sparkle:shortVersionString>3.6.0</sparkle:shortVersionString>
