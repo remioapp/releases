@@ -4,6 +4,43 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.6.2</title>
+            <sparkle:version>2611061744</sparkle:version>
+            <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.6.2</h2>
+                <p>This update makes sure your Mac&#x27;s own screen comes back the moment a session ends, and that a Mac with a sound problem still shares its picture.</p>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>Your device knows why your Mac is away</strong> — When this Mac goes to sleep or Remio Host is closed, your device can now say so instead of only showing it offline.</li>
+                <li><strong>Connect sooner after a wake or a network change</strong> — Right after this Mac wakes up or its network changes, a device that connects no longer waits on a stale connection first.</li>
+                <li><strong>Clearer when there&#x27;s nothing to share</strong> — When this Mac has no screen turned on, your device now says there&#x27;s no screen to share instead of a generic error.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed this Mac&#x27;s screen staying black after a device disconnected, sometimes until a restart. Your screen now lights up again right away, at your own brightness.</li>
+                <li>Fixed a Mac whose system sound couldn&#x27;t be recorded showing no picture at all. The picture now comes through, and the sound returns when you turn it off and on again on your device.</li>
+                <li>Fixed the &quot;Mac is locked&quot; notice staying on your device after you unlocked the Mac.</li>
+                <li>Fixed this Mac stopping sharing for a while after a device gave up waiting for the first picture — the next try connects right away.</li>
+                <li>Fixed a device trying to connect while this Mac sleeps with its lid closed on battery not being told the Mac is asleep.</li>
+                <li>Fixed Remio Host suggesting you turn on &quot;Start up after a power failure&quot; on macOS 27 when the Mac is already set to always start up.</li>
+                <li>Fixed updates asking for your password every time on some Macs — after one Install, later updates install by themselves.</li>
+                <li>Fixed a guest you let in to view only showing &quot;Keyboard · Mouse&quot; on the session card.</li>
+                <li>Fixed the picture going wrong when another device took over a session using sharper colors (4:4:4).</li>
+                <li>More of Remio Host is now translated into every supported language.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 06 Nov 2026 10:55:07 -0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.2/Remio-Host-3.6.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="nEWpM1rokoUcdA4UW+ewJfmEHsb21L6zBgWvm7jR8+4eHFoW0XCNpMWpuZZB2rUJqFknD4vcEqe5ILX3Ny8ZBQ=="
+                length="29627033"
+            />
+        </item>
+        <item>
             <title>Version 3.6.1</title>
             <sparkle:version>2611051111</sparkle:version>
             <sparkle:shortVersionString>3.6.1</sparkle:shortVersionString>
