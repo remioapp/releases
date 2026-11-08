@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.6.3</title>
+            <sparkle:version>3.6.3</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 12:16:49 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.6.3</h2>
+                <p>This release brings Remio Host to 10 more languages, gets direct connections through many more routers, keeps KDE Plasma sessions going when desktop services restart, and fixes Caps Lock, keyboard layout and second display problems.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.3-linux/Remio-Host-3.6.3-linux-x86_64.AppImage"
+                sparkle:version="3.6.3"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="Uv412F2TzoN8NSj9xGInlbfEoE5GhCPhUvKvY90rbdCIumbSM114GWcVsZGMPw54T+tiHSXBbX70UxXuJZweBA=="
+                length="54606328"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.6.3 (aarch64)</title>
+            <sparkle:version>3.6.3</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 12:16:49 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.6.3</h2>
+                <p>This release brings Remio Host to 10 more languages, gets direct connections through many more routers, keeps KDE Plasma sessions going when desktop services restart, and fixes Caps Lock, keyboard layout and second display problems.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.3-linux/Remio-Host-3.6.3-linux-aarch64.AppImage"
+                sparkle:version="3.6.3"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="yp3JAiCpip7s2LHl17BMIOFhGipId+SNrGT4/1DDaQSvr/avrQkVE/3a1H9NwTzeJbq0deS9/JrWWftwaP69BA=="
+                length="71731720"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.6.3 (armhf)</title>
+            <sparkle:version>3.6.3</sparkle:version>
+            <pubDate>Sun, 08 Nov 2026 12:16:49 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.6.3</h2>
+                <p>This release brings Remio Host to 10 more languages, gets direct connections through many more routers, keeps KDE Plasma sessions going when desktop services restart, and fixes Caps Lock, keyboard layout and second display problems.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.3-linux/Remio-Host-3.6.3-linux-armhf.AppImage"
+                sparkle:version="3.6.3"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="/T4li0dGBdSaw9GVbGSyX7r3FDRSXgEAe+ZCDdoihwM5sDUm2gF0wRDoLHyIK+OvkxEVB4HybN97V36znXLMAQ=="
+                length="71855492"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.1</title>
             <sparkle:version>3.6.1</sparkle:version>
             <pubDate>Fri, 06 Nov 2026 12:33:17 +0000</pubDate>
