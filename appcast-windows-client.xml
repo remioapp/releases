@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.6.3</title>
+            <sparkle:version>3.6.3</sparkle:version>
+            <sparkle:shortVersionString>3.6.3</sparkle:shortVersionString>
+            <pubDate>Sun, 08 Nov 2026 11:03:13 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 3.6.3</h2>
+                <p>This release puts every key where it sits on your keyboard when you control a Mac or Linux computer, keeps Vietnamese accents and capital letters from input methods, leaves a session cleanly when this PC sleeps, and shows a sharp picture on monitors of different scales.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.6.3-win/Remio-Client-3.6.3-win-x64-Setup.exe"
+                sparkle:version="3.6.3"
+                sparkle:shortVersionString="3.6.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS /RELAUNCH"
+                sparkle:edSignature="z+z/3cVKCYVbA4RthuU2QVIuOPmhJbN9gzJw4Vq7saNz1Vw/sWQrKSveoI7kkRpUuXcwzrCgrmyWtlfrqkZ9CQ=="
+                length="30455810"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.2</title>
             <sparkle:version>3.6.2</sparkle:version>
             <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
