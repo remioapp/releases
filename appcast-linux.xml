@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.7.0</title>
+            <sparkle:version>3.7.0</sparkle:version>
+            <pubDate>Tue, 10 Nov 2026 12:01:57 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.7.0</h2>
+                <p>This update keeps text you copy from a dictation or snippet app from turning into the item you copied before it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.0-linux/Remio-Host-3.7.0-linux-x86_64.AppImage"
+                sparkle:version="3.7.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="GYZEuQ10/J8YDRY4TQkmzFuGwIRUH73l1/WLbNEWJ6fCzb34cvF6N07n61u06kIzFChE+pvekPtOHWos9AJeCw=="
+                length="54626808"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.7.0 (aarch64)</title>
+            <sparkle:version>3.7.0</sparkle:version>
+            <pubDate>Tue, 10 Nov 2026 12:01:57 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.7.0</h2>
+                <p>This update keeps text you copy from a dictation or snippet app from turning into the item you copied before it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.0-linux/Remio-Host-3.7.0-linux-aarch64.AppImage"
+                sparkle:version="3.7.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="v+QcQZzFFpm2vgcVBtc1ZEqiz/2QO0easwxQqtnOmKdeSAzQPSFjP/QoKnpS9e3GL0BBvHQUFW9BBjhIdZg7Bw=="
+                length="71748104"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.7.0 (armhf)</title>
+            <sparkle:version>3.7.0</sparkle:version>
+            <pubDate>Tue, 10 Nov 2026 12:01:57 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.7.0</h2>
+                <p>This update keeps text you copy from a dictation or snippet app from turning into the item you copied before it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.0-linux/Remio-Host-3.7.0-linux-armhf.AppImage"
+                sparkle:version="3.7.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="OtgAXWvQvNeBgDQ5Kyn2JoggxBa7OW/AlCtWGYKL2muPZ6I8c4sIzDzBZegHdjCMMfULuerLE+djA35ueVMZBQ=="
+                length="71859588"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.3</title>
             <sparkle:version>3.6.3</sparkle:version>
             <pubDate>Sun, 08 Nov 2026 12:16:49 +0000</pubDate>
