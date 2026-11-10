@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.7.0</title>
+            <sparkle:version>3.7.0</sparkle:version>
+            <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+            <pubDate>Tue, 10 Nov 2026 11:59:49 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.7.0</h2>
+                <p>This update keeps text you copy from a dictation or snippet app from turning into the item you copied before it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.7.0"
+                sparkle:shortVersionString="3.7.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="Ndj7rVv/PQCidUloemVvS2JerdsbY69/q9Fgjq8duojESMeeHlUsmeH4Pe6cHd3xcGd5tEjPeA4zC/suwv+IBw=="
+                length="34697296"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.3</title>
             <sparkle:version>3.6.3</sparkle:version>
             <sparkle:shortVersionString>3.6.3</sparkle:shortVersionString>
