@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.7.0</title>
+            <sparkle:version>3.7.0</sparkle:version>
+            <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+            <pubDate>Tue, 10 Nov 2026 12:01:07 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 3.7.0</h2>
+                <p>This update stops clipboard messages from popping up as a session connects, and keeps text you copy from a dictation or snippet app from turning into the item you copied before it.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.0-win/Remio-Client-3.7.0-win-x64-Setup.exe"
+                sparkle:version="3.7.0"
+                sparkle:shortVersionString="3.7.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS /RELAUNCH"
+                sparkle:edSignature="qPE0x5GqkpHgR+FDd9F6C95/PLn8DjhyJiQcpEHe8gYxH1qfarfGKBGn+S7/gkZ7XAuC4xaUTXySZta+e64XAw=="
+                length="30452719"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.6.3</title>
             <sparkle:version>3.6.3</sparkle:version>
             <sparkle:shortVersionString>3.6.3</sparkle:shortVersionString>
