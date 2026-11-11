@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <b>Remio</b> (Remio Remote Desktop, <a href="https://remio.net">remio.net</a>) is a free remote desktop app that lets you control your Mac, Windows PC or Linux computer from an iPhone, iPad, Android phone or tablet, Mac, Windows PC, Apple TV or Apple Vision Pro - at home or over the internet. This repository holds the official installers.
+</p>
+
+<p align="center">
   <a href="https://apps.apple.com/app/remio-remote-desktop/id6759306575"><img src="https://img.shields.io/badge/App_Store-iPhone_·_iPad_·_Mac_·_TV-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="Download on the App Store"></a>
   <a href="https://play.google.com/store/apps/details?id=com.remio.client"><img src="https://img.shields.io/badge/Google_Play-Android-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play"></a>
   <a href="https://remio.net/download"><img src="https://img.shields.io/badge/Remio_Host-Mac_·_Windows_·_Linux-6C5CE7?style=for-the-badge" alt="Download Remio Host"></a>
@@ -50,19 +54,18 @@
   <img src=".github/media/gallery.webp" width="880" alt="Remio on iPhone, on iPad with the Control Board, and with a touch gamepad">
 </p>
 
-## 🆕 New in Remio 3.3
+## 🆕 New in Remio 3.6
 
 | Feature | What you get |
 |---|---|
-| 🖥️ **A second display, anywhere** | Make a phone, tablet or another computer an extra screen for your Mac, Windows PC or Linux computer over any direct connection — across the street, at the office, on mobile data. It never goes through the relay, so it stays as sharp as at home. |
-| 🔌 **Plug in a cable** | Connect your iPhone or iPad to your Mac with USB and the session rides the cable: about 1 ms round trip against 3–4 ms on Wi‑Fi. Unplug and it carries on over Wi‑Fi. |
-| 🪟 **Every screen, its own window** | Control a computer with several screens and give each one its own window on Mac and Windows — or see them all at once on iPhone and iPad. |
-| 🧭 **Follow the pointer** | The view follows your computer's pointer, or the window you're working in, from screen to screen — and the pointer slides onto a tablet you're using as a second display, like a monitor on your desk. |
-| 🗣️ **Siri, Spotlight & Shortcuts** | Open any of your computers by asking Siri, from Spotlight, or from a Shortcut on iPhone and iPad. |
-| 📸 **Screenshots & View only** | Save the remote screen without Remio's controls around it, or just watch — your mouse, keyboard and controller stay with you. |
-| ⌨️ **Type what paste can't reach** | Remio types your clipboard into sign-in screens and apps that block paste. |
-| 🎮 **Made for play** | PlayStation motion, touchpad and light bar · the controller you press is player one. |
-| ♿ **Narrator & TalkBack** | The Windows and Android apps now work with the system screen reader. |
+| 🤝 **Invite someone to help** | Share a code or a link and choose what the person can do (control, clipboard, files, sound) and for how long (1, 8 or 24 hours). Nobody gets in until you say yes on the computer, you can revoke the invitation at any time, and a guest never becomes a paired device. |
+| 🔑 **Join with a code** | On iPhone, iPad, Mac, Windows, Android and Apple TV: choose Join with a code on the Pair screen, or open the invitation link. Nothing is saved or paired on your device. |
+| 📶 **Steadier when the network wobbles** | A session waits and picks up again when the network comes back instead of ending. |
+| 🖱️ **A mouse on an iPhone clicks where you point** | The session switches to Direct Touch while a mouse is connected and goes back to Trackpad when it goes. |
+| 📳 **Feel every tap on Android** | Light vibration as you tap, with a Haptic feedback switch in Settings. |
+| 🪪 **Cards that say what's wrong** | A computer that stopped sharing reads Sharing is off, and one whose Remio Host is too old reads Needs a Remio update. |
+
+Earlier this year: a phone, tablet or another computer as a second display at home or away (3.2, 3.4) · one-tap pairing for every computer and connecting on your own network without internet (3.5) · Game mode, buttons of your own on the Control Board and up to 240 fps on the Mac and Windows apps (3.4) · each screen in its own window (3.3).
 
 <sub>Every release note, for every app: <a href="https://remio.net/changelog">remio.net/changelog</a>.</sub>
 
@@ -86,7 +89,7 @@
 
 | Platform | Get it | Runs on |
 |---|---|---|
-| 🍎 **macOS** | [Download the PKG](https://remio.net/download) | macOS 15 Sequoia or later · Apple silicon & Intel |
+| 🍎 **macOS** | [Download the PKG](https://remio.net/download) | macOS 15 Sequoia or later · Apple silicon |
 | 🪟 **Windows** | [Download the installer](https://remio.net/download) · `winget install Remio.RemioHost` | Windows 10 (1809) or later · x64 |
 | 🐧 **Linux** | [AppImage · .deb · .rpm · Arch](https://remio.net/download) | Ubuntu 22.04+, Debian 12+, Fedora 36+, Arch and more · X11 or Wayland · x86_64 |
 | 🍓 **Raspberry Pi** | [.deb · AppImage](https://remio.net/download) | Raspberry Pi OS Bookworm or newer · 64-bit recommended on Pi 3, 4 and 5 |
@@ -124,6 +127,35 @@ No account. No port forwarding. No settings to learn first.
 - **Your call on statistics** — one switch in Settings stops the usage numbers that help us improve Remio. They never include your screen, what you type or your files.
 
 Read the [Security Whitepaper](https://remio.net/security-whitepaper) · report a vulnerability to [security@remio.net](mailto:security@remio.net) ([policy](SECURITY.md)).
+
+## ❓ Questions people ask
+
+**Is Remio free?**
+Yes - Remio is free to use with no time limit, no ads and no account. Remio Pro is optional: $1.99 a month (US price) with a 7-day free trial.
+
+**Can I control my PC from my phone?**
+Yes - from an iPhone or Android phone you can control a Windows 11 or 10 PC (Home included), a Mac or a Linux computer, with touch, a trackpad mode, a keyboard or a game controller.
+
+**Does Remio work on a different network or over the internet?**
+Yes - at home, at work or on cellular, without opening ports on your router. The connection is direct whenever possible and uses an encrypted relay only when your network demands it.
+
+**Do I need an account?**
+No - you pair by scanning the computer's QR code or typing its Device ID and six-digit PIN. An account is only needed to see your computers on all your devices or to subscribe to Remio Pro.
+
+**Can I use my iPad or Android tablet as a second monitor for Windows?**
+Yes - an iPhone, iPad, Android phone or tablet, Mac or Windows PC can be an extra display for a Mac, Windows PC or Linux computer. It extends the desktop instead of copying it, and the first extra display is free.
+
+**Is Remio safe?**
+Yes - video, audio, input, clipboard and files are end-to-end encrypted, and your screen never touches Remio's servers. Only devices you've paired, or a guest you invited and approved on the computer, can connect.
+
+**Can I control a Mac with the lid closed?**
+Yes - turn on "Keep awake with lid closed" in Remio Host on a Mac with Apple silicon, and keep working with the lid shut. No dummy HDMI plug.
+
+**Which devices does Remio support?**
+You can control from iPhone, iPad, Android (12 or later), Mac, Windows 10/11, Apple TV and Apple Vision Pro. The computer you control can run macOS 15 or later (Apple silicon), Windows 10/11, Linux (X11 or Wayland), Raspberry Pi OS or FreeBSD 14.
+
+**Is Remio the same as remio.ai?**
+No - Remio Remote Desktop (remio.net) is a remote desktop app. remio.ai is an unrelated AI note-taking app from a different company.
 
 ## 🔗 Links
 
