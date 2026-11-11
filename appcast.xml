@@ -4,6 +4,50 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.7.0</title>
+            <sparkle:version>2611112045</sparkle:version>
+            <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.7.0</h2>
+                <p>Your phone, tablet or another Mac can now be the microphone and camera for calls on this Mac, and devices get in sooner on a Mac that&#x27;s short on memory.</p>
+                <h3>✨ New Features</h3>
+                <ul>
+                <li><strong>Your phone, tablet or another Mac as this Mac&#x27;s microphone and camera</strong> - <strong>Remio Microphone</strong> and <strong>Remio Camera</strong> are in every app on this Mac that uses a microphone or camera. Pick them there, and when the app starts using one, the iPhone, iPad, Android device or Mac you connect from offers to turn on its microphone or camera: the app hears and sees you through your device. Remio Microphone is ready as soon as Remio Host is installed, and on a Mac updated from an earlier version it sets itself up within a couple of minutes (with &quot;Keep awake with lid closed&quot; on, it waits so your Mac never stops staying awake, and is ready after the next restart or as soon as you click Set up); Remio Camera needs your OK once - Remio Host asks for it during setup and on the Permissions page, takes you straight to where you give it, and the camera works as soon as you do, with no restart. Part of Remio Pro, with the latest Remio on that device.</li>
+                <li><strong>Surround sound</strong> - Games and movies on this Mac can play in 5.1 or 7.1 on a device set up for surround sound.</li>
+                </ul>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>What&#x27;s left to allow comes first</strong> - Anything this Mac still needs your OK for is now at the top of the Permissions page, so you don&#x27;t have to scroll to find it.</li>
+                <li><strong>Faster in on a Mac short on memory</strong> - On a Mac running low on memory, a paired device sometimes waited too long and gave up before the picture appeared, most often when it came back right after leaving. It now gets in right away.</li>
+                <li><strong>Your devices know when sharing is off</strong> - When you stop sharing on this Mac, your devices now say sharing is off instead of trying to connect.</li>
+                <li><strong>Clearer when Apple or Google sign-in can&#x27;t be reached</strong> - If the sign-in server never answers, Remio Host now says to check your network, VPN or firewall, and reminds you that it works without an account.</li>
+                <li><strong>Sound comes back by itself</strong> - If macOS&#x27;s sound system restarts during a session, the sound now returns on its own.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed Remio Host closing in the middle of a session on some Macs while sharing this Mac&#x27;s sound.</li>
+                <li>Fixed a device getting no picture when this Mac&#x27;s sound got stuck while starting. The picture now shows within a few seconds.</li>
+                <li>Fixed keys such as ⌘ or Shift staying held down on this Mac after a device lost its connection.</li>
+                <li>Fixed Stop sharing turning itself back on after 15 seconds when sharing was paused.</li>
+                <li>Fixed a screen you added while the session screen was being resized, such as while turning your iPad, coming out at the old size.</li>
+                <li>Fixed the picture starting at the wrong size and lower quality right after another device took over a session.</li>
+                <li>Fixed a device that had been taken over while it was away taking this Mac&#x27;s screen back when it reconnected.</li>
+                <li>Fixed &quot;Waiting for the first device…&quot; showing on a Mac that already has paired devices.</li>
+                <li>Fixed an update installed from the downloaded installer leaving the old version running until you quit it. Remio Host now reopens as the new version by itself.</li>
+                <li>Fixed copied text being replaced on your other device when a dictation or snippet app put the previous item back on the clipboard.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 11 Nov 2026 13:59:30 -0000</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.0/Remio-Host-3.7.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="C6GFw1VHbnmvQE52cdkMc6hJ/wj/IUIADPcZYP3NDhnG8R7biXIRSZEhlj/AwkZg7MNhljeztHewYVOTkxy6CA=="
+                length="29976636"
+            />
+        </item>
+        <item>
             <title>Version 3.6.2</title>
             <sparkle:version>2611061744</sparkle:version>
             <sparkle:shortVersionString>3.6.2</sparkle:shortVersionString>
