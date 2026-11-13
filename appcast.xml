@@ -4,6 +4,40 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.7.1</title>
+            <sparkle:version>2611131903</sparkle:version>
+            <sparkle:shortVersionString>3.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.7.1</h2>
+                <p>This update keeps Remio Host&#x27;s own window out of a guest&#x27;s reach, brings a MacBook&#x27;s screen back properly when you open its lid during a session, and removes two ways Remio Host could close by itself.</p>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>A guest stays out of Remio Host&#x27;s own window</strong> - Someone you invited to help can use this Mac&#x27;s apps as you allowed, but can no longer open the pairing code, unpair a device, send an invitation, change settings or read the Devices log in the Remio Host window, and the pairing code is never in the picture they see. File sharing stays theirs to use.</li>
+                <li><strong>&quot;Preparing the screen&quot; leaves when the picture is there</strong> - On a busy Mac the card could stay over a picture that was already running for up to 20 seconds.</li>
+                <li><strong>A slow start is no longer &quot;no screen to share&quot;</strong> - When this Mac is slow to start sharing its screen, your device is no longer told the Mac has no screen, and trying again gets in.</li>
+                <li><strong>A second display on office networks</strong> - A second display now connects from offices whose router uses several internet lines.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed a MacBook&#x27;s screen staying dim, with the brightness keys and the brightness slider doing nothing, after its lid was opened during a session that began with the lid closed.</li>
+                <li>Fixed the screen staying dark under an open lid for up to 90 seconds after a device lost its connection. It now lights up at once.</li>
+                <li>Fixed Remio Host closing by itself a few seconds after it opened on some Macs.</li>
+                <li>Fixed Remio Host restarting by itself when macOS&#x27;s sound system stopped responding.</li>
+                <li>Fixed the key left of 1 and the key next to left Shift being swapped when you type from a keyboard that has an extra key next to left Shift, such as \ and &lt; on an Italian keyboard.</li>
+                <li>Fixed &quot;Watched from&quot; staying on the Remio Host window for about a minute after the watching device had left.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 13 Nov 2026 19:19:31 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.7.1/Remio-Host-3.7.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="KBBAF64vOWG6WHW8gbfoFHYZhpPOQyuZxM8M/hlvtEHajcXKoDvjFVvh7BdOvUpmV9TglrrZfzez7dfs4s5ICw=="
+                length="30020231"
+            />
+        </item>
+        <item>
             <title>Version 3.7.0</title>
             <sparkle:version>2611112045</sparkle:version>
             <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
