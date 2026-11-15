@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.0</title>
+            <sparkle:version>3.8.0</sparkle:version>
+            <pubDate>Sun, 15 Nov 2026 05:44:54 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.0</h2>
+                <p>This update connects directly over IPv6, shows guests the right screen, keeps computers without a screen working, and makes KDE Plasma 6.8 and sign-in screen access work out of the box.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.0-linux/Remio-Host-3.8.0-linux-x86_64.AppImage"
+                sparkle:version="3.8.0"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="EA8zORFerAuZakJlFnq0wA61Tyv9VK4iYf8MCAFFhWYuyVY1KW8z9vjAfbeMLx/Ji0lwt8OuXIZLEyDJuMwuAw=="
+                length="54655480"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.0 (aarch64)</title>
+            <sparkle:version>3.8.0</sparkle:version>
+            <pubDate>Sun, 15 Nov 2026 05:44:54 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.0</h2>
+                <p>This update connects directly over IPv6, shows guests the right screen, keeps computers without a screen working, and makes KDE Plasma 6.8 and sign-in screen access work out of the box.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.0-linux/Remio-Host-3.8.0-linux-aarch64.AppImage"
+                sparkle:version="3.8.0"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="+FmIE+5myCMpvWtlr4SWXndYBJG0pkMTDzEs3i2OGxZkZuEKzg+dvgFsBLvUnN3hRtju4zrx7xjCwOtkNr0+Ag=="
+                length="71805448"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.0 (armhf)</title>
+            <sparkle:version>3.8.0</sparkle:version>
+            <pubDate>Sun, 15 Nov 2026 05:44:54 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.0</h2>
+                <p>This update connects directly over IPv6, shows guests the right screen, keeps computers without a screen working, and makes KDE Plasma 6.8 and sign-in screen access work out of the box.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.0-linux/Remio-Host-3.8.0-linux-armhf.AppImage"
+                sparkle:version="3.8.0"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="slWkZiWXRo9VzKYz0h1qGZZE3n6Wo14PMpM9Maq42d7L5yGQKoAKBJkAUXjKGRiDWyK5HWTnoUgXDN4OsALWCg=="
+                length="71912836"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.7.0</title>
             <sparkle:version>3.7.0</sparkle:version>
             <pubDate>Tue, 10 Nov 2026 12:01:57 +0000</pubDate>
