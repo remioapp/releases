@@ -4,6 +4,31 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.1</title>
+            <sparkle:version>2611160655</sparkle:version>
+            <sparkle:shortVersionString>3.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.1</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>The keyboard comes up for search</strong> - With the keys of an iPhone Duo keyboard folded away, opening Spotlight or another text field with a shortcut from your device now raises the keys, and Esc folds them again. Needs Remio 3.8 on the iPhone Duo.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed Remio Host&#x27;s own window coming forward on this Mac each time you opened an app from your device. The app you chose comes to the front, the way it does from the Dock.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 16 Nov 2026 07:02:42 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.1/Remio-Host-3.8.1-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="Zs2+ATt8Iw+9UcF4ZhxQd2abL9MthpgbDIiHEZkiyDV62WgYgdEkj+pvbzhN7S3n2wvUI9mKzfuNVBt9bqMRBw=="
+                length="30083551"
+            />
+        </item>
+        <item>
             <title>Version 3.8.0</title>
             <sparkle:version>2611150836</sparkle:version>
             <sparkle:shortVersionString>3.8.0</sparkle:shortVersionString>
