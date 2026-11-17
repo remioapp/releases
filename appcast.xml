@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.2</title>
+            <sparkle:version>2611170737</sparkle:version>
+            <sparkle:shortVersionString>3.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.2</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed a MacBook&#x27;s built-in screen staying black after a session that ran with the lid closed. Opening the lid, during the session or after you disconnect, now brings the screen back without restarting the Mac.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 17 Nov 2026 07:53:50 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.2/Remio-Host-3.8.2-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="hKsFxUxw3ob3sCvXFzI4b1w8vBV9UwCmCI2eOwXFXwsiDOSV9teJeNbakOSdAXj8301ZjIXdCHQINPl6DzRBBg=="
+                length="30087439"
+            />
+        </item>
+        <item>
             <title>Version 3.8.1</title>
             <sparkle:version>2611160655</sparkle:version>
             <sparkle:shortVersionString>3.8.1</sparkle:shortVersionString>
