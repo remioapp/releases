@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.3</title>
+            <sparkle:version>3.8.3</sparkle:version>
+            <sparkle:shortVersionString>3.8.3</sparkle:shortVersionString>
+            <pubDate>Wed, 18 Nov 2026 15:02:29 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.8.3</h2>
+                <p>This update brings the picture back by itself when new connections would have stayed blank after an earlier session, keeps a held key held while you press another, and keeps an iPhone Duo's Apps keyboard in step with this PC.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.3-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.8.3"
+                sparkle:shortVersionString="3.8.3"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="e5LjCG/O+OQm8nTm0xb0kKi/oc+QzOI7Smpm/d1SZkP/HxMeklc88g1egnK56yQAfrjE6oLgaBHTThz3GlE3Aw=="
+                length="34781236"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.0</title>
             <sparkle:version>3.8.0</sparkle:version>
             <sparkle:shortVersionString>3.8.0</sparkle:shortVersionString>
