@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.4</title>
+            <sparkle:version>3.8.4</sparkle:version>
+            <sparkle:shortVersionString>3.8.4</sparkle:shortVersionString>
+            <pubDate>Thu, 19 Nov 2026 13:32:15 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.8.4</h2>
+                <p>This update connects more of your sessions directly instead of through the relay, for lower latency and a sharper picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.4-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.8.4"
+                sparkle:shortVersionString="3.8.4"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="CialZatZ4p97hwFgqGZk+Pi6Wt0eqJp2m8vrjF3hT+DCgHpxugrRVKgbUWRFyYOgpUajwoDJ949YMIUb0ek8Cg=="
+                length="34830653"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.3</title>
             <sparkle:version>3.8.3</sparkle:version>
             <sparkle:shortVersionString>3.8.3</sparkle:shortVersionString>
