@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.4</title>
+            <sparkle:version>3.8.4</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 14:00:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.4</h2>
+                <p>This update connects more of your sessions directly instead of through the relay, for lower latency and a sharper picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.4-linux/Remio-Host-3.8.4-linux-x86_64.AppImage"
+                sparkle:version="3.8.4"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="ot4zFpGaFKDWPe2KjHU8yCpQvjW3jD0c9R1YIkY8pKgceL0DF/mfFWEcIEDRrrzUcSowWHa23TXcvOg7FjX/Dw=="
+                length="55073272"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.4 (aarch64)</title>
+            <sparkle:version>3.8.4</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 14:00:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.4</h2>
+                <p>This update connects more of your sessions directly instead of through the relay, for lower latency and a sharper picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.4-linux/Remio-Host-3.8.4-linux-aarch64.AppImage"
+                sparkle:version="3.8.4"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="/5yfuydcDbbamiwUSUnMERNdXBo8lCsCxC2ULMUSxlVE6i/bJuA9g3TPFl7m645T9TVMEcAlQak3Y0L/DTGFDg=="
+                length="72272392"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.4 (armhf)</title>
+            <sparkle:version>3.8.4</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 14:00:31 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.4</h2>
+                <p>This update connects more of your sessions directly instead of through the relay, for lower latency and a sharper picture.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.4-linux/Remio-Host-3.8.4-linux-armhf.AppImage"
+                sparkle:version="3.8.4"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="NuPqdJmpoOW9vpl/WUJ5C/+z/KnbeSkV/xXCeoMs8I7x0hYm7DGuckfzZImBV/feJybSh6O1VsaZSbGiBgpGBA=="
+                length="72400260"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.3</title>
             <sparkle:version>3.8.3</sparkle:version>
             <pubDate>Thu, 19 Nov 2026 00:29:30 +0000</pubDate>
