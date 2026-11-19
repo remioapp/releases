@@ -4,6 +4,41 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.4</title>
+            <sparkle:version>2611200559</sparkle:version>
+            <sparkle:shortVersionString>3.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.4</h2>
+                <h3>✨ New Features</h3>
+                <ul>
+                <li><strong>A real game controller</strong> - A controller connected to your device now appears on the Mac as a real game controller (a DualShock 4), so games read its buttons, sticks and rumble the way they expect instead of fixed keyboard keys.</li>
+                <li><strong>Every screen for iPhone Duo</strong> - Remio Host now sends a small live picture of each screen for the iPhone Duo&#x27;s Displays tile, and a device used as a second display can look at another of the Mac&#x27;s screens for a while and come back to its own. Needs Remio 3.8.4 on the device.</li>
+                </ul>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>More direct connections</strong> - Remio now finds a direct path on more networks, including many mobile and office networks where sessions used to go through the relay. A session that starts on the relay moves to the direct path within a few seconds, with lower latency and a sharper picture. Needs Remio 3.8.4 or later on your device too.</li>
+                <li><strong>The pointer follows the Mac</strong> - When you move the pointer by touch and the Mac&#x27;s own mouse then moves it, the pointer drawn on your device now goes where the Mac&#x27;s pointer really is. Needs Remio 3.8.4 on the device.</li>
+                <li><strong>The keyboard comes up in more places</strong> - The keys of an iPhone Duo keyboard now rise for text fields in Chrome and web apps and for Spotlight opened with Cmd-Space, and stay down for menus.</li>
+                <li><strong>No password to stay awake</strong> - Keeping the Mac awake no longer asks for the administrator password when the Mac is already set that way.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed game sound stuttering on your device while a full-screen game runs on the Mac.</li>
+                <li>Fixed the device in control being refused with &quot;Second display in use&quot; when it came back after a short drop while another device was a second display.</li>
+                <li>Fixed &quot;Current session&quot; naming a display by the session&#x27;s size instead of the display&#x27;s own.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 20 Nov 2026 06:12:41 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.4/Remio-Host-3.8.4-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="lIhsBHXTX7cI5u4Td6kbt84hBdmCriov2jC8RxJoPPLJtu6sWIcQxvJLJcyguH39wi1dp6SNFe7VPib+IinLBQ=="
+                length="30142226"
+            />
+        </item>
+        <item>
             <title>Version 3.8.3</title>
             <sparkle:version>2611171235</sparkle:version>
             <sparkle:shortVersionString>3.8.3</sparkle:shortVersionString>
