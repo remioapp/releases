@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.3</title>
+            <sparkle:version>3.8.3</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 00:29:30 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.3</h2>
+                <p>This update brings Remio Host to Sway and Hyprland, adds real multi-touch on KDE Plasma 6.8, and keeps a guest out of Remio Host's own window.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.3-linux/Remio-Host-3.8.3-linux-x86_64.AppImage"
+                sparkle:version="3.8.3"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="oKBB2ime68Z1/ogqnUJoDirpNyZ5U/BWvjo31SmOhv2aZEgTV7vdU8uL7v8XtKD+2MW6qqgBINWD/HTNVCTqAA=="
+                length="55060984"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.3 (aarch64)</title>
+            <sparkle:version>3.8.3</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 00:29:30 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.3</h2>
+                <p>This update brings Remio Host to Sway and Hyprland, adds real multi-touch on KDE Plasma 6.8, and keeps a guest out of Remio Host's own window.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.3-linux/Remio-Host-3.8.3-linux-aarch64.AppImage"
+                sparkle:version="3.8.3"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="rFLjRDSLdv75hR/S6MoRoHnwRoXa/S8H0/x7Kv0vnJ4A6J9ykX90inON6SOeqBiRQpNdvzkYpborxnDyMcQEBA=="
+                length="72268296"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.3 (armhf)</title>
+            <sparkle:version>3.8.3</sparkle:version>
+            <pubDate>Thu, 19 Nov 2026 00:29:30 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.3</h2>
+                <p>This update brings Remio Host to Sway and Hyprland, adds real multi-touch on KDE Plasma 6.8, and keeps a guest out of Remio Host's own window.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.3-linux/Remio-Host-3.8.3-linux-armhf.AppImage"
+                sparkle:version="3.8.3"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="27lMPxohXuoE860i1hEuYnOF/uivlHEEaAVoqhfx0WD06WbtjXGvUicVJvxvL9UsQebWPxlh6AsbkdXOGUbmCw=="
+                length="72383876"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.0</title>
             <sparkle:version>3.8.0</sparkle:version>
             <pubDate>Sun, 15 Nov 2026 05:44:54 +0000</pubDate>
