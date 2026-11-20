@@ -7,6 +7,16 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.4</title>
+            <sparkle:version>3.8.4</sparkle:version>
+            <pubDate>Fri, 20 Nov 2026 03:54:24 +0000</pubDate>
+            <description><![CDATA[<h2>Remio Host for Android 3.8.4</h2><p>This release lets nearby devices connect over your Wi-Fi even when the internet is down, connects more of your sessions directly instead of through the relay, makes Setup steadier, and brings the picture back faster when something interrupts it.</p>]]></description>
+            <enclosure url="https://github.com/remioapp/releases/releases/download/v3.8.4-android/Remio-Host-3.8.4-android.apk"
+                sparkle:version="3.8.4" sparkle:os="android" length="61969023"
+                type="application/vnd.android.package-archive"/>
+        </item>
+
+        <item>
             <title>Version 3.6.1</title>
             <sparkle:version>3.6.1</sparkle:version>
             <pubDate>Fri, 06 Nov 2026 13:38:51 +0000</pubDate>
