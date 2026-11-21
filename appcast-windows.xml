@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.5</title>
+            <sparkle:version>3.8.5</sparkle:version>
+            <sparkle:shortVersionString>3.8.5</sparkle:shortVersionString>
+            <pubDate>Sat, 21 Nov 2026 17:33:26 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.8.5</h2>
+                <p>This update fixes Remio Host closing by itself during setup and at the end of a session, saves the files you receive where you can open them, and finds a direct connection on more networks.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.5-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.8.5"
+                sparkle:shortVersionString="3.8.5"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="8mtd3CBaHuzYeirsmprrpxV2oHXBQN9MVpb2dOO9kT6iXoFa/WW4SYmrtcOpVu/yiuSEhzs/+X38cRSW7FmyDQ=="
+                length="34832293"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.4</title>
             <sparkle:version>3.8.4</sparkle:version>
             <sparkle:shortVersionString>3.8.4</sparkle:shortVersionString>
