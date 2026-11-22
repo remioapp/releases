@@ -4,6 +4,34 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.6</title>
+            <sparkle:version>2611222125</sparkle:version>
+            <sparkle:shortVersionString>3.8.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.6</h2>
+                <p>Remio Microphone is back in your Mac&#x27;s Sound settings, and sound keeps playing on your device when you choose where the Mac plays it.</p>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>Remio Microphone in Sound settings</strong> - Remio Microphone is listed again in System Settings › Sound › Input, so apps without their own microphone menu can use your device&#x27;s microphone. It never replaces the microphone your Mac already uses; a Mac with no other microphone uses it by default.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed missing sound on iPhone and iPad when you pick a specific speaker on the Mac or mute the Mac&#x27;s speakers during a session.</li>
+                <li>Fixed a frozen picture when a device asked for a screen larger than the Mac could provide - the session now always shows a picture at the size the Mac actually uses.</li>
+                <li>Fixed sessions that connected but showed no picture for several minutes after the Mac&#x27;s video encoder stopped responding. Your device now tells you to restart the Mac, and trying again gets a picture without waiting.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 22 Nov 2026 21:32:08 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.6/Remio-Host-3.8.6-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="CTC0/9glJMRVzYmUPA3cE78K1L0XfFzF2QlvmBI71kCDxcusJuXsS5KOXEUNkTQC6mhSzYQUKnTx0v0yhungDA=="
+                length="30220440"
+            />
+        </item>
+        <item>
             <title>Version 3.8.4</title>
             <sparkle:version>2611200559</sparkle:version>
             <sparkle:shortVersionString>3.8.4</sparkle:shortVersionString>
