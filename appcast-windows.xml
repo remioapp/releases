@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.6</title>
+            <sparkle:version>3.8.6</sparkle:version>
+            <sparkle:shortVersionString>3.8.6</sparkle:shortVersionString>
+            <pubDate>Sun, 22 Nov 2026 03:46:13 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.8.6</h2>
+                <p>This update fixes a frozen picture on PCs that have no screen turned on, and lets a PC that stopped answering connections recover by itself.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.6-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.8.6"
+                sparkle:shortVersionString="3.8.6"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="rGGRjV2JfLUwhxww+QSWfQwr8/lteUrefM60tjV0SkT54MBvWbjQ/W79lByrkLIZ1maoPoKxOoMcc7NOWJj4Dw=="
+                length="34829368"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.5</title>
             <sparkle:version>3.8.5</sparkle:version>
             <sparkle:shortVersionString>3.8.5</sparkle:shortVersionString>
