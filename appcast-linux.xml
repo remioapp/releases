@@ -7,6 +7,61 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.6</title>
+            <sparkle:version>3.8.6</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 13:37:05 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.6</h2>
+                <p>Fixes sessions that connected with no picture on some computers, keeps the desktop of a locked Sway or Hyprland computer behind its lock, and shows Apple Vision Pro with its own icon in your device list.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.6-linux/Remio-Host-3.8.6-linux-x86_64.AppImage"
+                sparkle:version="3.8.6"
+                sparkle:os="linux"
+                sparkle:arch="x86_64"
+                sparkle:edSignature="Om1nck9kIcSAkQHf7U9gREwMrr5Wu7a8K5W1GvIJ44VUJGieCAqgL834GFAIoawViMkSQhJKMeyILP+1pcj7Cg=="
+                length="55130616"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.6 (aarch64)</title>
+            <sparkle:version>3.8.6</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 13:37:05 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.6</h2>
+                <p>Fixes sessions that connected with no picture on some computers, keeps the desktop of a locked Sway or Hyprland computer behind its lock, and shows Apple Vision Pro with its own icon in your device list.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.6-linux/Remio-Host-3.8.6-linux-aarch64.AppImage"
+                sparkle:version="3.8.6"
+                sparkle:os="linux"
+                sparkle:arch="aarch64"
+                sparkle:edSignature="ETtQJh4UQBkig7QhNkHK3PEnLfJZACMpkphp4djWFXzJ9o+HVn+DAjiVBNtrkcJKsCbnEXB1pcJPHDubhBg5Ag=="
+                length="72337928"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
+            <title>Version 3.8.6 (armhf)</title>
+            <sparkle:version>3.8.6</sparkle:version>
+            <pubDate>Sun, 22 Nov 2026 13:37:05 +0000</pubDate>
+            <description><![CDATA[
+                <h2>Remio Host for Linux 3.8.6</h2>
+                <p>Fixes sessions that connected with no picture on some computers, keeps the desktop of a locked Sway or Hyprland computer behind its lock, and shows Apple Vision Pro with its own icon in your device list.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.6-linux/Remio-Host-3.8.6-linux-armhf.AppImage"
+                sparkle:version="3.8.6"
+                sparkle:os="linux"
+                sparkle:arch="armhf"
+                sparkle:edSignature="lWQAioikczVK3cmX2fBq46fO8AEZ+385uZ8DJBIIzOWKY1o+nbDj9ugRMnPsgIBvoNBORxDnyhZAC7AX8+55Dg=="
+                length="72424836"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.4</title>
             <sparkle:version>3.8.4</sparkle:version>
             <pubDate>Thu, 19 Nov 2026 14:00:31 +0000</pubDate>
