@@ -4,6 +4,36 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.7</title>
+            <sparkle:version>2611231909</sparkle:version>
+            <sparkle:shortVersionString>3.8.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.7</h2>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><strong>Picture first, sound right after</strong> - Your device no longer waits for the Mac&#x27;s sound to start before showing the picture. Sound joins a moment later and plays at once, instead of staying silent for a while.</li>
+                <li><strong>More direct connections</strong> - Sessions where one side&#x27;s network changes ports find the direct path more often instead of staying on the relay. Works best with the latest Remio on your device too.</li>
+                <li><strong>Third-party licenses</strong> - Settings › About › Third-party licenses lists the open-source software Remio Host includes.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed switching to a newly added virtual display showing the previous screen instead of the new one.</li>
+                <li>Fixed a Mac with no screen to share (a closed lid, no display attached) going offline after a device tried to connect. Your device is told why and can connect again as soon as a screen is available.</li>
+                <li>Fixed a Mac without a screen of its own sometimes answering &quot;no video&quot; while its session display was still starting.</li>
+                <li>Fixed the Mac missing devices added to or removed from your account after a short cloud connection problem.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 23 Nov 2026 19:15:28 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.7/Remio-Host-3.8.7-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="E7xZ97ZvSkSmJ5dXNZxJcX0ZPJ2szK43FrUh3BpEdp0d6Vb/SdpO6qqZwGIwF29qJZKMCeIYwNWhNXXkibOgCw=="
+                length="30285062"
+            />
+        </item>
+        <item>
             <title>Version 3.8.6</title>
             <sparkle:version>2611222125</sparkle:version>
             <sparkle:shortVersionString>3.8.6</sparkle:shortVersionString>
