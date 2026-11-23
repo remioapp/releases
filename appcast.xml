@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.9</title>
+            <sparkle:version>2611240152</sparkle:version>
+            <sparkle:shortVersionString>3.8.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.9</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed &quot;Sound (System Settings) on your Mac wants your microphone&quot; appearing on your device at every connect when Remio Microphone is the Mac&#x27;s input. Only an app that really uses the microphone, like a call, asks for it now.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 24 Nov 2026 02:02:29 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.9/Remio-Host-3.8.9-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="eDIKMlZG+Xc+WTpujO4044ztkdwaXeeXlEFrRhWQAJRxSxJ38mxmy2aiKW1Z70vRjrAkq+a1xhOssgk89RYBAA=="
+                length="30290484"
+            />
+        </item>
+        <item>
             <title>Version 3.8.8</title>
             <sparkle:version>2611240051</sparkle:version>
             <sparkle:shortVersionString>3.8.8</sparkle:shortVersionString>
