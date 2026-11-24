@@ -4,6 +4,27 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 3.8.10</title>
+            <sparkle:version>2611250524</sparkle:version>
+            <sparkle:shortVersionString>3.8.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 3.8.10</h2>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed taps and clicks from your iPhone, iPad or Android device landing on a different part of the screen after the screen you were viewing went away mid-session, for example when you closed a MacBook&#x27;s lid with an external display attached. Your touches now follow the screen in the picture.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 25 Nov 2026 05:34:46 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.10/Remio-Host-3.8.10-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="EWMQJAMIehpOiIj/LmCB5NTbWkV5VqkB0r8msAp3eOtZo+066+zwljNOAmDaZAsd3lKZoKwq7wr/23PbnvV0DQ=="
+                length="30291148"
+            />
+        </item>
+        <item>
             <title>Version 3.8.9</title>
             <sparkle:version>2611240152</sparkle:version>
             <sparkle:shortVersionString>3.8.9</sparkle:shortVersionString>
