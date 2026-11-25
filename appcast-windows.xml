@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 3.8.10</title>
+            <sparkle:version>3.8.10</sparkle:version>
+            <sparkle:shortVersionString>3.8.10</sparkle:shortVersionString>
+            <pubDate>Wed, 25 Nov 2026 01:54:35 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 3.8.10</h2>
+                <p>This update keeps the picture steady when nothing on the screen moves, lets your clicks through while the computer's screen is blanked, and keeps your session on its own screens when the PC's monitor wakes up.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v3.8.10-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="3.8.10"
+                sparkle:shortVersionString="3.8.10"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="oSxUyYLGuVhfBY9OKgA64ChzsYlR1icBoZJR4kbmlsnAmNnZCUsWxyLSnvwABvqcbtZofi06kOviIqL60N8SAg=="
+                length="34777521"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.6</title>
             <sparkle:version>3.8.6</sparkle:version>
             <sparkle:shortVersionString>3.8.6</sparkle:shortVersionString>
