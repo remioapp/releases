@@ -7,6 +7,16 @@
         <language>en</language>
 
         <item>
+            <title>Version 4.0.0</title>
+            <sparkle:version>4.0.0</sparkle:version>
+            <pubDate>Thu, 26 Nov 2026 05:52:39 +0000</pubDate>
+            <description><![CDATA[<h2>Remio Host for Android 4.0.0</h2><p>Remio Host 4.0 sets up on the newest phones, gets its access back by itself when Wireless debugging changes, tells you when its notifications are off, and connects more of your sessions directly.</p>]]></description>
+            <enclosure url="https://github.com/remioapp/releases/releases/download/v4.0.0-android/Remio-Host-4.0.0-android.apk"
+                sparkle:version="4.0.0" sparkle:os="android" length="64369308"
+                type="application/vnd.android.package-archive"/>
+        </item>
+
+        <item>
             <title>Version 3.8.4</title>
             <sparkle:version>3.8.4</sparkle:version>
             <pubDate>Fri, 20 Nov 2026 03:54:24 +0000</pubDate>
