@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 4.0.0</title>
+            <sparkle:version>4.0.0</sparkle:version>
+            <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Nov 2026 16:20:01 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 4.0.0</h2>
+                <p>Remio 4.0 has a new look made to sit beside Remio on Mac and iPhone, pairing in three steps, and full support for Narrator, the keyboard, contrast themes and right-to-left languages. The picture of a session comes sooner, more of your sessions connect directly, and the app is now signed by REMIO COMPANY LIMITED.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v4.0.0-win/Remio-Client-4.0.0-win-x64-Setup.exe"
+                sparkle:version="4.0.0"
+                sparkle:shortVersionString="4.0.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS /RELAUNCH"
+                sparkle:edSignature="jaAkNvDNyI93pqx+ZHWwG7Id0AgaHsJA3e8Poci36iEeeJnkwDiwyOCio/rQ/+hLMEU36iVu6A+SjPjAWRElBQ=="
+                length="30733720"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.4</title>
             <sparkle:version>3.8.4</sparkle:version>
             <sparkle:shortVersionString>3.8.4</sparkle:shortVersionString>
