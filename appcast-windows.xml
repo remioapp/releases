@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 4.0.0</title>
+            <sparkle:version>4.0.0</sparkle:version>
+            <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Nov 2026 15:32:30 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 4.0.0</h2>
+                <p>Remio Host for Windows is now signed by REMIO COMPANY LIMITED: Windows shows our verified publisher name when you install or update. This release also makes keyboard focus clearer in the Remio Host window, cleans up its look with a contrast theme, and fixes a few labels in German, Arabic and Vietnamese.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v4.0.0-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="4.0.0"
+                sparkle:shortVersionString="4.0.0"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="dU+2NEcLhrugVKJyiwFMJnl0ObZK+zb75WMPj2iU0YB7JQPH4lZeQ1chJWbiF6rJsjjnW5VlxxLGMSELLzKDBQ=="
+                length="34860816"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 3.8.10</title>
             <sparkle:version>3.8.10</sparkle:version>
             <sparkle:shortVersionString>3.8.10</sparkle:shortVersionString>
