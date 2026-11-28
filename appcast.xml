@@ -4,6 +4,43 @@
         <title>Remio Host Updates</title>
         <language>en</language>
         <item>
+            <title>Version 4.0.0</title>
+            <sparkle:version>2611281429</sparkle:version>
+            <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+                <h2>What's New in 4.0.0</h2>
+                <p>Remio Host 4.0 for Mac answers more reliably when your Mac has been asleep, keeps the picture when a session is slow to start, and brings a window that is easier to read.</p>
+                <h3>⚙️ Improvements</h3>
+                <ul>
+                <li><b>Easier to read</b> - Status cards, banners and small labels in the Remio Host window have stronger contrast, so they stay readable on every background.</li>
+                <li><b>Fits a narrow window</b> - The Devices and File sharing pages rearrange themselves in a narrow window instead of cutting words off.</li>
+                <li><b>Smoother changes</b> - When a device connects or leaves, the pairing code and the session no longer draw over each other, and the nearby pairing panel moves from one step to the next cleanly.</li>
+                <li><b>Know who sent a file</b> - The notification for a received file now says which device sent it.</li>
+                <li><b>Session numbers in your language</b> - The Link card shown during a session names its numbers, such as FPS and bitrate, in your language and lines them up in a column.</li>
+                <li><b>The app you are using stands out</b> - The Apps panel on your device now marks the app you are working in on the Mac.</li>
+                <li><b>Keep awake with the lid closed, in one step</b> - Turning on <b>Keep awake with lid closed</b> while macOS still needs your approval now opens System Settings › Login Items &amp; Extensions, where the last switch is. The Permissions page tells you what keep-awake is waiting for instead of showing a Turn On button that did nothing.</li>
+                <li><b>Sound back sooner</b> - After the Mac&#x27;s sound is turned off and on again, or stops for a moment, your device plays it again sooner.</li>
+                </ul>
+                <h3>🐛 Bug Fixes</h3>
+                <ul>
+                <li>Fixed connections to a sleeping Mac waiting and then failing. A Mac that woke for a moment by itself during sleep looked online without being able to answer; it now shows as online only when it can take your session.</li>
+                <li>Fixed sessions where the picture appeared and then went black for up to a minute while the Mac was busy, for example right after an iPhone simulator started in Xcode.</li>
+                <li>Fixed the Apps panel on your device saying no apps are open on the first session after Remio Host started, until you refreshed it.</li>
+                <li>Fixed Remio Host restarting by itself while the Mac was busy with its disk, or while an update was waiting for your administrator password.</li>
+                <li>Fixed reconnecting right after a session on a MacBook with its lid closed, where your device waited without a word and then failed. It now shows that it is retrying and, when the MacBook is on battery, tells you to open the lid or plug it in.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 28 Nov 2026 14:37:52 +0700</pubDate>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v4.0.0/Remio-Host-4.0.0-mac.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="dp46holOIXD8pYDE6Wc20zY4F7pIF28KUMq6kjaTctdbJhsUe5KrGBl3sazME3qORjjBBgz1BtpFivF+4m4IBA=="
+                length="30371596"
+            />
+        </item>
+        <item>
             <title>Version 3.8.10</title>
             <sparkle:version>2611250524</sparkle:version>
             <sparkle:shortVersionString>3.8.10</sparkle:shortVersionString>
