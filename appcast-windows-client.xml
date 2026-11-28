@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 4.0.1</title>
+            <sparkle:version>4.0.1</sparkle:version>
+            <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
+            <pubDate>Sat, 28 Nov 2026 14:07:12 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Client 4.0.1</h2>
+                <p>Remio for Windows alongside Remio 4.0 on Mac and iPhone: invite a friend to play with just a controller, cards that connect by themselves when sharing or your network is back, and drawing tablets that keep this PC's mouse out of the way.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v4.0.1-win/Remio-Client-4.0.1-win-x64-Setup.exe"
+                sparkle:version="4.0.1"
+                sparkle:shortVersionString="4.0.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS /RELAUNCH"
+                sparkle:edSignature="9n9cLvCYMr6y/f0s1agHcY1CJmXja8cvwuO0nQjsIFuqKKZv2vp9ee6F6rrWtmrjr4VuYNkNWvfijuc8jLGTCA=="
+                length="30730128"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 4.0.0</title>
             <sparkle:version>4.0.0</sparkle:version>
             <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
