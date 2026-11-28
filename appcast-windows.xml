@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 4.0.1</title>
+            <sparkle:version>4.0.1</sparkle:version>
+            <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
+            <pubDate>Sat, 28 Nov 2026 03:11:17 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 4.0.1</h2>
+                <p>Sessions get a display of their own again, and the second display works, on PCs with Smart App Control turned on.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v4.0.1-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="4.0.1"
+                sparkle:shortVersionString="4.0.1"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="araYfbCZMIrBS3ImrveHQpwELGgWG7GikUmaUViDJCn0p/T1nt2TzfsSf9R4hTURLdgoT3SelkomhTC6NIFBDA=="
+                length="34849640"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 4.0.0</title>
             <sparkle:version>4.0.0</sparkle:version>
             <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
