@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 4.0.2</title>
+            <sparkle:version>4.0.2</sparkle:version>
+            <sparkle:shortVersionString>4.0.2</sparkle:shortVersionString>
+            <pubDate>Sat, 28 Nov 2026 14:08:02 +0000</pubDate>
+            <description><![CDATA[
+                <style>:root{color-scheme:light dark}body{font-family:'Segoe UI',sans-serif;font-size:14px}</style>
+                <h2>Remio Host 4.0.2</h2>
+                <p>Invite a friend to play with just a controller, see who sent a file, get your extra displays back after you unlock this PC, and keep words apart when typing fast with Vietnamese Telex.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/remioapp/releases/releases/download/v4.0.2-win/Remio-Host-Windows-x64-Setup.exe"
+                sparkle:version="4.0.2"
+                sparkle:shortVersionString="4.0.2"
+                sparkle:os="windows"
+                sparkle:installerArguments="/SILENT /SP- /NOICONS /FORCECLOSEAPPLICATIONS"
+                sparkle:edSignature="VQ8wuAXS0Q19C8USohmKqp4e/fWlRespS5bFi2f4uPFSP7R/vO6/8nCVB9rz8hd5VGWBpSPrEcZXm9KIzzk4Bw=="
+                length="34844248"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 4.0.1</title>
             <sparkle:version>4.0.1</sparkle:version>
             <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
